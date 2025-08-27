@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Emerging Risk Analysis Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@2.0.0/dist/chartjs-chart-matrix.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .card h2 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .risk-item {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .risk-title {
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .risk-description {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .risk-scores {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .score-item {
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .action-item {
+            background: #f0fff4;
+            border-left: 4px solid #48bb78;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .action-priority {
+            background: #48bb78;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        
+        .action-owner {
+            color: #2f855a;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-top: 8px;
+        }
+        
+        .project-item {
+            background: #fffaf0;
+            border-left: 4px solid #ed8936;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .project-objective {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        
+        .list-section {
+            margin-top: 10px;
+        }
+        
+        .list-section h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        
+        .list-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .list-section li {
+            background: #f7fafc;
+            padding: 5px 10px;
+            margin-bottom: 3px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: #4a5568;
+        }
+        
+        .board-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .chart-container h2 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 Cyber Emerging Risk Analysis Dashboard</h1>
+            <p>Generated on August 28, 2025 at 08:57 AM</p>
+        </div>
+        
+        <div class="board-summary">
+            <h3>📋 Board Summary</h3>
+            <p>We are observing a significant rise in the sophistication of cyber threats, particularly with AI-driven phishing which could greatly enhance the personalization and effectiveness of these attacks, making them more difficult to detect and prevent. Additionally, the exploitation of vulnerabilities in commonly used enterprise solutions like Microsoft SharePoint prompts urgent need to reassess our cybersecurity strategies and enhance protective measures against such avenues of attack. Both the impact and likelihood of these risks are concerning, with AI-based phishing standing out due to its potential widespread repercussions.</p>
+        </div>
+        
+        <div class="chart-container">
+            <h2>🎯 Risk Impact vs Likelihood Matrix</h2>
+            <div class="chart-wrapper">
+                <canvas id="riskMatrix"></canvas>
+            </div>
+        </div>
+        
+        <div class="dashboard-grid">
+            <div class="card">
+                <h2>⚠️ Emerging Risks</h2>
+                
+                <div class="risk-item">
+                    <div class="risk-title">AI-Driven Phishing Attacks</div>
+                    <div class="risk-description">The rising sophistication of phishing attacks facilitated by the use of AI technologies presents a concern. AI capabilities allow for highly personalized, context-aware phishing messages that are significantly more difficult to detect. Such methods could increase the efficacy and scale of phishing attacks, thus posing a more considerable risk to both corporate security systems and individual data privacy.</div>
+                    <div class="risk-scores">
+                        <span class="score-item">Impact: 8/10</span>
+                        <span class="score-item">Likelihood: 9/10</span>
+                        <span class="score-item">Risk Score: 72</span>
+                    </div>
+                </div>
+            
+                <div class="risk-item">
+                    <div class="risk-title">Exploitation of Microsoft SharePoint Vulnerabilities</div>
+                    <div class="risk-description">Recent malware threats exploiting Microsoft SharePoint vulnerabilities could allow attackers to steal cryptographic keys and execute commands. This exploitation represents a critical security risk, facilitating unauthorized access to sensitive corporate data and systems, with potential widespread damage especially in organizations relying heavily on SharePoint for collaboration and data management.</div>
+                    <div class="risk-scores">
+                        <span class="score-item">Impact: 6/10</span>
+                        <span class="score-item">Likelihood: 7/10</span>
+                        <span class="score-item">Risk Score: 42</span>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="card">
+                <h2>🎯 Strategic Action Points</h2>
+                
+                <div class="action-item">
+                    <div class="action-priority">Priority 1</div>
+                    <div class="risk-description">Implement a robust, AI-powered cyber defense system that integrates advanced threat intelligence and automated response mechanisms to counter the rising threat of AI-driven phishing attacks.</div>
+                    <div class="action-owner">Owner: CISO</div>
+                </div>
+            
+                <div class="action-item">
+                    <div class="action-priority">Priority 2</div>
+                    <div class="risk-description">Accelerate the patch management cycle and enforce strict compliance checks to address and mitigate vulnerabilities in Microsoft SharePoint and other critical enterprise applications.</div>
+                    <div class="action-owner">Owner: Head of IT</div>
+                </div>
+            
+                <div class="action-item">
+                    <div class="action-priority">Priority 3</div>
+                    <div class="risk-description">Conduct a comprehensive risk assessment focused on AI and technology vulnerabilities, updating our cybersecurity strategy to align with emerging threat patterns.</div>
+                    <div class="action-owner">Owner: CISO</div>
+                </div>
+            
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📋 Project Plans</h2>
+            
+                <div class="project-item">
+                    <div class="project-title">Project 1: AI-Powered Cyber Defense Enhancement</div>
+                    <div class="project-objective">To develop and implement an advanced AI-powered cyber defense system integrated with threat intelligence and automated response mechanisms to effectively counter AI-driven phishing attacks.</div>
+                    
+                    <div class="list-section">
+                        <h4>Stakeholders:</h4>
+                        <ul>
+                            <li>Chief Information Security Officer (CISO)</li><li>IT Security Team</li><li>Data Science Team</li><li>Risk Management Department</li><li>External Security Vendors</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Timeline Phases:</h4>
+                        <ul>
+                            <li>Phase 1: Requirement Analysis</li><li>Phase 2: Technology Assessment</li><li>Phase 3: Vendor Selection</li><li>Phase 4: System Development</li><li>Phase 5: Testing and Deployment</li><li>Phase 6: Monitoring and Optimization</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Key Performance Indicators:</h4>
+                        <ul>
+                            <li>Reduction in phishing attack incidents</li><li>Improvement in threat detection time</li><li>Increase in threat response efficiency</li><li>Employee compliance and awareness levels</li><li>System uptime and reliability metrics</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Potential Risks:</h4>
+                        <ul>
+                            <li>Technical limitations or incompatibilities</li><li>High implementation costs</li><li>Resistance to change within the organization</li><li>Potential data security and privacy concerns</li><li>Vendor reliability and technology adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="project-item">
+                    <div class="project-title">Project 2: Accelerating Patch Management and Compliance for Enterprise Applications</div>
+                    <div class="project-objective">To enhance the security and compliance of Microsoft SharePoint and other key enterprise applications by accelerating the patch management cycle and enforcing stricter compliance checks.</div>
+                    
+                    <div class="list-section">
+                        <h4>Stakeholders:</h4>
+                        <ul>
+                            <li>Head of IT</li><li>Cybersecurity Team</li><li>Compliance Department</li><li>Network Management Team</li><li>Application Development Teams</li><li>External IT Consultants</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Timeline Phases:</h4>
+                        <ul>
+                            <li>Phase 1: Assessment and Planning</li><li>Phase 2: Vendor Selection and Tool Acquisition</li><li>Phase 3: Implementation and Enforcement</li><li>Phase 4: Monitoring and Reporting</li><li>Phase 5: Review and Adjustments</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Key Performance Indicators:</h4>
+                        <ul>
+                            <li>Decrease in patch deployment time by 30%</li><li>100% compliance with new patch management protocols</li><li>Reduction in detected vulnerabilities by 50% within the first year</li><li>Increase in system uptime and reliability benchmarks</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Potential Risks:</h4>
+                        <ul>
+                            <li>Resistance from application teams due to increased workload</li><li>Incompatibility of new tools with existing systems</li><li>Delays in vendor response and tool deployment</li><li>Potential downtime during patch implementation</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="project-item">
+                    <div class="project-title">Project 3: AI and Technology Vulnerabilities Risk Assessment</div>
+                    <div class="project-objective">To conduct a comprehensive risk assessment of vulnerabilities associated with AI and technology, and update our cybersecurity strategy in response to emerging threat patterns.</div>
+                    
+                    <div class="list-section">
+                        <h4>Stakeholders:</h4>
+                        <ul>
+                            <li>CISO</li><li>IT Security Team</li><li>Risk Management Department</li><li>External Cybersecurity Consultants</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Timeline Phases:</h4>
+                        <ul>
+                            <li>Phase 1: Preparation and Planning</li><li>Phase 2: Risk Identification</li><li>Phase 3: Risk Analysis</li><li>Phase 4: Strategy Formulation and Implementation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Key Performance Indicators:</h4>
+                        <ul>
+                            <li>Number of identified new vulnerabilities</li><li>Percentage of IT systems audited</li><li>Implementation rate of new security measures</li><li>Time taken to respond to identified risks</li><li>Employee awareness level post-training</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="list-section">
+                        <h4>Potential Risks:</h4>
+                        <ul>
+                            <li>Insufficient cross-departmental collaboration</li><li>Rapid evolution of AI threats outpacing assessment cycles</li><li>Potential resistance to change in cybersecurity practices</li><li>Budget constraints limiting access to advanced security tools</li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+        
+        <div class="footer">
+            <p>Cyber Emerging Risk Detector • Powered by AI Analysis</p>
+        </div>
+    </div>
+    
+    <script>
+        // Risk Matrix Chart
+        const ctx = document.getElementById('riskMatrix').getContext('2d');
+        const heatmapData = [{"x": 8, "y": 9, "value": 72, "title": "AI-Driven Phishing Attacks", "description": "The rising sophistication of phishing attacks facilitated by the use of AI technologies presents a concern. AI capabilities allow for highly personalized, context-aware phishing messages that are significantly more difficult to detect. Such methods could increase the efficacy and scale of phishing attacks, thus posing a more considerable risk to both corporate security systems and individual data privacy."}, {"x": 6, "y": 7, "value": 42, "title": "Exploitation of Microsoft SharePoint Vulnerabilities", "description": "Recent malware threats exploiting Microsoft SharePoint vulnerabilities could allow attackers to steal cryptographic keys and execute commands. This exploitation represents a critical security risk, facilitating unauthorized access to sensitive corporate data and systems, with potential widespread damage especially in organizations relying heavily on SharePoint for collaboration and data management."}];
+        
+        new Chart(ctx, {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Emerging Risks',
+                    data: heatmapData.map(item => ({
+                        x: item.x,
+                        y: item.y,
+                        r: Math.sqrt(item.value) * 2
+                    })),
+                    backgroundColor: heatmapData.map(item => {
+                        const intensity = item.value / 100;
+                        return `rgba(102, 126, 234, ${intensity})`;
+                    }),
+                    borderColor: '#667eea',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Impact Score (1-10)'
+                        },
+                        min: 0,
+                        max: 10,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Likelihood Score (1-10)'
+                        },
+                        min: 0,
+                        max: 10,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const dataIndex = context.dataIndex;
+                                const risk = heatmapData[dataIndex];
+                                return [
+                                    `Risk: ${risk.title}`,
+                                    `Impact: ${risk.x}/10`,
+                                    `Likelihood: ${risk.y}/10`,
+                                    `Risk Score: ${risk.value}`
+                                ];
+                            }
+                        }
+                    },
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

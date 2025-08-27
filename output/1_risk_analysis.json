@@ -1,0 +1,17 @@
+{
+  "emerging_risks": [
+    {
+      "risk_title": "AI-Driven Phishing Attacks",
+      "description": "The rising sophistication of phishing attacks facilitated by the use of AI technologies presents a concern. AI capabilities allow for highly personalized, context-aware phishing messages that are significantly more difficult to detect. Such methods could increase the efficacy and scale of phishing attacks, thus posing a more considerable risk to both corporate security systems and individual data privacy.",
+      "impact_score": 8,
+      "likelihood_score": 9
+    },
+    {
+      "risk_title": "Exploitation of Microsoft SharePoint Vulnerabilities",
+      "description": "Recent malware threats exploiting Microsoft SharePoint vulnerabilities could allow attackers to steal cryptographic keys and execute commands. This exploitation represents a critical security risk, facilitating unauthorized access to sensitive corporate data and systems, with potential widespread damage especially in organizations relying heavily on SharePoint for collaboration and data management.",
+      "impact_score": 6,
+      "likelihood_score": 7
+    }
+  ],
+  "board_summary": "We are observing a significant rise in the sophistication of cyber threats, particularly with AI-driven phishing which could greatly enhance the personalization and effectiveness of these attacks, making them more difficult to detect and prevent. Additionally, the exploitation of vulnerabilities in commonly used enterprise solutions like Microsoft SharePoint prompts urgent need to reassess our cybersecurity strategies and enhance protective measures against such avenues of attack. Both the impact and likelihood of these risks are concerning, with AI-based phishing standing out due to its potential widespread repercussions."
+}
