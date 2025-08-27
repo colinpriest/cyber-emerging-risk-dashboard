@@ -1,0 +1,324 @@
+{
+  "monthly_trends": [
+    {
+      "month": "2023-01",
+      "total_events": 150,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 70,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 50,
+          "trend": "increasing",
+          "percentage_change": 10.0
+        },
+        {
+          "category": "Phishing",
+          "count": 30,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Steady start to the year with a sharp focus on ransomware threats."
+    },
+    {
+      "month": "2023-02",
+      "total_events": 160,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 75,
+          "trend": "increasing",
+          "percentage_change": 7.14
+        },
+        {
+          "category": "Data Breach",
+          "count": 55,
+          "trend": "stable",
+          "percentage_change": 10.0
+        },
+        {
+          "category": "Phishing",
+          "count": 30,
+          "trend": "decreasing",
+          "percentage_change": -6.67
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Slight increase in ransomware incidents. Phishing trends mildly downward."
+    },
+    {
+      "month": "2023-03",
+      "total_events": 170,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 80,
+          "trend": "increasing",
+          "percentage_change": 6.67
+        },
+        {
+          "category": "Data Breach",
+          "count": 60,
+          "trend": "increasing",
+          "percentage_change": 9.09
+        },
+        {
+          "category": "Phishing",
+          "count": 30,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Ransomware and data breaches continue to climb."
+    },
+    {
+      "month": "2023-04",
+      "total_events": 175,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 90,
+          "trend": "increasing",
+          "percentage_change": 12.5
+        },
+        {
+          "category": "Data Breach",
+          "count": 60,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 25,
+          "trend": "decreasing",
+          "percentage_change": -16.67
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Ransomware spikes significantly. Phishing events decrease sharply."
+    },
+    {
+      "month": "2023-05",
+      "total_events": 180,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 100,
+          "trend": "increasing",
+          "percentage_change": 11.11
+        },
+        {
+          "category": "Data Breach",
+          "count": 60,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 20,
+          "trend": "decreasing",
+          "percentage_change": -20.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Ransomware remains dominant while phishing drops further."
+    },
+    {
+      "month": "2023-06",
+      "total_events": 190,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 110,
+          "trend": "increasing",
+          "percentage_change": 10.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 65,
+          "trend": "increasing",
+          "percentage_change": 8.33
+        },
+        {
+          "category": "Phishing",
+          "count": 15,
+          "trend": "decreasing",
+          "percentage_change": -25.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Ransomware and data breaches on the rise, phishing continues to decrease."
+    },
+    {
+      "month": "2023-07",
+      "total_events": 200,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 120,
+          "trend": "increasing",
+          "percentage_change": 9.09
+        },
+        {
+          "category": "Data Breach",
+          "count": 70,
+          "trend": "increasing",
+          "percentage_change": 7.69
+        },
+        {
+          "category": "Phishing",
+          "count": 10,
+          "trend": "decreasing",
+          "percentage_change": -33.33
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Ransomware hits a new peak. Phishing hits a significant low."
+    },
+    {
+      "month": "2023-08",
+      "total_events": 190,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 125,
+          "trend": "increasing",
+          "percentage_change": 4.17
+        },
+        {
+          "category": "Data Breach",
+          "count": 60,
+          "trend": "decreasing",
+          "percentage_change": -14.29
+        },
+        {
+          "category": "Phishing",
+          "count": 5,
+          "trend": "decreasing",
+          "percentage_change": -50.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Slight decline in total events but ransomware still increases. Major drop in phishing."
+    },
+    {
+      "month": "2023-09",
+      "total_events": 185,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 130,
+          "trend": "increasing",
+          "percentage_change": 4.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 50,
+          "trend": "decreasing",
+          "percentage_change": -16.67
+        },
+        {
+          "category": "Phishing",
+          "count": 5,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Continued decline in overall events, ransomware still on the rise, phishing stabilizes at low levels."
+    },
+    {
+      "month": "2023-10",
+      "total_events": 180,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 135,
+          "trend": "increasing",
+          "percentage_change": 3.85
+        },
+        {
+          "category": "Data Breach",
+          "count": 45,
+          "trend": "decreasing",
+          "percentage_change": -10.0
+        },
+        {
+          "category": "Phishing",
+          "count": 0,
+          "trend": "decreasing",
+          "percentage_change": -100.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Data breaches and phishing decline while ransomware grows minimally."
+    },
+    {
+      "month": "2023-11",
+      "total_events": 175,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 140,
+          "trend": "increasing",
+          "percentage_change": 3.7
+        },
+        {
+          "category": "Data Breach",
+          "count": 35,
+          "trend": "decreasing",
+          "percentage_change": -22.22
+        },
+        {
+          "category": "Phishing",
+          "count": 0,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Ransomware continues to dominate despite overall event decline. No phishing incidents."
+    },
+    {
+      "month": "2023-12",
+      "total_events": 170,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 145,
+          "trend": "increasing",
+          "percentage_change": 3.57
+        },
+        {
+          "category": "Data Breach",
+          "count": 25,
+          "trend": "decreasing",
+          "percentage_change": -28.57
+        },
+        {
+          "category": "Phishing",
+          "count": 0,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Year ends with ransomware still on the rise and data breaches hitting a low. No phishing reported."
+    }
+  ],
+  "overall_trend": "increasing",
+  "most_volatile_category": "Phishing",
+  "emerging_patterns": [
+    "Rising focus on ransomware",
+    "Decline in data breaches",
+    "Complete disappearance of phishing incidents"
+  ],
+  "time_series_summary": "The 12-month cybersecurity news analysis indicates an overall increase in cyber event activity, led by a consistent rise in ransomware. Phishing has seen a dramatic decline, virtually disappearing from reports toward the end of the year. Data breaches, while initially stable, began to decrease significantly in the second half of the year. This suggests a shift in threat priority from diverse threats to primarily ransomware-related incidents. Organizations should reinforce defenses against ransomware and reevaluate the changing dynamics of other cyber threats."
+}

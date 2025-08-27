@@ -2,6 +2,7 @@
 import requests
 import json
 import time
+import hashlib
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
@@ -15,7 +16,7 @@ def get_news(
     articles_per_month: int = 10
 ) -> List[Article]:
     """
-    Fetches cybersecurity news articles from Google Custom Search API.
+    Fetches cybersecurity news articles from Google Custom Search API with caching.
     
     Args:
         google_cx: Google Custom Search Engine ID
@@ -29,6 +30,8 @@ def get_news(
     """
     
     all_articles = []
+    cache_dir = save_dir / "cache"
+    cache_dir.mkdir(exist_ok=True)
     
     # Generate date ranges for each month
     current_date = datetime.now()
@@ -52,20 +55,23 @@ def get_news(
         })
     
     print(f"Fetching {articles_per_month} articles for each of the past {months_back} months...")
+    print("Using cache to avoid unnecessary API calls...")
     
     for date_range in date_ranges:
-        month_articles = fetch_monthly_articles(
+        month_articles = fetch_monthly_articles_with_cache(
             google_cx, 
             google_api_key, 
             date_range['start'], 
             date_range['end'], 
-            articles_per_month
+            date_range['month'],
+            articles_per_month,
+            cache_dir
         )
         
         print(f"  {date_range['month']}: Found {len(month_articles)} articles")
         all_articles.extend(month_articles)
         
-        # Add delay to avoid rate limiting
+        # Add delay to avoid rate limiting (only for new API calls)
         time.sleep(1)
     
     # Save all articles to a single file with timestamp
@@ -77,6 +83,87 @@ def get_news(
     
     print(f"Saved {len(all_articles)} articles to {save_path}")
     return all_articles
+
+def fetch_monthly_articles_with_cache(
+    google_cx: str,
+    google_api_key: str,
+    start_date: str,
+    end_date: str,
+    month_key: str,
+    max_results: int = 10,
+    cache_dir: Path = None
+) -> List[Article]:
+    """
+    Fetches articles for a specific date range with caching.
+    
+    Args:
+        google_cx: Google Custom Search Engine ID
+        google_api_key: Google API Key
+        start_date: Start date in YYYY-MM-DD format
+        end_date: End date in YYYY-MM-DD format
+        month_key: Month key for caching (YYYY-MM format)
+        max_results: Maximum number of results to fetch
+        cache_dir: Directory for cache files
+    
+    Returns:
+        List of Article objects
+    """
+    
+    # Check cache first
+    cache_file = cache_dir / f"{month_key}_articles.json"
+    if cache_file.exists():
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                cached_data = json.load(f)
+            
+            # Check if cache is recent (within 7 days for current month, 30 days for past months)
+            cache_date = datetime.fromisoformat(cached_data.get('cache_date', '2020-01-01'))
+            current_date = datetime.now()
+            
+            # Determine cache validity period
+            if month_key == current_date.strftime('%Y-%m'):
+                # Current month: cache for 7 days
+                cache_valid_days = 7
+            else:
+                # Past months: cache for 30 days
+                cache_valid_days = 30
+            
+            if (current_date - cache_date).days < cache_valid_days:
+                print(f"    📦 Using cached data for {month_key} (cached {cached_data.get('cache_date', 'unknown')})")
+                articles = [Article(**article_data) for article_data in cached_data.get('articles', [])]
+                return articles[:max_results]
+            else:
+                print(f"    ⏰ Cache expired for {month_key}, fetching fresh data...")
+        except Exception as e:
+            print(f"    ⚠️  Cache corrupted for {month_key}: {e}, fetching fresh data...")
+    
+    # Fetch fresh data if no cache or cache expired
+    print(f"    🔍 Fetching fresh data for {month_key}...")
+    articles = fetch_monthly_articles(
+        google_cx, 
+        google_api_key, 
+        start_date, 
+        end_date, 
+        max_results
+    )
+    
+    # Save to cache
+    if cache_dir:
+        cache_data = {
+            'month': month_key,
+            'cache_date': datetime.now().isoformat(),
+            'articles': [article.model_dump() for article in articles],
+            'count': len(articles)
+        }
+        
+        try:
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(cache_data, f, indent=2)
+            print(f"    💾 Cached {len(articles)} articles for {month_key}")
+        except Exception as e:
+            print(f"    ⚠️  Failed to cache data for {month_key}: {e}")
+    
+    return articles
 
 def fetch_monthly_articles(
     google_cx: str,
@@ -183,6 +270,82 @@ def fetch_monthly_articles(
             continue
     
     return articles
+
+def clear_cache(cache_dir: Path = None) -> None:
+    """
+    Clear the cache directory.
+    
+    Args:
+        cache_dir: Directory for cache files (defaults to news/cache)
+    """
+    if cache_dir is None:
+        cache_dir = Path("news/cache")
+    
+    if cache_dir.exists():
+        for cache_file in cache_dir.glob("*.json"):
+            cache_file.unlink()
+        print(f"🗑️  Cleared cache directory: {cache_dir}")
+    else:
+        print(f"📁 Cache directory does not exist: {cache_dir}")
+
+def get_cache_info(cache_dir: Path = None) -> Dict[str, Any]:
+    """
+    Get information about cached data.
+    
+    Args:
+        cache_dir: Directory for cache files (defaults to news/cache)
+    
+    Returns:
+        Dictionary with cache information
+    """
+    if cache_dir is None:
+        cache_dir = Path("news/cache")
+    
+    cache_info = {
+        'cache_dir': str(cache_dir),
+        'exists': cache_dir.exists(),
+        'files': [],
+        'total_articles': 0,
+        'oldest_cache': None,
+        'newest_cache': None
+    }
+    
+    if cache_dir.exists():
+        cache_files = list(cache_dir.glob("*.json"))
+        cache_info['file_count'] = len(cache_files)
+        
+        for cache_file in cache_files:
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                cache_date = datetime.fromisoformat(data.get('cache_date', '2020-01-01'))
+                month = data.get('month', 'unknown')
+                count = data.get('count', 0)
+                
+                cache_info['files'].append({
+                    'file': cache_file.name,
+                    'month': month,
+                    'cache_date': data.get('cache_date'),
+                    'article_count': count,
+                    'age_days': (datetime.now() - cache_date).days
+                })
+                
+                cache_info['total_articles'] += count
+                
+                if cache_info['oldest_cache'] is None or cache_date < datetime.fromisoformat(cache_info['oldest_cache']):
+                    cache_info['oldest_cache'] = data.get('cache_date')
+                
+                if cache_info['newest_cache'] is None or cache_date > datetime.fromisoformat(cache_info['newest_cache']):
+                    cache_info['newest_cache'] = data.get('cache_date')
+                    
+            except Exception as e:
+                cache_info['files'].append({
+                    'file': cache_file.name,
+                    'error': str(e)
+                })
+    
+    return cache_info
 
 def calculate_days_between(start_date: str, end_date: str) -> int:
     """Calculate the number of days between two dates."""

@@ -65,9 +65,13 @@ class DashboardGenerator:
         
         # Generate time series chart data
         time_series_chart_data = None
-        if time_series_analysis:
-            time_series_obj = TimeSeriesAnalysis(**time_series_analysis)
-            time_series_chart_data = create_time_series_chart_data(time_series_obj)
+        if time_series_analysis and time_series_analysis.get('monthly_trends'):
+            try:
+                time_series_obj = TimeSeriesAnalysis(**time_series_analysis)
+                time_series_chart_data = create_time_series_chart_data(time_series_obj)
+            except Exception as e:
+                print(f"Warning: Could not create time series chart: {e}")
+                time_series_chart_data = None
         
         html_content = f"""
 <!DOCTYPE html>
@@ -339,9 +343,9 @@ class DashboardGenerator:
         </div>
         
         <div class="chart-container">
-            <h2>📈 12-Month Cyber Threat Time Series</h2>
+            <h2>📈 12-Month Cyber Threat Time Series (10 Articles/Month)</h2>
             <div class="chart-wrapper">
-                <canvas id="timeSeriesChart"></canvas>
+                {f'<canvas id="timeSeriesChart"></canvas>' if time_series_chart_data else '<p style="text-align: center; color: #666; font-style: italic;">No time series data available</p>'}
             </div>
         </div>
         
@@ -472,9 +476,10 @@ class DashboardGenerator:
                         y: {{
                             title: {{
                                 display: true,
-                                text: 'Number of Events'
+                                text: 'Number of Articles'
                             }},
-                            beginAtZero: true
+                            beginAtZero: true,
+                            max: 10
                         }}
                     }},
                     plugins: {{

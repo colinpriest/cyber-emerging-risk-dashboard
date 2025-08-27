@@ -214,6 +214,25 @@
             opacity: 0.8;
         }
         
+        .time-series-commentary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.8;
+            font-size: 1rem;
+            color: #495057;
+        }
+        
+        .time-series-commentary h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .time-series-commentary p {
+            margin-bottom: 15px;
+        }
+        
         @media (max-width: 768px) {
             .dashboard-grid {
                 grid-template-columns: 1fr;
@@ -233,12 +252,12 @@
     <div class="container">
         <div class="header">
             <h1>🚨 Cyber Emerging Risk Analysis Dashboard</h1>
-            <p>Generated on August 28, 2025 at 08:57 AM</p>
+            <p>Generated on August 28, 2025 at 09:32 AM</p>
         </div>
         
         <div class="board-summary">
             <h3>📋 Board Summary</h3>
-            <p>We are observing a significant rise in the sophistication of cyber threats, particularly with AI-driven phishing which could greatly enhance the personalization and effectiveness of these attacks, making them more difficult to detect and prevent. Additionally, the exploitation of vulnerabilities in commonly used enterprise solutions like Microsoft SharePoint prompts urgent need to reassess our cybersecurity strategies and enhance protective measures against such avenues of attack. Both the impact and likelihood of these risks are concerning, with AI-based phishing standing out due to its potential widespread repercussions.</p>
+            <p>In recent trends, the cybersecurity landscape has shown alarming developments in sectors like identity verification and public transportation system security. Specifically, the surging demand for identity verification tools signals a critical shift towards more electronic security measures prone to exploitation. Additionally, heightened cybersecurity risks to public transport systems present new challenges in ensuring operational and passenger safety. Misinformation within the cybersecurity industry also stands out as a strategic risk, potentially eroding consumer trust and leading to inadequate security implementations. It is imperative for our risk management strategies to adapt rapidly to these emerging threats to safeguard our assets and maintain trust in our cybersecurity measures.</p>
         </div>
         
         <div class="chart-container">
@@ -248,27 +267,51 @@
             </div>
         </div>
         
+        <div class="chart-container">
+            <h2>📈 12-Month Cyber Threat Time Series</h2>
+            <div class="chart-wrapper">
+                <canvas id="timeSeriesChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📊 Time Series Analysis Commentary</h2>
+            <div class="time-series-commentary">
+                ### Executive Summary:<br>Over the past year, the cybersecurity landscape has demonstrated a significant shift, characterized by a consistent rise in ransomware incidents alongside a marked decline in phishing activities and a fluctuating but overall downward trend in data breaches. The analysis of monthly trends from January to December 2023 reveals an overall increase in cyber event activity, predominantly fueled by ransomware attacks.<br><br>### Key Findings:<br>- **Increasing Dominance of Ransomware:** Ransomware incidents have shown a relentless upward trend each month, ending the year with its highest frequency, indicating a focused targeting by cybercriminals.<br>- **Significant Reduction in Phishing Activities:** From experiencing a steady number of incidents at the start of the year, phishing has steadily declined, eventually ceasing to be reported by year-end.<br>- **Data Breaches Fluctuating with Overall Decline:** While initially stable, instances of data breaches have started declining in the second half of the year, reaching a significant low by December.<br><br>### Threat Evolution:<br>Throughout the year, ransomware not only maintained its presence but intensified, suggesting a shift in attacker focus towards more lucrative and impactful ransomware operations. In contrast, the sharp decline in phishing could indicate either a strategic shift among cybercriminals to more profitable endeavors or an improvement in anti-phishing defenses. The fluctuating nature of data breach incidents suggests variability in organizational vulnerabilities and attacker interest.<br><br>### Seasonal Patterns:<br>The analysis did not reveal explicit seasonal cycles in the overall number of cybersecurity incidents. However, a noticeable trend was the consistent increase in ransomware across all months, whereas the other categories showed more variance and general decline.<br><br>### Strategic Implications:<br>The data indicates a concerning rise in ransomware, necessitating that organizations prioritize this threat. The decline in phishing and data breaches should not reduce vigilance but prompt a reassessment of cybersecurity strategies to understand these shifts, possibly allocating more resources to counteract ransomware.<br><br>### Recommendations:<br>1. **Enhance Ransomware Defenses:** Organizations should invest in robust anti-ransomware solutions, including employee training, advanced threat detection systems, frequent data backups, and incident response plans specifically aimed at ransomware scenarios.<br>2. **Re-evaluate Phishing Training and Tools:** Given the sharp decline in phishing, it is crucial to investigate whether this drop is due to better security practices or shifts in attacker strategies. Nonetheless, maintaining strong anti-phishing measures is advised.<br>3. **Regular Vulnerability Assessments:** Continuous evaluation of systems and defenses against data breaches is critical. As attack vectors evolve, so should the defenses, including regular patch management and intrusion detection systems.<br>4. **Intelligence Gathering and Sharing:** Collaborating with other entities and cybersecurity groups for intelligence sharing can provide early warnings and strategies for newly emerging threat patterns, especially in ransomware.<br>5. **Incident Response Readiness:** Update and test incident response plans to ensure rapid and effective action in the wake of a security breach, minimizing potential damage.<br><br>The next phase in cybersecurity management for organizations will heavily depend on adapting these insights into actionable strategies that not only defend against prevailing threats but also anticipate and mitigate emerging risks.
+            </div>
+        </div>
+        
         <div class="dashboard-grid">
             <div class="card">
                 <h2>⚠️ Emerging Risks</h2>
                 
                 <div class="risk-item">
-                    <div class="risk-title">AI-Driven Phishing Attacks</div>
-                    <div class="risk-description">The rising sophistication of phishing attacks facilitated by the use of AI technologies presents a concern. AI capabilities allow for highly personalized, context-aware phishing messages that are significantly more difficult to detect. Such methods could increase the efficacy and scale of phishing attacks, thus posing a more considerable risk to both corporate security systems and individual data privacy.</div>
+                    <div class="risk-title">Increasing Demand for Identity Verification Tools</div>
+                    <div class="risk-description">A noticeable trend in the cybersecurity market is the increasing demand for identity verification tools. As digital transformation accelerates, organizations are urgently integrating these tools to strengthen security measures amidst rising identity theft and fraud incidents. This reliance on electronic identity verification can expose companies to new vulnerabilities, especially where these systems are not comprehensively secured against emerging cybersecurity threats.</div>
                     <div class="risk-scores">
                         <span class="score-item">Impact: 8/10</span>
-                        <span class="score-item">Likelihood: 9/10</span>
-                        <span class="score-item">Risk Score: 72</span>
+                        <span class="score-item">Likelihood: 7/10</span>
+                        <span class="score-item">Risk Score: 56</span>
                     </div>
                 </div>
             
                 <div class="risk-item">
-                    <div class="risk-title">Exploitation of Microsoft SharePoint Vulnerabilities</div>
-                    <div class="risk-description">Recent malware threats exploiting Microsoft SharePoint vulnerabilities could allow attackers to steal cryptographic keys and execute commands. This exploitation represents a critical security risk, facilitating unauthorized access to sensitive corporate data and systems, with potential widespread damage especially in organizations relying heavily on SharePoint for collaboration and data management.</div>
+                    <div class="risk-title">Rising Threats to Public Transport Systems</div>
+                    <div class="risk-description">Recent incidents point to a growing trend of cyber threats targeting public transportation systems, exposing vulnerabilities in their operational technology. The ramifications of such attacks can lead to operational disruptions and compromise passenger safety, demanding heightened security measures to protect critical infrastructure.</div>
+                    <div class="risk-scores">
+                        <span class="score-item">Impact: 7/10</span>
+                        <span class="score-item">Likelihood: 6/10</span>
+                        <span class="score-item">Risk Score: 42</span>
+                    </div>
+                </div>
+            
+                <div class="risk-item">
+                    <div class="risk-title">Misinformation in Cybersecurity Industry</div>
+                    <div class="risk-description">There is an emerging challenge of misinformation within the cybersecurity industry. False information or exaggerated claims about product capabilities can mislead consumers and businesses, potentially leading to poor cybersecurity practices and increased vulnerabilities. This misinformation can undermine trust and the effectiveness of cybersecurity measures.</div>
                     <div class="risk-scores">
                         <span class="score-item">Impact: 6/10</span>
-                        <span class="score-item">Likelihood: 7/10</span>
-                        <span class="score-item">Risk Score: 42</span>
+                        <span class="score-item">Likelihood: 5/10</span>
+                        <span class="score-item">Risk Score: 30</span>
                     </div>
                 </div>
             
@@ -279,20 +322,20 @@
                 
                 <div class="action-item">
                     <div class="action-priority">Priority 1</div>
-                    <div class="risk-description">Implement a robust, AI-powered cyber defense system that integrates advanced threat intelligence and automated response mechanisms to counter the rising threat of AI-driven phishing attacks.</div>
-                    <div class="action-owner">Owner: CISO</div>
+                    <div class="risk-description">Ensure the integration of advanced cybersecurity measures in electronic identity verification tools to address the increasing risk of identity theft and fraud.</div>
+                    <div class="action-owner">Owner: Chief Information Security Officer (CISO)</div>
                 </div>
             
                 <div class="action-item">
                     <div class="action-priority">Priority 2</div>
-                    <div class="risk-description">Accelerate the patch management cycle and enforce strict compliance checks to address and mitigate vulnerabilities in Microsoft SharePoint and other critical enterprise applications.</div>
-                    <div class="action-owner">Owner: Head of IT</div>
+                    <div class="risk-description">Implement robust security protocols and disaster recovery plans for public transport systems to prevent operational disruptions and ensure passenger safety.</div>
+                    <div class="action-owner">Owner: Head of Risk Management</div>
                 </div>
             
                 <div class="action-item">
                     <div class="action-priority">Priority 3</div>
-                    <div class="risk-description">Conduct a comprehensive risk assessment focused on AI and technology vulnerabilities, updating our cybersecurity strategy to align with emerging threat patterns.</div>
-                    <div class="action-owner">Owner: CISO</div>
+                    <div class="risk-description">Develop a cybersecurity misinformation awareness program to educate stakeholders and validate security product claims before implementation.</div>
+                    <div class="action-owner">Owner: Head of Communications</div>
                 </div>
             
             </div>
@@ -302,100 +345,100 @@
             <h2>📋 Project Plans</h2>
             
                 <div class="project-item">
-                    <div class="project-title">Project 1: AI-Powered Cyber Defense Enhancement</div>
-                    <div class="project-objective">To develop and implement an advanced AI-powered cyber defense system integrated with threat intelligence and automated response mechanisms to effectively counter AI-driven phishing attacks.</div>
+                    <div class="project-title">Project 1: Integration of Advanced Cybersecurity in Identity Verification Tools</div>
+                    <div class="project-objective">To augment the security of electronic identity verification systems by integrating advanced cybersecurity measures, thereby reducing the risk of identity theft and fraud.</div>
                     
                     <div class="list-section">
                         <h4>Stakeholders:</h4>
                         <ul>
-                            <li>Chief Information Security Officer (CISO)</li><li>IT Security Team</li><li>Data Science Team</li><li>Risk Management Department</li><li>External Security Vendors</li>
+                            <li>Chief Information Security Officer (CISO)</li><li>IT Security Team</li><li>Software Development Team</li><li>Compliance Department</li><li>Legal Department</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Timeline Phases:</h4>
                         <ul>
-                            <li>Phase 1: Requirement Analysis</li><li>Phase 2: Technology Assessment</li><li>Phase 3: Vendor Selection</li><li>Phase 4: System Development</li><li>Phase 5: Testing and Deployment</li><li>Phase 6: Monitoring and Optimization</li>
+                            <li>Phase 1: Requirements Gathering</li><li>Phase 2: Cybersecurity Solution Evaluation</li><li>Phase 3: Implementation</li><li>Phase 4: Testing & Validation</li><li>Phase 5: Deployment & Monitoring</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Key Performance Indicators:</h4>
                         <ul>
-                            <li>Reduction in phishing attack incidents</li><li>Improvement in threat detection time</li><li>Increase in threat response efficiency</li><li>Employee compliance and awareness levels</li><li>System uptime and reliability metrics</li>
+                            <li>Reduction in incidents of identity theft and fraud</li><li>Compliance with relevant cybersecurity standards</li><li>User feedback on the security of the new system</li><li>System performance metrics post-implementation</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Potential Risks:</h4>
                         <ul>
-                            <li>Technical limitations or incompatibilities</li><li>High implementation costs</li><li>Resistance to change within the organization</li><li>Potential data security and privacy concerns</li><li>Vendor reliability and technology adaptability</li>
+                            <li>Technical challenges in integrating new security measures</li><li>Potential resistance to new system changes</li><li>Compliance and regulatory approval delays</li><li>Data privacy concerns during implementation</li>
                         </ul>
                     </div>
                 </div>
             
                 <div class="project-item">
-                    <div class="project-title">Project 2: Accelerating Patch Management and Compliance for Enterprise Applications</div>
-                    <div class="project-objective">To enhance the security and compliance of Microsoft SharePoint and other key enterprise applications by accelerating the patch management cycle and enforcing stricter compliance checks.</div>
+                    <div class="project-title">Project 2: Robust Security and Disaster Recovery Plans for Public Transport</div>
+                    <div class="project-objective">To implement enhanced security protocols and comprehensive disaster recovery strategies in public transport systems to minimize operational disruptions and ensure passenger safety.</div>
                     
                     <div class="list-section">
                         <h4>Stakeholders:</h4>
                         <ul>
-                            <li>Head of IT</li><li>Cybersecurity Team</li><li>Compliance Department</li><li>Network Management Team</li><li>Application Development Teams</li><li>External IT Consultants</li>
+                            <li>Head of Risk Management</li><li>Security Department</li><li>Operations Department</li><li>IT Department</li><li>Local Government Authorities</li><li>Emergency Response Teams</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Timeline Phases:</h4>
                         <ul>
-                            <li>Phase 1: Assessment and Planning</li><li>Phase 2: Vendor Selection and Tool Acquisition</li><li>Phase 3: Implementation and Enforcement</li><li>Phase 4: Monitoring and Reporting</li><li>Phase 5: Review and Adjustments</li>
+                            <li>Phase 1: Risk Assessment and Needs Analysis</li><li>Phase 2: Development of Security Protocols</li><li>Phase 3: Disaster Recovery Planning</li><li>Phase 4: Implementation</li><li>Phase 5: Testing and Validation</li><li>Phase 6: Training and Roll-out</li><li>Phase 7: Ongoing Monitoring and Review</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Key Performance Indicators:</h4>
                         <ul>
-                            <li>Decrease in patch deployment time by 30%</li><li>100% compliance with new patch management protocols</li><li>Reduction in detected vulnerabilities by 50% within the first year</li><li>Increase in system uptime and reliability benchmarks</li>
+                            <li>Reduction in operational disruptions</li><li>Improvement in emergency response times</li><li>Increased passenger perceptions of safety</li><li>Compliance with local and federal safety regulations</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Potential Risks:</h4>
                         <ul>
-                            <li>Resistance from application teams due to increased workload</li><li>Incompatibility of new tools with existing systems</li><li>Delays in vendor response and tool deployment</li><li>Potential downtime during patch implementation</li>
+                            <li>Resistance to procedural changes</li><li>Technical failures during implementation</li><li>Budget constraints</li><li>Data privacy and security concerns</li>
                         </ul>
                     </div>
                 </div>
             
                 <div class="project-item">
-                    <div class="project-title">Project 3: AI and Technology Vulnerabilities Risk Assessment</div>
-                    <div class="project-objective">To conduct a comprehensive risk assessment of vulnerabilities associated with AI and technology, and update our cybersecurity strategy in response to emerging threat patterns.</div>
+                    <div class="project-title">Project 3: Cybersecurity Misinformation Awareness Program</div>
+                    <div class="project-objective">To develop and implement a program aimed at educating stakeholders about cybersecurity misinformation and establishing protocols to verify security product claims prior to their adoption.</div>
                     
                     <div class="list-section">
                         <h4>Stakeholders:</h4>
                         <ul>
-                            <li>CISO</li><li>IT Security Team</li><li>Risk Management Department</li><li>External Cybersecurity Consultants</li>
+                            <li>Head of Communications</li><li>Cybersecurity Team</li><li>Human Resources</li><li>Legal Department</li><li>IT Department</li><li>Marketing Department</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Timeline Phases:</h4>
                         <ul>
-                            <li>Phase 1: Preparation and Planning</li><li>Phase 2: Risk Identification</li><li>Phase 3: Risk Analysis</li><li>Phase 4: Strategy Formulation and Implementation</li>
+                            <li>Phase 1: Needs Assessment</li><li>Phase 2: Program Development</li><li>Phase 3: Pilot Testing</li><li>Phase 4: Program Rollout</li><li>Phase 5: Feedback and Iteration</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Key Performance Indicators:</h4>
                         <ul>
-                            <li>Number of identified new vulnerabilities</li><li>Percentage of IT systems audited</li><li>Implementation rate of new security measures</li><li>Time taken to respond to identified risks</li><li>Employee awareness level post-training</li>
+                            <li>Number of employees trained</li><li>Reduction in misinformation-related incidents</li><li>Level of stakeholder satisfaction</li><li>Compliance rate with new validation protocols</li>
                         </ul>
                     </div>
                     
                     <div class="list-section">
                         <h4>Potential Risks:</h4>
                         <ul>
-                            <li>Insufficient cross-departmental collaboration</li><li>Rapid evolution of AI threats outpacing assessment cycles</li><li>Potential resistance to change in cybersecurity practices</li><li>Budget constraints limiting access to advanced security tools</li>
+                            <li>Insufficient stakeholder engagement</li><li>Misunderstanding of cybersecurity concepts among employees</li><li>Resistance to new protocols</li><li>Budget constraints</li>
                         </ul>
                     </div>
                 </div>
@@ -410,7 +453,7 @@
     <script>
         // Risk Matrix Chart
         const ctx = document.getElementById('riskMatrix').getContext('2d');
-        const heatmapData = [{"x": 8, "y": 9, "value": 72, "title": "AI-Driven Phishing Attacks", "description": "The rising sophistication of phishing attacks facilitated by the use of AI technologies presents a concern. AI capabilities allow for highly personalized, context-aware phishing messages that are significantly more difficult to detect. Such methods could increase the efficacy and scale of phishing attacks, thus posing a more considerable risk to both corporate security systems and individual data privacy."}, {"x": 6, "y": 7, "value": 42, "title": "Exploitation of Microsoft SharePoint Vulnerabilities", "description": "Recent malware threats exploiting Microsoft SharePoint vulnerabilities could allow attackers to steal cryptographic keys and execute commands. This exploitation represents a critical security risk, facilitating unauthorized access to sensitive corporate data and systems, with potential widespread damage especially in organizations relying heavily on SharePoint for collaboration and data management."}];
+        const heatmapData = [{"x": 8, "y": 7, "value": 56, "title": "Increasing Demand for Identity Verification Tools", "description": "A noticeable trend in the cybersecurity market is the increasing demand for identity verification tools. As digital transformation accelerates, organizations are urgently integrating these tools to strengthen security measures amidst rising identity theft and fraud incidents. This reliance on electronic identity verification can expose companies to new vulnerabilities, especially where these systems are not comprehensively secured against emerging cybersecurity threats."}, {"x": 7, "y": 6, "value": 42, "title": "Rising Threats to Public Transport Systems", "description": "Recent incidents point to a growing trend of cyber threats targeting public transportation systems, exposing vulnerabilities in their operational technology. The ramifications of such attacks can lead to operational disruptions and compromise passenger safety, demanding heightened security measures to protect critical infrastructure."}, {"x": 6, "y": 5, "value": 30, "title": "Misinformation in Cybersecurity Industry", "description": "There is an emerging challenge of misinformation within the cybersecurity industry. False information or exaggerated claims about product capabilities can mislead consumers and businesses, potentially leading to poor cybersecurity practices and increased vulnerabilities. This misinformation can undermine trust and the effectiveness of cybersecurity measures."}];
         
         new Chart(ctx, {
             type: 'scatter',
@@ -478,6 +521,57 @@
                 }
             }
         });
+        
+        // Time Series Chart
+        const timeSeriesData = {"labels": ["2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-09", "2023-10", "2023-11", "2023-12"], "datasets": [{"label": "Total Events", "data": [150, 160, 170, 175, 180, 190, 200, 190, 185, 180, 175, 170], "borderColor": "#667eea", "backgroundColor": "rgba(102, 126, 234, 0.1)", "fill": true, "tension": 0.4, "borderWidth": 3}, {"label": "Ransomware", "data": [70, 75, 80, 90, 100, 110, 120, 125, 130, 135, 140, 145], "borderColor": "rgba(220, 53, 69, 1.0)", "backgroundColor": "rgba(220, 53, 69, 0.1)", "fill": false, "tension": 0.4}, {"label": "Phishing", "data": [30, 30, 30, 25, 20, 15, 10, 5, 5, 0, 0, 0], "borderColor": "rgba(40, 167, 69, 1.0)", "backgroundColor": "rgba(40, 167, 69, 0.1)", "fill": false, "tension": 0.4}, {"label": "Data Breach", "data": [50, 55, 60, 60, 60, 65, 70, 60, 50, 45, 35, 25], "borderColor": "rgba(255, 193, 7, 1.0)", "backgroundColor": "rgba(255, 193, 7, 0.1)", "fill": false, "tension": 0.4}]};
+        
+        if (timeSeriesData) {
+            const timeSeriesCtx = document.getElementById('timeSeriesChart').getContext('2d');
+            
+            new Chart(timeSeriesCtx, {
+                type: 'line',
+                data: timeSeriesData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Month'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Number of Events'
+                            },
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                title: function(context) {
+                                    return `Month: ${context[0].label}`;
+                                },
+                                label: function(context) {
+                                    return `${context.dataset.label}: ${context.parsed.y} events`;
+                                }
+                            }
+                        },
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+        }
     </script>
 </body>
 </html>

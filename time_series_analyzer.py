@@ -21,75 +21,193 @@ def analyze_time_series(client: OpenAI, articles: List[Article]) -> TimeSeriesAn
     # Get historical summary data
     monthly_data = get_historical_news_summary(articles)
     
-    # Prepare data for LLM analysis
-    analysis_data = prepare_time_series_data(monthly_data)
+    # Create actual time series data from real articles
+    monthly_trends = create_actual_monthly_trends(monthly_data)
     
-    system_prompt = """
-    You are a Senior Cyber Threat Intelligence Analyst specializing in time series analysis.
-    Your task is to analyze 12 months of cybersecurity news data to identify emerging trends,
-    patterns, and insights in the cyber threat landscape.
+    # Calculate overall trend from actual data
+    overall_trend = calculate_overall_trend(monthly_data)
     
-    Analyze the provided monthly data to:
-    1. Identify the overall trend direction across the 12-month period
-    2. Determine which threat category shows the most volatility
-    3. Identify emerging patterns and shifts in the threat landscape
-    4. Provide insights about each month's key characteristics
-    5. Generate a comprehensive summary of the time series analysis
+    # Calculate most volatile category from actual data
+    most_volatile_category = calculate_most_volatile_category(monthly_data)
     
-    Focus on:
-    - Trend analysis (increasing, decreasing, or stable patterns)
-    - Category volatility and shifts in threat types
-    - Seasonal patterns or cyclical behaviors
-    - Emerging threat categories
-    - Strategic implications for organizations
+    # Generate insights from actual data
+    emerging_patterns = identify_emerging_patterns(monthly_data)
     
-    Your analysis should be data-driven and provide actionable insights for cybersecurity strategy.
-    """
+    # Create summary from actual data
+    time_series_summary = create_summary_from_data(monthly_data)
     
-    return client.chat.completions.create(
-        model="gpt-4-turbo",
-        response_model=TimeSeriesAnalysis,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Analyze this 12-month cybersecurity news data:\n{analysis_data}"},
-        ],
-        max_retries=2,
+    return TimeSeriesAnalysis(
+        monthly_trends=monthly_trends,
+        overall_trend=overall_trend,
+        most_volatile_category=most_volatile_category,
+        emerging_patterns=emerging_patterns,
+        time_series_summary=time_series_summary
     )
 
-def prepare_time_series_data(monthly_data: Dict[str, Any]) -> str:
+def create_actual_monthly_trends(monthly_data: Dict[str, Any]) -> List[MonthlyTrend]:
     """
-    Prepare monthly data for LLM analysis.
+    Create actual monthly trends from real article data.
     
     Args:
         monthly_data: Dictionary with monthly breakdown
     
     Returns:
-        Formatted string for LLM analysis
+        List of MonthlyTrend objects with actual counts
     """
     
-    # Sort months chronologically
+    monthly_trends = []
     sorted_months = sorted(monthly_data.keys())
-    
-    analysis_text = "12-Month Cybersecurity News Analysis Data:\n\n"
     
     for month in sorted_months:
         data = monthly_data[month]
-        analysis_text += f"Month: {month}\n"
-        analysis_text += f"Total Events: {data['total_count']}\n"
-        analysis_text += "Category Breakdown:\n"
         
-        for category, count in data['categories'].items():
-            percentage = (count / data['total_count']) * 100 if data['total_count'] > 0 else 0
-            analysis_text += f"  - {category}: {count} events ({percentage:.1f}%)\n"
+        # Create EventCategory objects from actual data
+        categories = []
+        for category_name, count in data['categories'].items():
+            categories.append(EventCategory(
+                category=category_name,
+                count=count,
+                trend="stable",  # We don't have historical data to calculate trends
+                percentage_change=0.0  # We don't have historical data to calculate changes
+            ))
         
-        # Add sample article titles for context
-        analysis_text += "Sample Headlines:\n"
-        for i, article in enumerate(data['articles'][:3]):  # Show first 3 articles
-            analysis_text += f"  {i+1}. {article.title}\n"
+        # Find top threat (category with highest count)
+        top_threat = max(data['categories'].items(), key=lambda x: x[1])[0] if data['categories'] else "None"
         
-        analysis_text += "\n"
+        # Create key insight based on actual data
+        total_articles = data['total_count']
+        key_insight = f"Found {total_articles} cybersecurity articles in {month}"
+        if data['categories']:
+            top_category = max(data['categories'].items(), key=lambda x: x[1])
+            key_insight += f", with {top_category[0]} being the most prominent threat ({top_category[1]} articles)"
+        
+        monthly_trend = MonthlyTrend(
+            month=month,
+            total_events=data['total_count'],  # Actual article count
+            categories=categories,
+            top_threat=top_threat,
+            key_insight=key_insight
+        )
+        
+        monthly_trends.append(monthly_trend)
     
-    return analysis_text
+    return monthly_trends
+
+def calculate_overall_trend(monthly_data: Dict[str, Any]) -> str:
+    """Calculate overall trend from actual monthly data."""
+    if len(monthly_data) < 2:
+        return "insufficient_data"
+    
+    # Get total counts for each month
+    monthly_counts = []
+    sorted_months = sorted(monthly_data.keys())
+    
+    for month in sorted_months:
+        monthly_counts.append(monthly_data[month]['total_count'])
+    
+    # Calculate trend
+    if len(monthly_counts) >= 2:
+        first_half = sum(monthly_counts[:len(monthly_counts)//2])
+        second_half = sum(monthly_counts[len(monthly_counts)//2:])
+        
+        if second_half > first_half * 1.1:  # 10% increase threshold
+            return "increasing"
+        elif second_half < first_half * 0.9:  # 10% decrease threshold
+            return "decreasing"
+        else:
+            return "stable"
+    
+    return "stable"
+
+def calculate_most_volatile_category(monthly_data: Dict[str, Any]) -> str:
+    """Calculate most volatile category from actual data."""
+    if len(monthly_data) < 2:
+        return "insufficient_data"
+    
+    category_variance = {}
+    
+    # Get all unique categories
+    all_categories = set()
+    for month_data in monthly_data.values():
+        all_categories.update(month_data['categories'].keys())
+    
+    for category in all_categories:
+        counts = []
+        for month_data in monthly_data.values():
+            counts.append(month_data['categories'].get(category, 0))
+        
+        if len(counts) > 1:
+            # Calculate variance
+            mean_count = sum(counts) / len(counts)
+            variance = sum((count - mean_count) ** 2 for count in counts) / len(counts)
+            category_variance[category] = variance
+    
+    if category_variance:
+        return max(category_variance.items(), key=lambda x: x[1])[0]
+    else:
+        return "none"
+
+def identify_emerging_patterns(monthly_data: Dict[str, Any]) -> List[str]:
+    """Identify emerging patterns from actual data."""
+    patterns = []
+    
+    if len(monthly_data) < 2:
+        return ["Insufficient data for pattern analysis"]
+    
+    # Check for increasing trend
+    monthly_counts = []
+    sorted_months = sorted(monthly_data.keys())
+    for month in sorted_months:
+        monthly_counts.append(monthly_data[month]['total_count'])
+    
+    if len(monthly_counts) >= 3:
+        # Check if recent months show an increase
+        recent_avg = sum(monthly_counts[-3:]) / 3
+        earlier_avg = sum(monthly_counts[:-3]) / len(monthly_counts[:-3]) if len(monthly_counts) > 3 else monthly_counts[0]
+        
+        if recent_avg > earlier_avg * 1.2:
+            patterns.append("Recent increase in cyber threat activity")
+        elif recent_avg < earlier_avg * 0.8:
+            patterns.append("Recent decrease in cyber threat activity")
+    
+    # Check for category dominance
+    all_categories = {}
+    for month_data in monthly_data.values():
+        for category, count in month_data['categories'].items():
+            all_categories[category] = all_categories.get(category, 0) + count
+    
+    if all_categories:
+        top_category = max(all_categories.items(), key=lambda x: x[1])
+        total_articles = sum(all_categories.values())
+        if top_category[1] > total_articles * 0.4:  # If one category is >40% of total
+            patterns.append(f"{top_category[0]} is the dominant threat category")
+    
+    return patterns if patterns else ["No clear patterns identified in available data"]
+
+def create_summary_from_data(monthly_data: Dict[str, Any]) -> str:
+    """Create summary from actual data."""
+    if not monthly_data:
+        return "No data available for analysis."
+    
+    total_articles = sum(data['total_count'] for data in monthly_data.values())
+    total_months = len(monthly_data)
+    
+    # Get category breakdown
+    all_categories = {}
+    for month_data in monthly_data.values():
+        for category, count in month_data['categories'].items():
+            all_categories[category] = all_categories.get(category, 0) + count
+    
+    summary = f"Analysis of {total_articles} cybersecurity articles across {total_months} months. "
+    
+    if all_categories:
+        top_category = max(all_categories.items(), key=lambda x: x[1])
+        summary += f"The most common threat type was {top_category[0]} with {top_category[1]} articles. "
+    
+    avg_per_month = total_articles / total_months if total_months > 0 else 0
+    summary += f"Average of {avg_per_month:.1f} articles per month."
+    
+    return summary
 
 def generate_time_series_commentary(client: OpenAI, time_series_analysis: TimeSeriesAnalysis) -> str:
     """
@@ -113,6 +231,9 @@ def generate_time_series_commentary(client: OpenAI, time_series_analysis: TimeSe
     4. Seasonal Patterns: Any cyclical or seasonal behaviors identified
     5. Strategic Implications: What this means for organizations
     6. Recommendations: Suggested actions based on the trends
+    
+    IMPORTANT: The data represents actual news articles (maximum 10 per month). Focus on
+    insights from this real data rather than assuming larger datasets.
     
     Write in a professional, analytical tone suitable for board-level presentation.
     Focus on actionable insights and strategic implications.
@@ -166,7 +287,7 @@ def create_time_series_chart_data(time_series_analysis: TimeSeriesAnalysis) -> D
     
     # Add total events dataset
     total_dataset = {
-        'label': 'Total Events',
+        'label': 'Total Articles',
         'data': [],
         'borderColor': '#667eea',
         'backgroundColor': 'rgba(102, 126, 234, 0.1)',
