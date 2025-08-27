@@ -1,6 +1,7 @@
 # news_fetcher.py
 import requests
 import json
+import time
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
@@ -63,6 +64,9 @@ def get_news(
         
         print(f"  {date_range['month']}: Found {len(month_articles)} articles")
         all_articles.extend(month_articles)
+        
+        # Add delay to avoid rate limiting
+        time.sleep(1)
     
     # Save all articles to a single file with timestamp
     timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
@@ -97,18 +101,13 @@ def fetch_monthly_articles(
     
     base_url = "https://www.googleapis.com/customsearch/v1"
     
-    # Cybersecurity search terms
+    # Simplified search terms - less restrictive
     search_terms = [
-        "cybersecurity breach",
-        "ransomware attack",
-        "data breach",
-        "phishing campaign",
+        "cybersecurity",
         "cyber attack",
-        "malware outbreak",
-        "zero-day vulnerability",
-        "cyber threat",
-        "information security incident",
-        "cybercrime"
+        "data breach",
+        "ransomware",
+        "phishing"
     ]
     
     articles = []
@@ -117,17 +116,25 @@ def fetch_monthly_articles(
         if len(articles) >= max_results:
             break
             
+        # Simplified parameters - remove restrictive date filtering
         params = {
             'key': google_api_key,
             'cx': google_cx,
-            'q': f'"{term}"',
-            'dateRestrict': f'd{calculate_days_between(start_date, end_date)}',
-            'sort': 'date:r:20230101:20241231',  # Sort by date, reverse chronological
-            'num': min(10, max_results - len(articles))  # Google allows max 10 per request
+            'q': term,
+            'num': min(10, max_results - len(articles)),  # Google allows max 10 per request
+            'dateRestrict': 'm12',  # Last 12 months, less restrictive
+            'sort': 'date'  # Sort by date
         }
         
         try:
             response = requests.get(base_url, params=params)
+            
+            # Handle rate limiting
+            if response.status_code == 429:
+                print(f"Rate limited for term '{term}'. Waiting 60 seconds...")
+                time.sleep(60)
+                continue
+                
             response.raise_for_status()
             
             data = response.json()
@@ -167,8 +174,12 @@ def fetch_monthly_articles(
                     if not any(existing.title == title for existing in articles):
                         articles.append(article)
             
+            # Add delay between requests to avoid rate limiting
+            time.sleep(2)
+            
         except requests.exceptions.RequestException as e:
             print(f"Error fetching articles for term '{term}': {e}")
+            time.sleep(5)  # Wait longer on error
             continue
     
     return articles

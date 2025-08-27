@@ -88,17 +88,36 @@ def main() -> None:
         f.write(risk_analysis.model_dump_json(indent=2))
     print(f"{datetime.now()} - Risk analysis complete.")
 
-    print("Analyzing time series trends over 12 months...")
-    time_series_analysis = analyze_time_series(client, articles)
-    with open(output_dir / "2_time_series_analysis.json", "w") as f:
-        f.write(time_series_analysis.model_dump_json(indent=2))
-    print(f"{datetime.now()} - Time series analysis complete.")
+    # Only proceed with time series analysis if we have sufficient data
+    if len(articles) >= 10:
+        print("Analyzing time series trends over 12 months...")
+        try:
+            time_series_analysis = analyze_time_series(client, articles)
+            with open(output_dir / "2_time_series_analysis.json", "w") as f:
+                f.write(time_series_analysis.model_dump_json(indent=2))
+            print(f"{datetime.now()} - Time series analysis complete.")
 
-    print("Generating time series commentary...")
-    time_series_commentary = generate_time_series_commentary(client, time_series_analysis)
-    with open(output_dir / "3_time_series_commentary.txt", "w") as f:
-        f.write(time_series_commentary)
-    print(f"{datetime.now()} - Time series commentary complete.")
+            print("Generating time series commentary...")
+            time_series_commentary = generate_time_series_commentary(client, time_series_analysis)
+            with open(output_dir / "3_time_series_commentary.txt", "w") as f:
+                f.write(time_series_commentary)
+            print(f"{datetime.now()} - Time series commentary complete.")
+        except Exception as e:
+            print(f"Warning: Time series analysis failed: {e}")
+            print("Proceeding with basic analysis only.")
+            # Create placeholder files
+            with open(output_dir / "2_time_series_analysis.json", "w") as f:
+                f.write('{"monthly_trends": [], "overall_trend": "insufficient_data", "most_volatile_category": "none", "emerging_patterns": [], "time_series_summary": "Insufficient data for time series analysis"}')
+            with open(output_dir / "3_time_series_commentary.txt", "w") as f:
+                f.write("Insufficient news data available for time series analysis. Please ensure your Google Custom Search API is properly configured and has sufficient quota.")
+    else:
+        print(f"Warning: Only {len(articles)} articles found. Time series analysis requires at least 10 articles.")
+        print("Proceeding with basic analysis only.")
+        # Create placeholder files
+        with open(output_dir / "2_time_series_analysis.json", "w") as f:
+            f.write('{"monthly_trends": [], "overall_trend": "insufficient_data", "most_volatile_category": "none", "emerging_patterns": [], "time_series_summary": "Insufficient data for time series analysis"}')
+        with open(output_dir / "3_time_series_commentary.txt", "w") as f:
+            f.write("Insufficient news data available for time series analysis. Please ensure your Google Custom Search API is properly configured and has sufficient quota.")
 
     print("Generating strategic action points...")
     action_plan = generate_action_points(client, risk_analysis)
