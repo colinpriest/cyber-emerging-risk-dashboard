@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any
-from data_models import CyberRiskAnalysis, BoardActionPlan, ProjectPlan
+from data_models import CyberRiskAnalysis, BoardActionPlan, ProjectPlan, TimeSeriesAnalysis
+from time_series_analyzer import create_time_series_chart_data
 
 class DashboardGenerator:
     """Generates a visually appealing HTML dashboard from analysis results."""
@@ -18,6 +19,14 @@ class DashboardGenerator:
             with open(file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         return {}
+    
+    def load_text_data(self, filename: str) -> str:
+        """Load text data from a file."""
+        file_path = self.output_dir / filename
+        if file_path.exists():
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return f.read()
+        return ""
     
     def generate_risk_heatmap_data(self, risks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Convert risk data to heatmap format."""
@@ -37,13 +46,15 @@ class DashboardGenerator:
         
         # Load all data
         risk_analysis = self.load_json_data("1_risk_analysis.json")
-        action_plan = self.load_json_data("2_board_action_plan.json")
+        time_series_analysis = self.load_json_data("2_time_series_analysis.json")
+        time_series_commentary = self.load_text_data("3_time_series_commentary.txt")
+        action_plan = self.load_json_data("4_board_action_plan.json")
         
         # Load project plans
         project_plans = []
         i = 1
         while True:
-            plan_data = self.load_json_data(f"3_project_plan_{i}.json")
+            plan_data = self.load_json_data(f"5_project_plan_{i}.json")
             if not plan_data:
                 break
             project_plans.append(plan_data)
@@ -51,6 +62,12 @@ class DashboardGenerator:
         
         # Generate heatmap data
         heatmap_data = self.generate_risk_heatmap_data(risk_analysis.get('emerging_risks', []))
+        
+        # Generate time series chart data
+        time_series_chart_data = None
+        if time_series_analysis:
+            time_series_obj = TimeSeriesAnalysis(**time_series_analysis)
+            time_series_chart_data = create_time_series_chart_data(time_series_obj)
         
         html_content = f"""
 <!DOCTYPE html>
@@ -268,6 +285,25 @@ class DashboardGenerator:
             opacity: 0.8;
         }}
         
+        .time-series-commentary {{
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.8;
+            font-size: 1rem;
+            color: #495057;
+        }}
+        
+        .time-series-commentary h3 {{
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }}
+        
+        .time-series-commentary p {{
+            margin-bottom: 15px;
+        }}
+        
         @media (max-width: 768px) {{
             .dashboard-grid {{
                 grid-template-columns: 1fr;
@@ -299,6 +335,20 @@ class DashboardGenerator:
             <h2>🎯 Risk Impact vs Likelihood Matrix</h2>
             <div class="chart-wrapper">
                 <canvas id="riskMatrix"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>📈 12-Month Cyber Threat Time Series</h2>
+            <div class="chart-wrapper">
+                <canvas id="timeSeriesChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📊 Time Series Analysis Commentary</h2>
+            <div class="time-series-commentary">
+                {time_series_commentary.replace(chr(10), '<br>') if time_series_commentary else '<p>No time series commentary available.</p>'}
             </div>
         </div>
         
@@ -395,6 +445,57 @@ class DashboardGenerator:
                 }}
             }}
         }});
+        
+        // Time Series Chart
+        {f"const timeSeriesData = {json.dumps(time_series_chart_data)};" if time_series_chart_data else "const timeSeriesData = null;"}
+        
+        if (timeSeriesData) {{
+            const timeSeriesCtx = document.getElementById('timeSeriesChart').getContext('2d');
+            
+            new Chart(timeSeriesCtx, {{
+                type: 'line',
+                data: timeSeriesData,
+                options: {{
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {{
+                        mode: 'index',
+                        intersect: false,
+                    }},
+                    scales: {{
+                        x: {{
+                            title: {{
+                                display: true,
+                                text: 'Month'
+                            }}
+                        }},
+                        y: {{
+                            title: {{
+                                display: true,
+                                text: 'Number of Events'
+                            }},
+                            beginAtZero: true
+                        }}
+                    }},
+                    plugins: {{
+                        tooltip: {{
+                            callbacks: {{
+                                title: function(context) {{
+                                    return `Month: ${{context[0].label}}`;
+                                }},
+                                label: function(context) {{
+                                    return `${{context.dataset.label}}: ${{context.parsed.y}} events`;
+                                }}
+                            }}
+                        }},
+                        legend: {{
+                            display: true,
+                            position: 'top'
+                        }}
+                    }}
+                }}
+            }});
+        }}
     </script>
 </body>
 </html>

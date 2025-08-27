@@ -8,6 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 
 from news_fetcher import get_news
 from risk_analyzer import analyze_emerging_risks, generate_action_points, create_project_plan
+from time_series_analyzer import analyze_time_series, generate_time_series_commentary
 from dashboard_generator import DashboardGenerator
 
 def get_env_var_priority(var_name: str) -> str:
@@ -74,6 +75,8 @@ def main() -> None:
         google_cx=google_cx,
         google_api_key=google_api_key,
         save_dir=news_dir,
+        months_back=12,
+        articles_per_month=10
     )
     if not articles:
         print("No articles found. Exiting.")
@@ -85,9 +88,21 @@ def main() -> None:
         f.write(risk_analysis.model_dump_json(indent=2))
     print(f"{datetime.now()} - Risk analysis complete.")
 
+    print("Analyzing time series trends over 12 months...")
+    time_series_analysis = analyze_time_series(client, articles)
+    with open(output_dir / "2_time_series_analysis.json", "w") as f:
+        f.write(time_series_analysis.model_dump_json(indent=2))
+    print(f"{datetime.now()} - Time series analysis complete.")
+
+    print("Generating time series commentary...")
+    time_series_commentary = generate_time_series_commentary(client, time_series_analysis)
+    with open(output_dir / "3_time_series_commentary.txt", "w") as f:
+        f.write(time_series_commentary)
+    print(f"{datetime.now()} - Time series commentary complete.")
+
     print("Generating strategic action points...")
     action_plan = generate_action_points(client, risk_analysis)
-    with open(output_dir / "2_board_action_plan.json", "w") as f:
+    with open(output_dir / "4_board_action_plan.json", "w") as f:
         f.write(action_plan.model_dump_json(indent=2))
     print(f"{datetime.now()} - Action points generated.")
 
@@ -96,7 +111,7 @@ def main() -> None:
     sorted_actions = sorted(action_plan.action_points, key=lambda x: x.priority)
     for i, action in enumerate(sorted_actions):
         project_plan = create_project_plan(client, action)
-        with open(output_dir / f"3_project_plan_{i+1}.json", "w") as f:
+        with open(output_dir / f"5_project_plan_{i+1}.json", "w") as f:
             f.write(project_plan.model_dump_json(indent=2))
         print(f"{datetime.now()} - Project plan for action {action.priority} created.")
 

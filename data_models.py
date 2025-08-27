@@ -1,6 +1,7 @@
 # data_models.py
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List, Dict, Optional
+from datetime import datetime
 
 class Article(BaseModel):
     """Represents a single news article with engineered features."""
@@ -39,3 +40,27 @@ class ProjectPlan(BaseModel):
     timeline_phases: List[str] = Field(..., description="High-level phases of the project, e.g., 'Phase 1: Discovery', 'Phase 2: Vendor Evaluation'.")
     kpis: List[str] = Field(..., description="Key Performance Indicators to measure the project's success.")
     risks: List[str] = Field(..., description="Potential risks or obstacles that could hinder the project.")
+
+# New models for time series analysis
+class EventCategory(BaseModel):
+    """Represents a category of cyber events with count and trend information."""
+    category: str = Field(..., description="The name of the event category (e.g., 'Ransomware', 'Data Breach', 'Phishing')")
+    count: int = Field(..., description="Number of events in this category for the month")
+    trend: str = Field(..., description="Trend direction: 'increasing', 'decreasing', 'stable'")
+    percentage_change: float = Field(..., description="Percentage change from previous month")
+
+class MonthlyTrend(BaseModel):
+    """Represents cyber event trends for a specific month."""
+    month: str = Field(..., description="Month in YYYY-MM format")
+    total_events: int = Field(..., description="Total number of cyber events for the month")
+    categories: List[EventCategory] = Field(..., description="Breakdown of events by category")
+    top_threat: str = Field(..., description="The most prominent threat type for the month")
+    key_insight: str = Field(..., description="Key insight about the month's cyber landscape")
+
+class TimeSeriesAnalysis(BaseModel):
+    """Complete time series analysis of cyber events over 12 months."""
+    monthly_trends: List[MonthlyTrend] = Field(..., description="Monthly breakdown of cyber events")
+    overall_trend: str = Field(..., description="Overall trend direction across the 12-month period")
+    most_volatile_category: str = Field(..., description="Category with the most variation over time")
+    emerging_patterns: List[str] = Field(..., description="List of emerging patterns identified in the time series")
+    time_series_summary: str = Field(..., description="Comprehensive summary of the 12-month time series analysis")
