@@ -2,13 +2,29 @@
 from pydantic import BaseModel, Field
 from typing import List, Dict, Optional
 from datetime import datetime
+from enum import Enum
+
+class CyberEventCategory(str, Enum):
+    """A taxonomy of cyber event types for classification."""
+    RANSOMWARE = "Ransomware"
+    DATA_BREACH = "Data Breach"
+    PHISHING = "Phishing"
+    VULNERABILITY_EXPLOIT = "Vulnerability Exploit"
+    STATE_SPONSORED_ATTACK = "State-Sponsored Attack"
+    SUPPLY_CHAIN_ATTACK = "Supply Chain Attack"
+    MALWARE = "Malware"
+    INSIDER_THREAT = "Insider Threat"
+    DENIAL_OF_SERVICE = "Denial of Service"
+    OTHER = "Other"
 
 class Article(BaseModel):
     """Represents a single news article with engineered features."""
     title: str = Field(..., description="The headline of the news article.")
     description: str = Field(..., description="A brief summary or snippet of the article.")
-    published_date: str | None = Field(None, description="The ISO 8601 publication date of the article.")
+    published_date: Optional[str] = Field(None, description="The ISO 8601 publication date of the article.")
     source: str = Field(..., description="The domain name of the news source, e.g., 'reuters.com'.")
+    category: Optional[CyberEventCategory] = Field(None, description="The cyber event category classified by the LLM.")
+    is_cyber_event: Optional[bool] = Field(None, description="Flag indicating if the article is about a specific cyber attack event.")
 
 class EmergingRisk(BaseModel):
     """Data model for a single identified emerging cyber risk."""
@@ -40,6 +56,10 @@ class ProjectPlan(BaseModel):
     timeline_phases: List[str] = Field(..., description="High-level phases of the project, e.g., 'Phase 1: Discovery', 'Phase 2: Vendor Evaluation'.")
     kpis: List[str] = Field(..., description="Key Performance Indicators to measure the project's success.")
     risks: List[str] = Field(..., description="Potential risks or obstacles that could hinder the project.")
+
+class ConsolidatedProjectPlan(BaseModel):
+    """A collection of all generated project plans."""
+    projects: List[ProjectPlan]
 
 # New models for time series analysis
 class EventCategory(BaseModel):

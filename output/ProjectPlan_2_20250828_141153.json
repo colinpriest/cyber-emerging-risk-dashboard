@@ -1,0 +1,29 @@
+{
+  "title": "Employee Cybersecurity Training Program",
+  "objective": "To establish a comprehensive and continuous cybersecurity training program for all employees, focusing on the latest threat vectors such as AI-enhanced phishing and ransomware awareness, to enhance the overall cybersecurity posture of the organization.",
+  "stakeholders": [
+    "IT Security Team",
+    "HR Department",
+    "Training and Development Team",
+    "All Employees",
+    "Department Heads"
+  ],
+  "timeline_phases": [
+    "Phase 1: Needs Assessment and Content Development",
+    "Phase 2: Program Implementation",
+    "Phase 3: Monitoring and Feedback",
+    "Phase 4: Continuous Improvement"
+  ],
+  "kpis": [
+    "Employee Training Completion Rate",
+    "Reduction in Security Incidents",
+    "Employee Feedback Scores on Training Quality",
+    "Engagement Metrics during Training Sessions"
+  ],
+  "risks": [
+    "Resistance to Change from Employees",
+    "Inadequate Training Resources",
+    "Rapid Evolution of Cyber Threats",
+    "Potential Low Engagement Levels in Training"
+  ]
+}

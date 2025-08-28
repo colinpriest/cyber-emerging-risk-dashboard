@@ -1,0 +1,460 @@
+{
+  "monthly_trends": [
+    {
+      "month": "2024-09",
+      "total_events": 43,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 40,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 43 cybersecurity articles in 2024-09, with Other being the most prominent threat (40 articles)"
+    },
+    {
+      "month": "2024-10",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Phishing",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 12,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 20,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 46 cybersecurity articles in 2024-10, with Other being the most prominent threat (20 articles)"
+    },
+    {
+      "month": "2024-11",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 19,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 15,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 9,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 46 cybersecurity articles in 2024-11, with Other being the most prominent threat (19 articles)"
+    },
+    {
+      "month": "2024-12",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 20,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 7,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 7,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 45 cybersecurity articles in 2024-12, with Other being the most prominent threat (20 articles)"
+    },
+    {
+      "month": "2025-01",
+      "total_events": 44,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 16,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 14,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "State-Sponsored Attack",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 8,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Found 44 cybersecurity articles in 2025-01, with Ransomware being the most prominent threat (16 articles)"
+    },
+    {
+      "month": "2025-02",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Phishing",
+          "count": 9,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 20,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 13,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 45 cybersecurity articles in 2025-02, with Other being the most prominent threat (20 articles)"
+    },
+    {
+      "month": "2025-03",
+      "total_events": 44,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 17,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 44 cybersecurity articles in 2025-03, with Other being the most prominent threat (17 articles)"
+    },
+    {
+      "month": "2025-04",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 20,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 14,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 6,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 5,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 46 cybersecurity articles in 2025-04, with Other being the most prominent threat (20 articles)"
+    },
+    {
+      "month": "2025-05",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 19,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 9,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 45 cybersecurity articles in 2025-05, with Other being the most prominent threat (19 articles)"
+    },
+    {
+      "month": "2025-06",
+      "total_events": 37,
+      "categories": [
+        {
+          "category": "Phishing",
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 16,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 12,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 37 cybersecurity articles in 2025-06, with Other being the most prominent threat (16 articles)"
+    },
+    {
+      "month": "2025-07",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 19,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 10,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Ransomware",
+      "key_insight": "Found 46 cybersecurity articles in 2025-07, with Ransomware being the most prominent threat (19 articles)"
+    },
+    {
+      "month": "2025-08",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Vulnerability Exploit",
+          "count": 6,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 12,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Malware",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Phishing",
+      "key_insight": "Found 45 cybersecurity articles in 2025-08, with Phishing being the most prominent threat (12 articles)"
+    }
+  ],
+  "overall_trend": "stable",
+  "most_volatile_category": "Other",
+  "emerging_patterns": [
+    "Other is the dominant threat category"
+  ],
+  "time_series_summary": "Analysis of 532 cybersecurity articles across 12 months. The most common threat type was Other with 227 articles. Average of 44.3 articles per month."
+}

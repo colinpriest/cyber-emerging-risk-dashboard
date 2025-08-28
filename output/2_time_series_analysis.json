@@ -1,324 +1,460 @@
 {
   "monthly_trends": [
     {
-      "month": "2023-01",
-      "total_events": 150,
+      "month": "2024-09",
+      "total_events": 43,
       "categories": [
         {
-          "category": "Ransomware",
-          "count": 70,
-          "trend": "stable",
-          "percentage_change": 0.0
-        },
-        {
-          "category": "Data Breach",
-          "count": 50,
-          "trend": "increasing",
-          "percentage_change": 10.0
-        },
-        {
-          "category": "Phishing",
-          "count": 30,
-          "trend": "stable",
-          "percentage_change": 0.0
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Steady start to the year with a sharp focus on ransomware threats."
-    },
-    {
-      "month": "2023-02",
-      "total_events": 160,
-      "categories": [
-        {
-          "category": "Ransomware",
-          "count": 75,
-          "trend": "increasing",
-          "percentage_change": 7.14
-        },
-        {
-          "category": "Data Breach",
-          "count": 55,
-          "trend": "stable",
-          "percentage_change": 10.0
-        },
-        {
-          "category": "Phishing",
-          "count": 30,
-          "trend": "decreasing",
-          "percentage_change": -6.67
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Slight increase in ransomware incidents. Phishing trends mildly downward."
-    },
-    {
-      "month": "2023-03",
-      "total_events": 170,
-      "categories": [
-        {
-          "category": "Ransomware",
-          "count": 80,
-          "trend": "increasing",
-          "percentage_change": 6.67
-        },
-        {
-          "category": "Data Breach",
-          "count": 60,
-          "trend": "increasing",
-          "percentage_change": 9.09
-        },
-        {
-          "category": "Phishing",
-          "count": 30,
-          "trend": "stable",
-          "percentage_change": 0.0
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Ransomware and data breaches continue to climb."
-    },
-    {
-      "month": "2023-04",
-      "total_events": 175,
-      "categories": [
-        {
-          "category": "Ransomware",
-          "count": 90,
-          "trend": "increasing",
-          "percentage_change": 12.5
-        },
-        {
-          "category": "Data Breach",
-          "count": 60,
+          "category": "Other",
+          "count": 24,
           "trend": "stable",
           "percentage_change": 0.0
         },
         {
           "category": "Phishing",
-          "count": 25,
-          "trend": "decreasing",
-          "percentage_change": -16.67
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Ransomware spikes significantly. Phishing events decrease sharply."
-    },
-    {
-      "month": "2023-05",
-      "total_events": 180,
-      "categories": [
+          "count": 5,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
         {
           "category": "Ransomware",
-          "count": 100,
-          "trend": "increasing",
-          "percentage_change": 11.11
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 60,
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 43 cybersecurity articles in 2024-09, with Other being the most prominent threat (24 articles)"
+    },
+    {
+      "month": "2024-10",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Phishing",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 12,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 17,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 5,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 46 cybersecurity articles in 2024-10, with Other being the most prominent threat (17 articles)"
+    },
+    {
+      "month": "2024-11",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 23,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 14,
           "trend": "stable",
           "percentage_change": 0.0
         },
         {
           "category": "Phishing",
-          "count": 20,
-          "trend": "decreasing",
-          "percentage_change": -20.0
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Ransomware remains dominant while phishing drops further."
-    },
-    {
-      "month": "2023-06",
-      "total_events": 190,
-      "categories": [
-        {
-          "category": "Ransomware",
-          "count": 110,
-          "trend": "increasing",
-          "percentage_change": 10.0
+          "count": 7,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 65,
-          "trend": "increasing",
-          "percentage_change": 8.33
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 46 cybersecurity articles in 2024-11, with Other being the most prominent threat (23 articles)"
+    },
+    {
+      "month": "2024-12",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 24,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 8,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 8,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Phishing",
-          "count": 15,
-          "trend": "decreasing",
-          "percentage_change": -25.0
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Malware",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
         }
       ],
-      "top_threat": "Ransomware",
-      "key_insight": "Ransomware and data breaches on the rise, phishing continues to decrease."
+      "top_threat": "Other",
+      "key_insight": "Found 45 cybersecurity articles in 2024-12, with Other being the most prominent threat (24 articles)"
     },
     {
-      "month": "2023-07",
-      "total_events": 200,
+      "month": "2025-01",
+      "total_events": 44,
       "categories": [
         {
-          "category": "Ransomware",
-          "count": 120,
-          "trend": "increasing",
-          "percentage_change": 9.09
+          "category": "Other",
+          "count": 22,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 70,
-          "trend": "increasing",
-          "percentage_change": 7.69
+          "count": 8,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 9,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 44 cybersecurity articles in 2025-01, with Other being the most prominent threat (22 articles)"
+    },
+    {
+      "month": "2025-02",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Phishing",
+          "count": 8,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 24,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 10,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 45 cybersecurity articles in 2025-02, with Other being the most prominent threat (24 articles)"
+    },
+    {
+      "month": "2025-03",
+      "total_events": 44,
+      "categories": [
+        {
+          "category": "Ransomware",
+          "count": 10,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 18,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 44 cybersecurity articles in 2025-03, with Other being the most prominent threat (18 articles)"
+    },
+    {
+      "month": "2025-04",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 22,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Data Breach",
+          "count": 6,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Phishing",
+          "count": 6,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 46 cybersecurity articles in 2025-04, with Other being the most prominent threat (22 articles)"
+    },
+    {
+      "month": "2025-05",
+      "total_events": 45,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 21,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 9,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Phishing",
           "count": 10,
-          "trend": "decreasing",
-          "percentage_change": -33.33
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Ransomware hits a new peak. Phishing hits a significant low."
-    },
-    {
-      "month": "2023-08",
-      "total_events": 190,
-      "categories": [
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
         {
-          "category": "Ransomware",
-          "count": 125,
-          "trend": "increasing",
-          "percentage_change": 4.17
+          "category": "Vulnerability Exploit",
+          "count": 2,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 60,
-          "trend": "decreasing",
-          "percentage_change": -14.29
-        },
-        {
-          "category": "Phishing",
-          "count": 5,
-          "trend": "decreasing",
-          "percentage_change": -50.0
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
         }
       ],
-      "top_threat": "Ransomware",
-      "key_insight": "Slight decline in total events but ransomware still increases. Major drop in phishing."
+      "top_threat": "Other",
+      "key_insight": "Found 45 cybersecurity articles in 2025-05, with Other being the most prominent threat (21 articles)"
     },
     {
-      "month": "2023-09",
-      "total_events": 185,
+      "month": "2025-06",
+      "total_events": 37,
       "categories": [
         {
-          "category": "Ransomware",
-          "count": 130,
-          "trend": "increasing",
-          "percentage_change": 4.0
-        },
-        {
-          "category": "Data Breach",
-          "count": 50,
-          "trend": "decreasing",
-          "percentage_change": -16.67
-        },
-        {
           "category": "Phishing",
+          "count": 3,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Vulnerability Exploit",
           "count": 5,
           "trend": "stable",
           "percentage_change": 0.0
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Continued decline in overall events, ransomware still on the rise, phishing stabilizes at low levels."
-    },
-    {
-      "month": "2023-10",
-      "total_events": 180,
-      "categories": [
+        },
+        {
+          "category": "Other",
+          "count": 18,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
         {
           "category": "Ransomware",
-          "count": 135,
-          "trend": "increasing",
-          "percentage_change": 3.85
+          "count": 10,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 45,
-          "trend": "decreasing",
-          "percentage_change": -10.0
+          "count": 1,
+          "trend": "stable",
+          "percentage_change": 0.0
+        }
+      ],
+      "top_threat": "Other",
+      "key_insight": "Found 37 cybersecurity articles in 2025-06, with Other being the most prominent threat (18 articles)"
+    },
+    {
+      "month": "2025-07",
+      "total_events": 46,
+      "categories": [
+        {
+          "category": "Other",
+          "count": 12,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 22,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Phishing",
-          "count": 0,
-          "trend": "decreasing",
-          "percentage_change": -100.0
-        }
-      ],
-      "top_threat": "Ransomware",
-      "key_insight": "Data breaches and phishing decline while ransomware grows minimally."
-    },
-    {
-      "month": "2023-11",
-      "total_events": 175,
-      "categories": [
+          "count": 6,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
         {
-          "category": "Ransomware",
-          "count": 140,
-          "trend": "increasing",
-          "percentage_change": 3.7
+          "category": "Vulnerability Exploit",
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 35,
-          "trend": "decreasing",
-          "percentage_change": -22.22
-        },
-        {
-          "category": "Phishing",
-          "count": 0,
+          "count": 2,
           "trend": "stable",
           "percentage_change": 0.0
         }
       ],
       "top_threat": "Ransomware",
-      "key_insight": "Ransomware continues to dominate despite overall event decline. No phishing incidents."
+      "key_insight": "Found 46 cybersecurity articles in 2025-07, with Ransomware being the most prominent threat (22 articles)"
     },
     {
-      "month": "2023-12",
-      "total_events": 170,
+      "month": "2025-08",
+      "total_events": 45,
       "categories": [
         {
-          "category": "Ransomware",
-          "count": 145,
-          "trend": "increasing",
-          "percentage_change": 3.57
+          "category": "Vulnerability Exploit",
+          "count": 8,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Other",
+          "count": 9,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Data Breach",
-          "count": 25,
-          "trend": "decreasing",
-          "percentage_change": -28.57
+          "count": 4,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Ransomware",
+          "count": 11,
+          "trend": "stable",
+          "percentage_change": 0.0
         },
         {
           "category": "Phishing",
-          "count": 0,
+          "count": 12,
+          "trend": "stable",
+          "percentage_change": 0.0
+        },
+        {
+          "category": "Malware",
+          "count": 1,
           "trend": "stable",
           "percentage_change": 0.0
         }
       ],
-      "top_threat": "Ransomware",
-      "key_insight": "Year ends with ransomware still on the rise and data breaches hitting a low. No phishing reported."
+      "top_threat": "Phishing",
+      "key_insight": "Found 45 cybersecurity articles in 2025-08, with Phishing being the most prominent threat (12 articles)"
     }
   ],
-  "overall_trend": "increasing",
-  "most_volatile_category": "Phishing",
+  "overall_trend": "stable",
+  "most_volatile_category": "Other",
   "emerging_patterns": [
-    "Rising focus on ransomware",
-    "Decline in data breaches",
-    "Complete disappearance of phishing incidents"
+    "Other is the dominant threat category"
   ],
-  "time_series_summary": "The 12-month cybersecurity news analysis indicates an overall increase in cyber event activity, led by a consistent rise in ransomware. Phishing has seen a dramatic decline, virtually disappearing from reports toward the end of the year. Data breaches, while initially stable, began to decrease significantly in the second half of the year. This suggests a shift in threat priority from diverse threats to primarily ransomware-related incidents. Organizations should reinforce defenses against ransomware and reevaluate the changing dynamics of other cyber threats."
+  "time_series_summary": "Analysis of 532 cybersecurity articles across 12 months. The most common threat type was Other with 234 articles. Average of 44.3 articles per month."
 }

@@ -13,44 +13,44 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             color: #333;
         }
-        
+
         .container {
             max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
         }
-        
+
         .header {
             text-align: center;
             color: white;
             margin-bottom: 30px;
         }
-        
+
         .header h1 {
             font-size: 2.5rem;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
-        
+
         .header p {
             font-size: 1.1rem;
             opacity: 0.9;
         }
-        
+
         .dashboard-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 25px;
             margin-bottom: 30px;
         }
-        
+
         .card {
             background: white;
             border-radius: 15px;
@@ -58,12 +58,12 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        
+
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0,0,0,0.15);
         }
-        
+
         .card h2 {
             color: #4a5568;
             margin-bottom: 20px;
@@ -71,7 +71,7 @@
             border-bottom: 3px solid #667eea;
             padding-bottom: 10px;
         }
-        
+
         .risk-item {
             background: #f7fafc;
             border-left: 4px solid #667eea;
@@ -79,24 +79,24 @@
             margin-bottom: 15px;
             border-radius: 0 8px 8px 0;
         }
-        
+
         .risk-title {
             font-weight: bold;
             color: #2d3748;
             margin-bottom: 8px;
         }
-        
+
         .risk-description {
             color: #4a5568;
             line-height: 1.6;
             margin-bottom: 10px;
         }
-        
+
         .risk-scores {
             display: flex;
             gap: 15px;
         }
-        
+
         .score-item {
             background: #667eea;
             color: white;
@@ -105,7 +105,7 @@
             font-size: 0.9rem;
             font-weight: bold;
         }
-        
+
         .action-item {
             background: #f0fff4;
             border-left: 4px solid #48bb78;
@@ -113,7 +113,7 @@
             margin-bottom: 15px;
             border-radius: 0 8px 8px 0;
         }
-        
+
         .action-priority {
             background: #48bb78;
             color: white;
@@ -124,14 +124,14 @@
             display: inline-block;
             margin-bottom: 8px;
         }
-        
+
         .action-owner {
             color: #2f855a;
             font-weight: bold;
             font-size: 0.9rem;
             margin-top: 8px;
         }
-        
+
         .project-item {
             background: #fffaf0;
             border-left: 4px solid #ed8936;
@@ -139,35 +139,35 @@
             margin-bottom: 15px;
             border-radius: 0 8px 8px 0;
         }
-        
+
         .project-title {
             font-weight: bold;
             color: #2d3748;
             margin-bottom: 8px;
         }
-        
+
         .project-objective {
             color: #4a5568;
             line-height: 1.6;
             margin-bottom: 10px;
             font-style: italic;
         }
-        
+
         .list-section {
             margin-top: 10px;
         }
-        
+
         .list-section h4 {
             color: #2d3748;
             margin-bottom: 5px;
             font-size: 0.9rem;
         }
-        
+
         .list-section ul {
             list-style: none;
             padding-left: 0;
         }
-        
+
         .list-section li {
             background: #f7fafc;
             padding: 5px 10px;
@@ -176,7 +176,7 @@
             font-size: 0.85rem;
             color: #4a5568;
         }
-        
+
         .board-summary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -186,7 +186,7 @@
             line-height: 1.8;
             font-size: 1.1rem;
         }
-        
+
         .chart-container {
             background: white;
             border-radius: 15px;
@@ -194,26 +194,26 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             margin-bottom: 30px;
         }
-        
+
         .chart-container h2 {
             color: #4a5568;
             margin-bottom: 20px;
             text-align: center;
             font-size: 1.5rem;
         }
-        
+
         .chart-wrapper {
             position: relative;
             height: 400px;
         }
-        
+
         .footer {
             text-align: center;
             color: white;
             margin-top: 40px;
             opacity: 0.8;
         }
-        
+
         .time-series-commentary {
             background: #f8f9fa;
             padding: 20px;
@@ -222,26 +222,26 @@
             font-size: 1rem;
             color: #495057;
         }
-        
+
         .time-series-commentary h3 {
             color: #2d3748;
             margin-bottom: 15px;
             font-size: 1.2rem;
         }
-        
+
         .time-series-commentary p {
             margin-bottom: 15px;
         }
-        
+
         @media (max-width: 768px) {
             .dashboard-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .header h1 {
                 font-size: 2rem;
             }
-            
+
             .container {
                 padding: 15px;
             }
@@ -252,209 +252,524 @@
     <div class="container">
         <div class="header">
             <h1>🚨 Cyber Emerging Risk Analysis Dashboard</h1>
-            <p>Generated on August 28, 2025 at 09:32 AM</p>
+            <p>Generated on August 28, 2025 at 04:36 PM</p>
         </div>
-        
+
         <div class="board-summary">
             <h3>📋 Board Summary</h3>
-            <p>In recent trends, the cybersecurity landscape has shown alarming developments in sectors like identity verification and public transportation system security. Specifically, the surging demand for identity verification tools signals a critical shift towards more electronic security measures prone to exploitation. Additionally, heightened cybersecurity risks to public transport systems present new challenges in ensuring operational and passenger safety. Misinformation within the cybersecurity industry also stands out as a strategic risk, potentially eroding consumer trust and leading to inadequate security implementations. It is imperative for our risk management strategies to adapt rapidly to these emerging threats to safeguard our assets and maintain trust in our cybersecurity measures.</p>
+            <p>Our analysis identifies three primary emerging cyber risks that require immediate attention and strategic responses. First, advanced AI-driven phishing techniques are becoming incredibly sophisticated, leading to more successful infiltrations into secure systems. Second, new technological deployments are accompanied by vulnerabilities that are quickly exploited by cybercriminals, causing significant data breaches. Lastly, critical infrastructural sectors are increasingly targeted by ransomware attacks, which not only cause operational disruptions but also pose a threat to public safety due to the essential nature of the services affected. These risks underscore the need for enhanced security protocols and innovative defenses to stay ahead of these evolving cyber threats.</p>
         </div>
-        
+
         <div class="chart-container">
             <h2>🎯 Risk Impact vs Likelihood Matrix</h2>
             <div class="chart-wrapper">
                 <canvas id="riskMatrix"></canvas>
             </div>
         </div>
-        
+
         <div class="chart-container">
-            <h2>📈 12-Month Cyber Threat Time Series</h2>
+            <h2>📈 12-Month Cyber Threat Time Series (Up to 50 Articles/Month)</h2>
             <div class="chart-wrapper">
                 <canvas id="timeSeriesChart"></canvas>
             </div>
         </div>
-        
+
         <div class="card">
             <h2>📊 Time Series Analysis Commentary</h2>
             <div class="time-series-commentary">
-                ### Executive Summary:<br>Over the past year, the cybersecurity landscape has demonstrated a significant shift, characterized by a consistent rise in ransomware incidents alongside a marked decline in phishing activities and a fluctuating but overall downward trend in data breaches. The analysis of monthly trends from January to December 2023 reveals an overall increase in cyber event activity, predominantly fueled by ransomware attacks.<br><br>### Key Findings:<br>- **Increasing Dominance of Ransomware:** Ransomware incidents have shown a relentless upward trend each month, ending the year with its highest frequency, indicating a focused targeting by cybercriminals.<br>- **Significant Reduction in Phishing Activities:** From experiencing a steady number of incidents at the start of the year, phishing has steadily declined, eventually ceasing to be reported by year-end.<br>- **Data Breaches Fluctuating with Overall Decline:** While initially stable, instances of data breaches have started declining in the second half of the year, reaching a significant low by December.<br><br>### Threat Evolution:<br>Throughout the year, ransomware not only maintained its presence but intensified, suggesting a shift in attacker focus towards more lucrative and impactful ransomware operations. In contrast, the sharp decline in phishing could indicate either a strategic shift among cybercriminals to more profitable endeavors or an improvement in anti-phishing defenses. The fluctuating nature of data breach incidents suggests variability in organizational vulnerabilities and attacker interest.<br><br>### Seasonal Patterns:<br>The analysis did not reveal explicit seasonal cycles in the overall number of cybersecurity incidents. However, a noticeable trend was the consistent increase in ransomware across all months, whereas the other categories showed more variance and general decline.<br><br>### Strategic Implications:<br>The data indicates a concerning rise in ransomware, necessitating that organizations prioritize this threat. The decline in phishing and data breaches should not reduce vigilance but prompt a reassessment of cybersecurity strategies to understand these shifts, possibly allocating more resources to counteract ransomware.<br><br>### Recommendations:<br>1. **Enhance Ransomware Defenses:** Organizations should invest in robust anti-ransomware solutions, including employee training, advanced threat detection systems, frequent data backups, and incident response plans specifically aimed at ransomware scenarios.<br>2. **Re-evaluate Phishing Training and Tools:** Given the sharp decline in phishing, it is crucial to investigate whether this drop is due to better security practices or shifts in attacker strategies. Nonetheless, maintaining strong anti-phishing measures is advised.<br>3. **Regular Vulnerability Assessments:** Continuous evaluation of systems and defenses against data breaches is critical. As attack vectors evolve, so should the defenses, including regular patch management and intrusion detection systems.<br>4. **Intelligence Gathering and Sharing:** Collaborating with other entities and cybersecurity groups for intelligence sharing can provide early warnings and strategies for newly emerging threat patterns, especially in ransomware.<br>5. **Incident Response Readiness:** Update and test incident response plans to ensure rapid and effective action in the wake of a security breach, minimizing potential damage.<br><br>The next phase in cybersecurity management for organizations will heavily depend on adapting these insights into actionable strategies that not only defend against prevailing threats but also anticipate and mitigate emerging risks.
+                The analysis of cybersecurity articles over the past year indicates a stable trend in reporting, with a notable emphasis on diverse threat types categorized under "Other." This category, comprising 234 articles, signifies a shifting landscape where traditional threats may be evolving or obscured by new, varied tactics employed by cyber adversaries. The volatility within this category suggests that while specifics may change frequently, the underlying risk remains high and requires continuous monitoring. The board should be aware of this emerging pattern as it calls for a proactive approach in adapting cybersecurity strategies to address not only known threats but also the unpredictable nature of emerging ones.
             </div>
         </div>
-        
+
         <div class="dashboard-grid">
             <div class="card">
                 <h2>⚠️ Emerging Risks</h2>
                 
                 <div class="risk-item">
-                    <div class="risk-title">Increasing Demand for Identity Verification Tools</div>
-                    <div class="risk-description">A noticeable trend in the cybersecurity market is the increasing demand for identity verification tools. As digital transformation accelerates, organizations are urgently integrating these tools to strengthen security measures amidst rising identity theft and fraud incidents. This reliance on electronic identity verification can expose companies to new vulnerabilities, especially where these systems are not comprehensively secured against emerging cybersecurity threats.</div>
+                    <div class="risk-title">Advanced AI-driven Phishing Techniques</div>
+                    <div class="risk-description">Recent observations indicate a concerning rise in the sophistication of phishing attempts, facilitated by advanced AI technologies. These phishing attacks are no longer just poorly written emails; they now include precisely targeted and contextually relevant lures that mimic legitimate communications almost perfectly. The exploitation of AI for phishing has led to a substantial increase in successful breaches, making them harder to detect with traditional cybersecurity measures.</div>
+                    <div class="risk-scores">
+                        <span class="score-item">Impact: 9/10</span>
+                        <span class="score-item">Likelihood: 9/10</span>
+                        <span class="score-item">Risk Score: 81</span>
+                    </div>
+                </div>
+            
+                <div class="risk-item">
+                    <div class="risk-title">Exploitation of Vulnerabilities in New Technologies</div>
+                    <div class="risk-description">A notable trend is the exploitation of emerging vulnerabilities associated with the deployment of new technologies. High-profile vulnerabilities in commonly used software like Microsoft Exchange and Citrix NetScaler were identified and exploited, allowing attackers easy access to sensitive organizational data. Victims often experience substantial disruptions and data breaches, leading to significant operational and financial damage.</div>
                     <div class="risk-scores">
                         <span class="score-item">Impact: 8/10</span>
-                        <span class="score-item">Likelihood: 7/10</span>
-                        <span class="score-item">Risk Score: 56</span>
+                        <span class="score-item">Likelihood: 8/10</span>
+                        <span class="score-item">Risk Score: 64</span>
                     </div>
                 </div>
             
                 <div class="risk-item">
-                    <div class="risk-title">Rising Threats to Public Transport Systems</div>
-                    <div class="risk-description">Recent incidents point to a growing trend of cyber threats targeting public transportation systems, exposing vulnerabilities in their operational technology. The ramifications of such attacks can lead to operational disruptions and compromise passenger safety, demanding heightened security measures to protect critical infrastructure.</div>
+                    <div class="risk-title">Ransomware Attacks on Critical Infrastructure</div>
+                    <div class="risk-description">The surge in ransomware attacks targeting critical and infrastructural sectors has been alarming. Recent attacks have been noted on educational institutions, healthcare facilities, and local government systems, causing widespread disruption and demanding significant ransom payments. These sectors are targeted due to their critical nature and often outdated security systems, making them vulnerable to extensive damage and operational handicaps.</div>
                     <div class="risk-scores">
-                        <span class="score-item">Impact: 7/10</span>
-                        <span class="score-item">Likelihood: 6/10</span>
-                        <span class="score-item">Risk Score: 42</span>
-                    </div>
-                </div>
-            
-                <div class="risk-item">
-                    <div class="risk-title">Misinformation in Cybersecurity Industry</div>
-                    <div class="risk-description">There is an emerging challenge of misinformation within the cybersecurity industry. False information or exaggerated claims about product capabilities can mislead consumers and businesses, potentially leading to poor cybersecurity practices and increased vulnerabilities. This misinformation can undermine trust and the effectiveness of cybersecurity measures.</div>
-                    <div class="risk-scores">
-                        <span class="score-item">Impact: 6/10</span>
-                        <span class="score-item">Likelihood: 5/10</span>
-                        <span class="score-item">Risk Score: 30</span>
+                        <span class="score-item">Impact: 9/10</span>
+                        <span class="score-item">Likelihood: 8/10</span>
+                        <span class="score-item">Risk Score: 72</span>
                     </div>
                 </div>
             
             </div>
-            
+
             <div class="card">
                 <h2>🎯 Strategic Action Points</h2>
                 
                 <div class="action-item">
                     <div class="action-priority">Priority 1</div>
-                    <div class="risk-description">Ensure the integration of advanced cybersecurity measures in electronic identity verification tools to address the increasing risk of identity theft and fraud.</div>
+                    <div class="risk-description">Implement an advanced threat detection system that utilizes machine learning to identify and respond to sophisticated phishing attacks, and provide continuous staff training on these emerging threats.</div>
                     <div class="action-owner">Owner: Chief Information Security Officer (CISO)</div>
                 </div>
             
                 <div class="action-item">
                     <div class="action-priority">Priority 2</div>
-                    <div class="risk-description">Implement robust security protocols and disaster recovery plans for public transport systems to prevent operational disruptions and ensure passenger safety.</div>
-                    <div class="action-owner">Owner: Head of Risk Management</div>
+                    <div class="risk-description">Establish a dedicated task force to actively monitor and assess the security posture of new technologies before their deployment, ensuring vulnerabilities are addressed promptly.</div>
+                    <div class="action-owner">Owner: Head of IT Security</div>
                 </div>
             
                 <div class="action-item">
                     <div class="action-priority">Priority 3</div>
-                    <div class="risk-description">Develop a cybersecurity misinformation awareness program to educate stakeholders and validate security product claims before implementation.</div>
-                    <div class="action-owner">Owner: Head of Communications</div>
+                    <div class="risk-description">Develop and enforce sector-specific cybersecurity protocols and resilience strategies for critical infrastructure, with a focus on rapid incident response and recovery plans.</div>
+                    <div class="action-owner">Owner: Chief Risk Officer (CRO)</div>
                 </div>
             
             </div>
         </div>
-        
+
         <div class="card">
-            <h2>📋 Project Plans</h2>
-            
-                <div class="project-item">
-                    <div class="project-title">Project 1: Integration of Advanced Cybersecurity in Identity Verification Tools</div>
-                    <div class="project-objective">To augment the security of electronic identity verification systems by integrating advanced cybersecurity measures, thereby reducing the risk of identity theft and fraud.</div>
-                    
-                    <div class="list-section">
-                        <h4>Stakeholders:</h4>
-                        <ul>
-                            <li>Chief Information Security Officer (CISO)</li><li>IT Security Team</li><li>Software Development Team</li><li>Compliance Department</li><li>Legal Department</li>
-                        </ul>
+            <h2>📑 Project Plans</h2>
+            <h2>📑 Project Plans</h2>
+            <div class="project-plan-card">
+                <h4>1. AI-Driven Threat Detection Task Force</h4>
+                <p><strong>Objective:</strong> To develop and implement advanced AI-driven systems for detecting and countering AI-enhanced phishing attacks, thereby improving organizational cybersecurity.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>Cybersecurity Team</li><li>AI Research Department</li><li>IT Support</li><li>Compliance and Legal Team</li><li>Executive Management</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Timeline Phases:</h4>
-                        <ul>
-                            <li>Phase 1: Requirements Gathering</li><li>Phase 2: Cybersecurity Solution Evaluation</li><li>Phase 3: Implementation</li><li>Phase 4: Testing & Validation</li><li>Phase 5: Deployment & Monitoring</li>
-                        </ul>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Project Kickoff and Team Formation</li><li>Phase 2: Research and Requirements Gathering</li><li>Phase 3: Development of AI Models</li><li>Phase 4: Testing and Validation</li><li>Phase 5: Implementation and Deployment</li><li>Phase 6: Monitoring and Continuous Improvement</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Key Performance Indicators:</h4>
-                        <ul>
-                            <li>Reduction in incidents of identity theft and fraud</li><li>Compliance with relevant cybersecurity standards</li><li>User feedback on the security of the new system</li><li>System performance metrics post-implementation</li>
-                        </ul>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in phishing incident response time</li><li>Increase in detection rate of phishing attempts</li><li>User awareness and training completion rate</li><li>Feedback from security audits and assessments</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Potential Risks:</h4>
-                        <ul>
-                            <li>Technical challenges in integrating new security measures</li><li>Potential resistance to new system changes</li><li>Compliance and regulatory approval delays</li><li>Data privacy concerns during implementation</li>
-                        </ul>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Integration challenges with existing systems</li><li>Insufficient data for training AI models</li><li>Compliance with data protection regulations</li><li>Resistance to change from staff</li><li>Potential for evolving phishing techniques outpacing detection capabilities</li></ul>
                     </div>
                 </div>
+            </div>
             
-                <div class="project-item">
-                    <div class="project-title">Project 2: Robust Security and Disaster Recovery Plans for Public Transport</div>
-                    <div class="project-objective">To implement enhanced security protocols and comprehensive disaster recovery strategies in public transport systems to minimize operational disruptions and ensure passenger safety.</div>
-                    
-                    <div class="list-section">
-                        <h4>Stakeholders:</h4>
-                        <ul>
-                            <li>Head of Risk Management</li><li>Security Department</li><li>Operations Department</li><li>IT Department</li><li>Local Government Authorities</li><li>Emergency Response Teams</li>
-                        </ul>
+            <div class="project-plan-card">
+                <h4>2. Patch Management Implementation for Microsoft Exchange and Critical Infrastructure</h4>
+                <p><strong>Objective:</strong> To establish and enforce patch management policies that ensure timely application of patches for Microsoft Exchange servers and other critical infrastructure to mitigate vulnerabilities and security risks.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Infrastructure Team</li><li>Compliance Team</li><li>Vendor Management</li><li>Risk Management</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Timeline Phases:</h4>
-                        <ul>
-                            <li>Phase 1: Risk Assessment and Needs Analysis</li><li>Phase 2: Development of Security Protocols</li><li>Phase 3: Disaster Recovery Planning</li><li>Phase 4: Implementation</li><li>Phase 5: Testing and Validation</li><li>Phase 6: Training and Roll-out</li><li>Phase 7: Ongoing Monitoring and Review</li>
-                        </ul>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Assessment of Current Vulnerabilities</li><li>Phase 2: Development of Patch Management Policies</li><li>Phase 3: Deployment of Patch Management Framework</li><li>Phase 4: Training and Awareness Program</li><li>Phase 5: Monitoring and Compliance Check</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Key Performance Indicators:</h4>
-                        <ul>
-                            <li>Reduction in operational disruptions</li><li>Improvement in emergency response times</li><li>Increased passenger perceptions of safety</li><li>Compliance with local and federal safety regulations</li>
-                        </ul>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Percentage of patches applied within recommended timelines</li><li>Reduction in vulnerabilities reported post-implementation</li><li>Number of compliance audits passed</li><li>User awareness levels on patch management best practices</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Potential Risks:</h4>
-                        <ul>
-                            <li>Resistance to procedural changes</li><li>Technical failures during implementation</li><li>Budget constraints</li><li>Data privacy and security concerns</li>
-                        </ul>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Inadequate training leading to improper patch application</li><li>Resistance to policy changes from IT staff</li><li>Potential downtime during patch deployment</li><li>Delay in vendor updates or patches availability</li><li>Risk of new vulnerabilities emerging during the process</li></ul>
                     </div>
                 </div>
+            </div>
             
-                <div class="project-item">
-                    <div class="project-title">Project 3: Cybersecurity Misinformation Awareness Program</div>
-                    <div class="project-objective">To develop and implement a program aimed at educating stakeholders about cybersecurity misinformation and establishing protocols to verify security product claims prior to their adoption.</div>
-                    
-                    <div class="list-section">
-                        <h4>Stakeholders:</h4>
-                        <ul>
-                            <li>Head of Communications</li><li>Cybersecurity Team</li><li>Human Resources</li><li>Legal Department</li><li>IT Department</li><li>Marketing Department</li>
-                        </ul>
+            <div class="project-plan-card">
+                <h4>3. Establishing a Task Force for AI-Enhanced Phishing and Ransomware Defense</h4>
+                <p><strong>Objective:</strong> To create and implement a specialized task force that will develop advanced detection tools and conduct training programs focused on mitigating AI-enhanced phishing and ransomware threats.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Training and Development Department</li><li>Risk Management</li><li>Legal Department</li><li>External Cybersecurity Consultants</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Timeline Phases:</h4>
-                        <ul>
-                            <li>Phase 1: Needs Assessment</li><li>Phase 2: Program Development</li><li>Phase 3: Pilot Testing</li><li>Phase 4: Program Rollout</li><li>Phase 5: Feedback and Iteration</li>
-                        </ul>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Needs Assessment and Research</li><li>Phase 2: Tool Development and Testing</li><li>Phase 3: Training Program Design and Development</li><li>Phase 4: Implementation and Rollout</li><li>Phase 5: Evaluation and Continuous Improvement</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Key Performance Indicators:</h4>
-                        <ul>
-                            <li>Number of employees trained</li><li>Reduction in misinformation-related incidents</li><li>Level of stakeholder satisfaction</li><li>Compliance rate with new validation protocols</li>
-                        </ul>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of detection tools developed</li><li>User adoption rate of detection tools</li><li>Reduction in successful phishing/ransomware attacks</li><li>Employee training completion rates</li><li>Feedback score from training programs</li></ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Potential Risks:</h4>
-                        <ul>
-                            <li>Insufficient stakeholder engagement</li><li>Misunderstanding of cybersecurity concepts among employees</li><li>Resistance to new protocols</li><li>Budget constraints</li>
-                        </ul>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to change from employees</li><li>Inadequate budget allocation</li><li>Insufficient technical skills within the team</li><li>Rapid evolution of phishing and ransomware tactics</li><li>Compliance risks related to data privacy</li></ul>
                     </div>
                 </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>4. Dynamic Cyber Risk Management Framework Development</h4>
+                <p><strong>Objective:</strong> To establish a comprehensive cyber risk management framework that effectively addresses AI-enhanced phishing, ransomware threats, and critical infrastructure protection while ensuring adaptability to emerging threats through regular updates.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Risk Management Department</li><li>Compliance Officer</li><li>Operations Department</li><li>Executive Management</li><li>External Cybersecurity Consultants</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Research &amp; Requirements Gathering</li><li>Phase 2: Framework Design &amp; Development</li><li>Phase 3: Implementation</li><li>Phase 4: Testing &amp; Validation</li><li>Phase 5: Training &amp; Documentation</li><li>Phase 6: Continuous Monitoring &amp; Updates</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in incident response time</li><li>Percentage decrease in successful phishing attempts</li><li>Number of ransomware incidents reported</li><li>Compliance with regulatory requirements</li><li>Stakeholder satisfaction ratings</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Rapid changes in threat landscape</li><li>Resistance to change from staff</li><li>Inadequate budget allocation</li><li>Technical challenges in implementation</li><li>Lack of ongoing support or training</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>5. Implementation of AI-Driven Cybersecurity Solution</h4>
+                <p><strong>Objective:</strong> To deploy a state-of-the-art AI-driven cybersecurity solution that improves detection rates and enhances defense mechanisms against advanced phishing attacks and other sophisticated cyber threats, ensuring the safety and security of organizational data and infrastructure.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>AI Development Team</li><li>Risk Management Department</li><li>Compliance and Legal Team</li><li>Executive Management</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Requirements Gathering</li><li>Phase 2: Technology Evaluation</li><li>Phase 3: Solution Development</li><li>Phase 4: Testing and Quality Assurance</li><li>Phase 5: Deployment</li><li>Phase 6: Monitoring and Optimization</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in phishing incidents by 50% within 6 months</li><li>Improvement in detection time by 70%</li><li>User training completion rate of 90%</li><li>User satisfaction score over 4 out of 5</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Integration challenges with existing systems</li><li>Inadequate user training leading to poor adoption</li><li>High false positive rates affecting productivity</li><li>Compliance risks with data protection laws</li><li>Evolving cyber threats outpacing system updates</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>6. Continuous Cyber Risk Monitoring System Implementation</h4>
+                <p><strong>Objective:</strong> To establish a continuous monitoring system that identifies emerging cyber threats promptly and enhances the organizations cyber security posture.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Risk Management Department</li><li>Compliance Office</li><li>IT Department</li><li>Executive Leadership</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Requirements Gathering</li><li>Phase 2: Solution Evaluation and Selection</li><li>Phase 3: System Development and Configuration</li><li>Phase 4: Deployment and Integration</li><li>Phase 5: Training and Documentation</li><li>Phase 6: Ongoing Monitoring and Review</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of identified threats</li><li>Response time to detected threats</li><li>User satisfaction score post-training</li><li>Compliance audit success rate</li><li>Reduction in incident response time</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Inadequate stakeholder engagement leading to misspecified requirements</li><li>Integration challenges with existing systems</li><li>Potential resistance to change from staff</li><li>Vendor reliability and support issues</li><li>Insufficient budget allocation for ongoing monitoring</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>7. IT Infrastructure Audit and Upgrade Program</h4>
+                <p><strong>Objective:</strong> To conduct a thorough audit of the current IT infrastructure which includes assessing vulnerabilities in both new technologies and legacy systems, followed by a structured upgrade program to strengthen security and performance.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Department</li><li>Security Team</li><li>Operations Team</li><li>Finance Department</li><li>Executive Management</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Initiation and Planning</li><li>Phase 2: Comprehensive Audit</li><li>Phase 3: Evaluation of Findings</li><li>Phase 4: Planning Upgrades</li><li>Phase 5: Implementation of Upgrades</li><li>Phase 6: Review and Monitoring</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of vulnerabilities identified and documented</li><li>Percentage of systems upgraded within defined timeline</li><li>Reduction in security incidents post-upgrade</li><li>Stakeholder satisfaction with the auditing and upgrade process</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Inadequate identification of vulnerabilities due to incomplete audit</li><li>Delayed project timelines due to resource constraints</li><li>Resistance to change from staff during upgrade implementation</li><li>Budget overruns based on unforeseen technical challenges</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>8. Defense Strategy Against AI-Enhanced Phishing Attacks</h4>
+                <p><strong>Objective:</strong> To enhance organizational defenses against AI-driven phishing threats through employee training and advanced email filtering technologies, thereby reducing susceptibility to such attacks.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Human Resources</li><li>Training Department</li><li>Compliance Team</li><li>External Cybersecurity Consultants</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Assessment and Gap Analysis</li><li>Phase 2: Strategy Development</li><li>Phase 3: Technology Selection and Deployment</li><li>Phase 4: Employee Training Program Development</li><li>Phase 5: Implementation and Rollout</li><li>Phase 6: Continuous Monitoring and Improvement</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in phishing attack success rate</li><li>Employee awareness and training completion rates</li><li>User feedback on training effectiveness</li><li>Performance of email filtering technologies</li><li>Number of security incidents reported</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to change from employees</li><li>Inadequate training leading to poor retention</li><li>Potential technical challenges in implementing new technologies</li><li>Budget constraints affecting technology deployment</li><li>Evolving nature of phishing attacks</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>9. Enhancing Cybersecurity Infrastructure in Critical Sectors</h4>
+                <p><strong>Objective:</strong> To invest in and implement state-of-the-art cybersecurity infrastructure that enhances the ability to identify and respond to vulnerabilities in real-time, particularly focusing on the healthcare sector.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Healthcare Compliance Department</li><li>Management</li><li>Cybersecurity Vendors</li><li>End Users</li><li>External Auditors</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Assessment of Current Cybersecurity Measures</li><li>Phase 2: Market Research and Vendor Evaluation</li><li>Phase 3: Infrastructure Design and Planning</li><li>Phase 4: Implementation of New Infrastructure</li><li>Phase 5: Training and Change Management</li><li>Phase 6: Testing and Fine-tuning</li><li>Phase 7: Monitoring and Continuous Improvement</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in response time to cybersecurity incidents</li><li>Number of vulnerabilities identified and mitigated</li><li>Percentage of staff trained on new systems</li><li>Compliance gaps closed in cybersecurity protocols</li><li>User satisfaction scores related to cybersecurity measures</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Unforeseen budget overruns</li><li>Resistance to change from staff</li><li>Potential disruption during implementation</li><li>Emerging cybersecurity threats during project duration</li><li>Vendor reliability and support issues</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>10. Employee Cybersecurity Training Program</h4>
+                <p><strong>Objective:</strong> To establish a comprehensive and continuous cybersecurity training program for all employees, focusing on the latest threat vectors such as AI-enhanced phishing and ransomware awareness, to enhance the overall cybersecurity posture of the organization.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>HR Department</li><li>Training and Development Team</li><li>All Employees</li><li>Department Heads</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Needs Assessment and Content Development</li><li>Phase 2: Program Implementation</li><li>Phase 3: Monitoring and Feedback</li><li>Phase 4: Continuous Improvement</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Employee Training Completion Rate</li><li>Reduction in Security Incidents</li><li>Employee Feedback Scores on Training Quality</li><li>Engagement Metrics during Training Sessions</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to Change from Employees</li><li>Inadequate Training Resources</li><li>Rapid Evolution of Cyber Threats</li><li>Potential Low Engagement Levels in Training</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>11. Establishment of Critical Infrastructure Security Task Force</h4>
+                <p><strong>Objective:</strong> To develop and implement stringent security measures and response plans for critical infrastructure in high-risk sectors, particularly healthcare and government, enhancing resilience against security threats.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>Security Operations Team</li><li>IT Department</li><li>Healthcare Sector Representatives</li><li>Government Officials</li><li>Risk Management Team</li><li>HR Department</li><li>Legal Team</li><li>External Security Consultants</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Task Force Formation</li><li>Phase 2: Risk Assessment and Analysis</li><li>Phase 3: Development of Security Measures</li><li>Phase 4: Implementation of Response Plans</li><li>Phase 5: Training and Awareness Programs</li><li>Phase 6: Evaluation and Continuous Improvement</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of vulnerabilities identified and addressed</li><li>Completion rate of the task force initiative</li><li>Time taken to implement security measures</li><li>Response time during simulated security incidents</li><li>Employee training completion rates</li><li>Stakeholder satisfaction with security improvements</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Insufficient buy-in from stakeholders</li><li>Resistance to new security measures</li><li>Limited budget for implementation</li><li>Rapidly evolving security threats</li><li>Failure to comply with regulatory requirements</li><li>Potential gaps in communication between departments</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>12. Cybersecurity Strategy Development and Update</h4>
+                <p><strong>Objective:</strong> To develop a comprehensive cybersecurity strategy that aligns with the latest industry standards and risk assessments, ensuring the organization&#39;s information systems are secure and resilient against cyber threats.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Department</li><li>Cybersecurity Team</li><li>Compliance Officer</li><li>Risk Management Team</li><li>Executive Leadership</li><li>Legal Department</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Assessment of Current Cybersecurity Measures</li><li>Phase 2: Research of Latest Industry Standards and Best Practices</li><li>Phase 3: Development of Cybersecurity Strategy</li><li>Phase 4: Review and Approval by Stakeholders</li><li>Phase 5: Implementation of the Strategy</li><li>Phase 6: Periodic Review and Update of the Strategy</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of vulnerabilities identified and mitigated</li><li>Compliance rate with relevant regulations</li><li>Time taken to respond to cybersecurity incidents</li><li>Frequency of strategy updates</li><li>Stakeholder satisfaction with the implemented strategy</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Failure to adhere to new industry standards</li><li>Inadequate training for staff on updated policies</li><li>Insufficient resources for implementation</li><li>Rapidly evolving cyber threats</li><li>Lack of stakeholder engagement and support</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>13. Strengthening Cybersecurity Protocols for High-Risk Sectors</h4>
+                <p><strong>Objective:</strong> To develop and enforce robust cybersecurity protocols for healthcare and education sectors to enhance their resilience against ransomware and targeted cyber attacks.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>Cybersecurity Team</li><li>IT Department</li><li>Compliance Department</li><li>Healthcare Sector Representatives</li><li>Educational Institutions&#39; IT Administrators</li><li>Legal Team</li><li>Training and Awareness Coordinator</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Assessment and Risk Analysis</li><li>Phase 2: Protocol Development</li><li>Phase 3: Stakeholder Engagement and Training</li><li>Phase 4: Implementation of Protocols</li><li>Phase 5: Monitoring and Evaluation</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in successful cyber attack incidents</li><li>Time to detect and respond to incidents</li><li>Stakeholder training completion rate</li><li>Compliance audit results</li><li>Incident response times</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to change from stakeholders</li><li>Underestimation of complexity in implementation</li><li>Lack of trained personnel</li><li>Funding and resource constraints</li><li>Evolving nature of cyber threats</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>14. Security Posture Improvement Task Force</h4>
+                <p><strong>Objective:</strong> To create a dedicated task force that assesses and enhances the security posture of vulnerable sectors, focusing on education and healthcare institutions to mitigate ransomware threats.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Risk Management</li><li>Compliance Department</li><li>Education Sector Representatives</li><li>Healthcare Sector Representatives</li><li>Project Management Office (PMO)</li><li>External Cybersecurity Consultants</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Initial Assessment and Planning (Month 1)</li><li>Phase 2: Establishing the Task Force (Month 2)</li><li>Phase 3: Risk Assessment and Vulnerability Analysis (Month 3-4)</li><li>Phase 4: Development of Security Enhancement Strategies (Month 5)</li><li>Phase 5: Implementation of Security Measures (Month 6-8)</li><li>Phase 6: Monitoring and Continuous Improvement (Month 9 and ongoing)</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of vulnerabilities identified and mitigated</li><li>Reduction in incident response time</li><li>Stakeholder satisfaction ratings</li><li>Compliance with regulatory requirements</li><li>Frequency of security training sessions conducted</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to change from staff or institutions</li><li>Limited budget or resources</li><li>Inadequate stakeholder engagement</li><li>Evolving ransomware tactics</li><li>Insufficient training for personnel</li><li>Failure to comply with regulations</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>15. Cyber Threat Awareness Integration in Governance</h4>
+                <p><strong>Objective:</strong> To establish a regular reporting mechanism on emerging cyber threats during board governance meetings, enhancing strategic oversight and resource allocation for cybersecurity initiatives.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>Board of Directors</li><li>IT Security Team</li><li>Compliance Officer</li><li>Risk Management Committee</li><li>Operations Manager</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Initial Assessment and Requirement Gathering</li><li>Phase 2: Framework Development for Updates</li><li>Phase 3: Implementation of Reporting Mechanism</li><li>Phase 4: Training and Communication Strategy</li><li>Phase 5: Evaluation and Continuous Improvement</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of briefings conducted per quarter</li><li>Feedback from board members on the relevance of updates</li><li>Reduction in response time to emerging threats</li><li>Increased resource allocation towards cybersecurity initiatives</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to change among board members</li><li>Information overload during meetings</li><li>Inconsistent reporting from IT Security Team</li><li>Rapidly changing threat landscape that may outpace scheduled updates</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>16. Advanced Threat Detection and Response Technology Investment</h4>
+                <p><strong>Objective:</strong> To invest in cutting-edge technologies that enhance our ability to detect and respond to sophisticated cyber threats targeting critical infrastructure, ultimately reducing risks and improving security posture.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Security Team</li><li>Infrastructure Management</li><li>Procurement Department</li><li>Finance Department</li><li>Risk Management Team</li><li>Executive Leadership</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Requirement Analysis and Specification</li><li>Phase 2: Market Research and Vendor Identification</li><li>Phase 3: Vendor Evaluation and Selection</li><li>Phase 4: Technology Implementation</li><li>Phase 5: Testing and Validation</li><li>Phase 6: Training and Transition to Operations</li><li>Phase 7: Continuous Monitoring and Improvement</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Reduction in incident response time</li><li>Increase in detected threats</li><li>Decrease in security breaches</li><li>User satisfaction with training and tools</li><li>Compliance with industry standards and regulations</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Inadequate budget allocation leading to project delays</li><li>Resistance to change and adoption of new technologies</li><li>Potential integration issues with existing systems</li><li>Vendor reliability and support concerns</li><li>Evolving threat landscape outpacing technology adaptability</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>17. Systematic Update and Security Program for New and Legacy Systems</h4>
+                <p><strong>Objective:</strong> To systematically update and secure both new and legacy systems, protecting against emerging vulnerabilities and ensuring compliance with current cybersecurity standards.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>IT Department</li><li>Cybersecurity Team</li><li>Compliance Department</li><li>Project Management Office</li><li>Legacy Systems Management Team</li><li>External Auditors</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Assessment and Planning</li><li>Phase 2: System Inventory and Risk Analysis</li><li>Phase 3: Development of Update and Security Protocols</li><li>Phase 4: Implementation of Updates and Security Measures</li><li>Phase 5: Testing and Validation</li><li>Phase 6: Monitoring and Compliance Review</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of systems updated</li><li>Percentage of systems compliant with cybersecurity standards</li><li>Reduction in vulnerability assessments</li><li>Time taken to remediate vulnerabilities</li><li>Stakeholder satisfaction score</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Resistance to change from staff</li><li>Potential disruptions during implementation</li><li>Incompatibility of updates with legacy systems</li><li>Budget overruns</li><li>Insufficient training and resources available for staff</li></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-plan-card">
+                <h4>18. Establish Cybersecurity News Review Protocol</h4>
+                <p><strong>Objective:</strong> To create and implement a structured protocol for the regular submission and review of cybersecurity-related news and articles, enhancing the organization&#39;s ability to stay informed about potential threats and vulnerabilities.</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul><li>Cybersecurity Team</li><li>IT Department</li><li>Communications Team</li><li>Legal and Compliance Department</li><li>Executive Management</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul><li>Phase 1: Research Best Practices</li><li>Phase 2: Develop Submission Guidelines</li><li>Phase 3: Create Review Process</li><li>Phase 4: Training and Rollout</li><li>Phase 5: Monitor and Optimize</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul><li>Number of articles submitted per month</li><li>Frequency of review meetings</li><li>Feedback from stakeholders on relevance and quality of information</li><li>Reduction in response time to identified threats</li></ul>
+                    </div>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul><li>Low participation from team members in submissions</li><li>Inaccurate or biased information being reviewed</li><li>Overwhelming volume of articles leading to analysis paralysis</li><li>Lack of ongoing engagement and follow-up on identified threats</li></ul>
+                    </div>
+                </div>
+            </div>
             
         </div>
-        
+
         <div class="footer">
             <p>Cyber Emerging Risk Detector • Powered by AI Analysis</p>
         </div>
     </div>
-    
+
     <script>
         // Risk Matrix Chart
         const ctx = document.getElementById('riskMatrix').getContext('2d');
-        const heatmapData = [{"x": 8, "y": 7, "value": 56, "title": "Increasing Demand for Identity Verification Tools", "description": "A noticeable trend in the cybersecurity market is the increasing demand for identity verification tools. As digital transformation accelerates, organizations are urgently integrating these tools to strengthen security measures amidst rising identity theft and fraud incidents. This reliance on electronic identity verification can expose companies to new vulnerabilities, especially where these systems are not comprehensively secured against emerging cybersecurity threats."}, {"x": 7, "y": 6, "value": 42, "title": "Rising Threats to Public Transport Systems", "description": "Recent incidents point to a growing trend of cyber threats targeting public transportation systems, exposing vulnerabilities in their operational technology. The ramifications of such attacks can lead to operational disruptions and compromise passenger safety, demanding heightened security measures to protect critical infrastructure."}, {"x": 6, "y": 5, "value": 30, "title": "Misinformation in Cybersecurity Industry", "description": "There is an emerging challenge of misinformation within the cybersecurity industry. False information or exaggerated claims about product capabilities can mislead consumers and businesses, potentially leading to poor cybersecurity practices and increased vulnerabilities. This misinformation can undermine trust and the effectiveness of cybersecurity measures."}];
-        
+        const heatmapData = [{"x": 9, "y": 9, "value": 81, "title": "Advanced AI-driven Phishing Techniques", "description": "Recent observations indicate a concerning rise in the sophistication of phishing attempts, facilitated by advanced AI technologies. These phishing attacks are no longer just poorly written emails; they now include precisely targeted and contextually relevant lures that mimic legitimate communications almost perfectly. The exploitation of AI for phishing has led to a substantial increase in successful breaches, making them harder to detect with traditional cybersecurity measures."}, {"x": 8, "y": 8, "value": 64, "title": "Exploitation of Vulnerabilities in New Technologies", "description": "A notable trend is the exploitation of emerging vulnerabilities associated with the deployment of new technologies. High-profile vulnerabilities in commonly used software like Microsoft Exchange and Citrix NetScaler were identified and exploited, allowing attackers easy access to sensitive organizational data. Victims often experience substantial disruptions and data breaches, leading to significant operational and financial damage."}, {"x": 9, "y": 8, "value": 72, "title": "Ransomware Attacks on Critical Infrastructure", "description": "The surge in ransomware attacks targeting critical and infrastructural sectors has been alarming. Recent attacks have been noted on educational institutions, healthcare facilities, and local government systems, causing widespread disruption and demanding significant ransom payments. These sectors are targeted due to their critical nature and often outdated security systems, making them vulnerable to extensive damage and operational handicaps."}];
+
         new Chart(ctx, {
             type: 'scatter',
             data: {
@@ -521,13 +836,13 @@
                 }
             }
         });
-        
+
         // Time Series Chart
-        const timeSeriesData = {"labels": ["2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-09", "2023-10", "2023-11", "2023-12"], "datasets": [{"label": "Total Events", "data": [150, 160, 170, 175, 180, 190, 200, 190, 185, 180, 175, 170], "borderColor": "#667eea", "backgroundColor": "rgba(102, 126, 234, 0.1)", "fill": true, "tension": 0.4, "borderWidth": 3}, {"label": "Ransomware", "data": [70, 75, 80, 90, 100, 110, 120, 125, 130, 135, 140, 145], "borderColor": "rgba(220, 53, 69, 1.0)", "backgroundColor": "rgba(220, 53, 69, 0.1)", "fill": false, "tension": 0.4}, {"label": "Phishing", "data": [30, 30, 30, 25, 20, 15, 10, 5, 5, 0, 0, 0], "borderColor": "rgba(40, 167, 69, 1.0)", "backgroundColor": "rgba(40, 167, 69, 0.1)", "fill": false, "tension": 0.4}, {"label": "Data Breach", "data": [50, 55, 60, 60, 60, 65, 70, 60, 50, 45, 35, 25], "borderColor": "rgba(255, 193, 7, 1.0)", "backgroundColor": "rgba(255, 193, 7, 0.1)", "fill": false, "tension": 0.4}]};
-        
+        const timeSeriesData = {"labels": ["2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08"], "datasets": [{"label": "Total Articles", "data": [43, 46, 46, 45, 44, 45, 44, 46, 45, 37, 46, 45], "borderColor": "#667eea", "backgroundColor": "rgba(102, 126, 234, 0.1)", "fill": true, "tension": 0.4, "borderWidth": 3}, {"label": "Ransomware", "data": [11, 12, 14, 8, 9, 10, 10, 11, 9, 10, 22, 11], "borderColor": "rgba(220, 53, 69, 1.0)", "backgroundColor": "rgba(220, 53, 69, 0.1)", "fill": false, "tension": 0.4}, {"label": "Other", "data": [24, 17, 23, 24, 22, 24, 18, 22, 21, 18, 12, 9], "borderColor": "rgba(108, 117, 125, 1.0)", "backgroundColor": "rgba(108, 117, 125, 0.1)", "fill": false, "tension": 0.4}, {"label": "Malware", "data": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1], "borderColor": "rgba(23, 162, 184, 1.0)", "backgroundColor": "rgba(23, 162, 184, 0.1)", "fill": false, "tension": 0.4}, {"label": "Vulnerability Exploit", "data": [1, 1, 0, 0, 3, 0, 2, 1, 2, 5, 4, 8], "borderColor": "rgba(108, 117, 125, 1.0)", "backgroundColor": "rgba(108, 117, 125, 0.1)", "fill": false, "tension": 0.4}, {"label": "Phishing", "data": [5, 11, 7, 4, 2, 8, 11, 6, 10, 3, 6, 12], "borderColor": "rgba(40, 167, 69, 1.0)", "backgroundColor": "rgba(40, 167, 69, 0.1)", "fill": false, "tension": 0.4}, {"label": "Data Breach", "data": [2, 5, 2, 8, 8, 3, 3, 6, 3, 1, 2, 4], "borderColor": "rgba(255, 193, 7, 1.0)", "backgroundColor": "rgba(255, 193, 7, 0.1)", "fill": false, "tension": 0.4}]};
+
         if (timeSeriesData) {
             const timeSeriesCtx = document.getElementById('timeSeriesChart').getContext('2d');
-            
+
             new Chart(timeSeriesCtx, {
                 type: 'line',
                 data: timeSeriesData,
@@ -548,9 +863,10 @@
                         y: {
                             title: {
                                 display: true,
-                                text: 'Number of Events'
+                                text: 'Number of Articles'
                             },
-                            beginAtZero: true
+                            beginAtZero: true,
+                            max: 50
                         }
                     },
                     plugins: {

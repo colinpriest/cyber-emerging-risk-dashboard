@@ -1,0 +1,23 @@
+{
+  "emerging_risks": [
+    {
+      "risk_title": "Advanced AI-driven Phishing Attacks",
+      "description": "Recent advancements in artificial intelligence have led to the emergence of more sophisticated, AI-powered phishing attacks. These attacks are more effective in evading traditional cybersecurity defenses due to their enhanced ability to mimic legitimate communications and thereby trick individuals and automated systems. Phishing remains a precursor to more severe attacks, allowing unauthorized access to sensitive information and systems.",
+      "impact_score": 9,
+      "likelihood_score": 8
+    },
+    {
+      "risk_title": "Ransomware Targeting Critical Infrastructure",
+      "description": "There has been a noticeable increase in ransomware attacks targeting critical infrastructure sectors such as healthcare, education, and government agencies. These attacks are particularly dangerous because they not only aim to extort money but can also disrupt essential services, leading to significant safety concerns and potential loss of life, especially when healthcare systems are compromised.",
+      "impact_score": 10,
+      "likelihood_score": 7
+    },
+    {
+      "risk_title": "Exploitation of Vulnerabilities in New and Legacy Systems",
+      "description": "Cybercriminals are increasingly exploiting not only zero-day vulnerabilities in new systems but also persistently unpatched vulnerabilities in legacy systems. This trend represents a significant vulnerability for organizations that may not have the resources or capability to update or protect older technology, leading to data breaches and extensive access to secure systems.",
+      "impact_score": 8,
+      "likelihood_score": 8
+    }
+  ],
+  "board_summary": "In response to recent cybersecurity trends, it's crucial to highlight three emerging risks: Advanced AI-driven phishing attacks, ransomware targeting critical infrastructure, and the exploitation of vulnerabilities in new and legacy systems. AI-driven phishing has become more sophisticated, making it challenging to detect and prevent. This type of attack is especially dangerous as it often serves as an entry point for more severe breaches. Next, ransomware continues to be a significant threat, now increasingly targeting sectors that impact societal functioning and safety, such as healthcare and government agencies. Lastly, both new and outdated systems are facing attacks due to unpatched vulnerabilities, which requires constant vigilance and timely updates. Board attention is required to ensure that strategies and resources are aligned to combat these evolving threats effectively."
+}

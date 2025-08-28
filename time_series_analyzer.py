@@ -4,94 +4,130 @@ from openai import OpenAI
 from typing import List, Dict, Any
 from datetime import datetime, timedelta
 from data_models import Article, TimeSeriesAnalysis, MonthlyTrend, EventCategory
-from news_fetcher import get_historical_news_summary
+from news_fetcher import get_historical_news_summary, convert_to_ascii
+import json
+from risk_analyzer import convert_model_to_ascii
 
-def analyze_time_series(client: OpenAI, articles: List[Article]) -> TimeSeriesAnalysis:
-    """
-    Analyzes historical news articles to identify time series trends in cyber events.
-    
-    Args:
-        client: OpenAI client instance
-        articles: List of historical articles
-    
-    Returns:
-        TimeSeriesAnalysis object with monthly trends and insights
-    """
-    
-    # Get historical summary data
-    monthly_data = get_historical_news_summary(articles)
-    
-    # Create actual time series data from real articles
-    monthly_trends = create_actual_monthly_trends(monthly_data)
-    
-    # Calculate overall trend from actual data
-    overall_trend = calculate_overall_trend(monthly_data)
-    
-    # Calculate most volatile category from actual data
-    most_volatile_category = calculate_most_volatile_category(monthly_data)
-    
-    # Generate insights from actual data
-    emerging_patterns = identify_emerging_patterns(monthly_data)
-    
-    # Create summary from actual data
-    time_series_summary = create_summary_from_data(monthly_data)
-    
-    return TimeSeriesAnalysis(
-        monthly_trends=monthly_trends,
-        overall_trend=overall_trend,
-        most_volatile_category=most_volatile_category,
-        emerging_patterns=emerging_patterns,
-        time_series_summary=time_series_summary
-    )
+class TimeSeriesAnalyzer:
+    def __init__(self, client: OpenAI):
+        self.client = client
 
-def create_actual_monthly_trends(monthly_data: Dict[str, Any]) -> List[MonthlyTrend]:
-    """
-    Create actual monthly trends from real article data.
-    
-    Args:
-        monthly_data: Dictionary with monthly breakdown
-    
-    Returns:
-        List of MonthlyTrend objects with actual counts
-    """
-    
-    monthly_trends = []
-    sorted_months = sorted(monthly_data.keys())
-    
-    for month in sorted_months:
-        data = monthly_data[month]
+    def analyze_time_series(self, monthly_data: Dict[str, Any], output_path: str) -> TimeSeriesAnalysis:
+        """
+        Analyzes historical news data to identify trends.
+        The analysis result is saved to a JSON file.
+        """
+        print("Analyzing time series trends over 12 months...")
         
-        # Create EventCategory objects from actual data
-        categories = []
-        for category_name, count in data['categories'].items():
-            categories.append(EventCategory(
-                category=category_name,
-                count=count,
-                trend="stable",  # We don't have historical data to calculate trends
-                percentage_change=0.0  # We don't have historical data to calculate changes
-            ))
+        time_series_analysis = self._create_analysis_from_data(monthly_data)
+
+        # Convert all string fields in the Pydantic model to ASCII before saving
+        ascii_time_series_analysis = convert_model_to_ascii(time_series_analysis)
         
-        # Find top threat (category with highest count)
-        top_threat = max(data['categories'].items(), key=lambda x: x[1])[0] if data['categories'] else "None"
+        with open(output_path, "w", encoding="utf-8") as f:
+            # Use ascii_ensure=False for dump, as we've already converted
+            json.dump(ascii_time_series_analysis.model_dump(), f, indent=2, ensure_ascii=False)
+            
+        return time_series_analysis
         
-        # Create key insight based on actual data
-        total_articles = data['total_count']
-        key_insight = f"Found {total_articles} cybersecurity articles in {month}"
-        if data['categories']:
-            top_category = max(data['categories'].items(), key=lambda x: x[1])
-            key_insight += f", with {top_category[0]} being the most prominent threat ({top_category[1]} articles)"
-        
-        monthly_trend = MonthlyTrend(
-            month=month,
-            total_events=data['total_count'],  # Actual article count
-            categories=categories,
-            top_threat=top_threat,
-            key_insight=key_insight
+    def generate_time_series_commentary(self, time_series_analysis: TimeSeriesAnalysis, output_path: str) -> str:
+        """
+        Generates a high-level summary commentary based on time series data.
+        """
+        print("Generating time series commentary...")
+
+        # Create a simplified context for the LLM
+        context = (
+            f"Time Series Summary: {time_series_analysis.time_series_summary}\n"
+            f"Overall Trend: {time_series_analysis.overall_trend}\n"
+            f"Most Volatile Category: {time_series_analysis.most_volatile_category}\n"
+            f"Emerging Patterns: {', '.join(time_series_analysis.emerging_patterns)}"
         )
         
-        monthly_trends.append(monthly_trend)
-    
-    return monthly_trends
+        system_prompt = """
+        You are a Senior Cyber Intelligence Analyst. Your task is to provide a brief, high-level commentary 
+        on the provided time series analysis of cybersecurity news. The commentary should be a single, well-written paragraph.
+
+        Focus on the strategic implications of the data. What does the overall trend suggest? 
+        What is the significance of the most volatile category? Are there any emerging patterns that 
+        the board should be aware of?
+
+        Your audience is the Board of Directors, so the tone should be professional, concise, and non-technical.
+        Do not repeat the raw data; instead, provide interpretation and insight.
+        """
+        
+        commentary = self.client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Please generate commentary based on this data:\n{context}"}
+            ],
+            response_model=str,
+            max_retries=2,
+        )
+        
+        # Convert the raw string commentary to ASCII
+        ascii_commentary = convert_to_ascii(commentary)
+        
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(ascii_commentary)
+            
+        return ascii_commentary
+
+    def _create_analysis_from_data(self, monthly_data: Dict[str, Any]) -> TimeSeriesAnalysis:
+        """
+        Create actual monthly trends from real article data.
+        
+        Args:
+            monthly_data: Dictionary with monthly breakdown
+        
+        Returns:
+            List of MonthlyTrend objects with actual counts
+        """
+        
+        monthly_trends = []
+        sorted_months = sorted(monthly_data.keys())
+        
+        for month in sorted_months:
+            data = monthly_data[month]
+            
+            # Create EventCategory objects from actual data
+            categories = []
+            for category_name, count in data['categories'].items():
+                categories.append(EventCategory(
+                    category=category_name,
+                    count=count,
+                    trend="stable",  # We don't have historical data to calculate trends
+                    percentage_change=0.0  # We don't have historical data to calculate changes
+                ))
+            
+            # Find top threat (category with highest count)
+            top_threat = max(data['categories'].items(), key=lambda x: x[1])[0] if data['categories'] else "None"
+            
+            # Create key insight based on actual data
+            total_articles = data['total_count']
+            key_insight = f"Found {total_articles} cybersecurity articles in {month}"
+            if data['categories']:
+                top_category = max(data['categories'].items(), key=lambda x: x[1])
+                key_insight += f", with {top_category[0]} being the most prominent threat ({top_category[1]} articles)"
+            
+            monthly_trend = MonthlyTrend(
+                month=month,
+                total_events=data['total_count'],  # Actual article count
+                categories=categories,
+                top_threat=top_threat,
+                key_insight=key_insight
+            )
+            
+            monthly_trends.append(monthly_trend)
+        
+        return TimeSeriesAnalysis(
+            monthly_trends=monthly_trends,
+            overall_trend=calculate_overall_trend(monthly_data),
+            most_volatile_category=calculate_most_volatile_category(monthly_data),
+            emerging_patterns=identify_emerging_patterns(monthly_data),
+            time_series_summary=create_summary_from_data(monthly_data)
+        )
 
 def calculate_overall_trend(monthly_data: Dict[str, Any]) -> str:
     """Calculate overall trend from actual monthly data."""
@@ -208,47 +244,6 @@ def create_summary_from_data(monthly_data: Dict[str, Any]) -> str:
     summary += f"Average of {avg_per_month:.1f} articles per month."
     
     return summary
-
-def generate_time_series_commentary(client: OpenAI, time_series_analysis: TimeSeriesAnalysis) -> str:
-    """
-    Generates detailed commentary on the time series analysis.
-    
-    Args:
-        client: OpenAI client instance
-        time_series_analysis: Completed time series analysis
-    
-    Returns:
-        Detailed commentary string
-    """
-    
-    system_prompt = """
-    You are a cybersecurity expert providing detailed commentary on time series analysis of cyber threats.
-    Based on the provided analysis, write a comprehensive commentary that includes:
-    
-    1. Executive Summary: High-level overview of the 12-month trend
-    2. Key Findings: Most significant discoveries from the analysis
-    3. Threat Evolution: How threats have changed over the period
-    4. Seasonal Patterns: Any cyclical or seasonal behaviors identified
-    5. Strategic Implications: What this means for organizations
-    6. Recommendations: Suggested actions based on the trends
-    
-    IMPORTANT: The data represents actual news articles (maximum 10 per month). Focus on
-    insights from this real data rather than assuming larger datasets.
-    
-    Write in a professional, analytical tone suitable for board-level presentation.
-    Focus on actionable insights and strategic implications.
-    """
-    
-    response = client.chat.completions.create(
-        model="gpt-4-turbo",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Generate detailed commentary for this time series analysis:\n{time_series_analysis.model_dump_json(indent=2)}"},
-        ],
-        max_retries=2,
-    )
-    
-    return response.choices[0].message.content
 
 def create_time_series_chart_data(time_series_analysis: TimeSeriesAnalysis) -> Dict[str, Any]:
     """

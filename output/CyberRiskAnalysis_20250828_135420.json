@@ -1,0 +1,29 @@
+{
+  "emerging_risks": [
+    {
+      "risk_title": "Advanced Phishing Techniques with AI Integration",
+      "description": "Recent developments indicate that phishing techniques are becoming highly sophisticated due to the integration of Artificial Intelligence (AI). These AI-enabled attacks are able to generate convincing and contextually relevant lures that can bypass traditional detection methods, increasing both the likelihood and impact of successful breaches. The adoption of AI technologies in phishing presents a significant challenge as it is difficult to detect and mitigate due to its evolving nature.",
+      "impact_score": 8,
+      "likelihood_score": 7
+    },
+    {
+      "risk_title": "Exploitation of Vulnerabilities in New and Legacy Systems",
+      "description": "There has been a marked increase in the exploitation of vulnerabilities both in newly developed technologies and unmaintained legacy systems. Attackers target these vulnerabilities to distribute malware, steal data, or gain unauthorized access to networks. This ongoing and growing threat poses high risks due to the potential access to sensitive information and critical systems, combined with the challenges of securing environments that include both cutting-edge and outdated components.",
+      "impact_score": 7,
+      "likelihood_score": 8
+    },
+    {
+      "risk_title": "Ransomware Attacks Targeting Healthcare and Educational Institutions",
+      "description": "Recent trends have shown an acceleration in ransomware attacks specifically targeting sectors like healthcare and education, exploiting the critical nature and vulnerabilities of these institutions. The impact of such attacks is heightened by the potential for significant disruption to services and the leakage of highly sensitive information, including personal data.",
+      "impact_score": 9,
+      "likelihood_score": 7
+    },
+    {
+      "risk_title": "State-Sponsored Cyber Attacks",
+      "description": "There is a noticeable increase in the frequency and sophistication of cyber attacks attributed to state-sponsored groups. These attacks often involve advanced persistent threats (APTs) and aim at espionage, sabotage, or gaining strategic advantages, showing both high impacts and likelihoods due to the resources and motivations of nation-state actors.",
+      "impact_score": 9,
+      "likelihood_score": 8
+    }
+  ],
+  "board_summary": "The landscape of cyber threats is evolving, with significant increases in AI-enhanced phishing techniques, exploitation of vulnerabilities in both new and legacy systems, and targeted ransomware attacks on critical sectors like healthcare and education. Also, there's an alarming rise in the sophistication and frequency of state-sponsored cyber attacks. These emerging risks require advanced and dynamic cybersecurity strategies to mitigate the potential impacts on our operations and safeguard sensitive information from these high-level threats."
+}

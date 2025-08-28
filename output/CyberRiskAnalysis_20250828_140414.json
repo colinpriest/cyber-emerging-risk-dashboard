@@ -1,0 +1,23 @@
+{
+  "emerging_risks": [
+    {
+      "risk_title": "Exploitation of AI-Enhanced Phishing Attacks",
+      "description": "Cybercriminals are increasingly using sophisticated artificial intelligence (AI) technologies to enhance phishing attacks, making them more difficult to detect. These AI-powered attacks can generate convincingly realistic messages and impersonations, targeting various organizations to steal sensitive information or deploy malware.",
+      "impact_score": 9,
+      "likelihood_score": 8
+    },
+    {
+      "risk_title": "Ransomware Attacks Leveraging Recent Vulnerabilities",
+      "description": "Recent articles indicate a notable trend where ransomware attacks are specifically targeting new and unpatched vulnerabilities in widely used software and systems. This approach allows attackers to exploit security gaps before they are widely recognized and patched, leading to significant data breaches and operational disruptions.",
+      "impact_score": 9,
+      "likelihood_score": 8
+    },
+    {
+      "risk_title": "Cyber Attacks on Healthcare Data",
+      "description": "There is a growing trend of cyber attacks targeting the healthcare sector, with increasing incidents of data breaches reported from phishing and ransomware attacks. The sensitive nature of healthcare data makes it a lucrative target for cybercriminals, posing serious risks to patient privacy and institutional integrity.",
+      "impact_score": 8,
+      "likelihood_score": 7
+    }
+  ],
+  "board_summary": "Our analysis has identified three critical emerging cyber risks. First, AI-enhanced phishing attacks are becoming more sophisticated, using artificial intelligence to create harder-to-detect threats. Secondly, ransomware attackers are increasingly exploiting new software vulnerabilities, taking advantage of the window before patches are applied. Lastly, the healthcare sector is facing a rise in targeted attacks, leading to significant concerns over data security and patient privacy. These evolving cyber threats require our urgent attention and adaptation of our cyber defense strategies to mitigate risks effectively."
+}

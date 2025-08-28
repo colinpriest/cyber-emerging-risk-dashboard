@@ -1,0 +1,735 @@
+{
+  "month": "2025-03",
+  "cache_date": "2025-08-28T16:10:03.389695",
+  "articles": [
+    {
+      "title": "What Is a Ransomware Attack? | CrowdStrike",
+      "description": "Mar 4, 2025 ... Cybersecurity 101: The Fundamentals of Cybersecurity > Introduction to Ransomware ... Ransomware operators often use phishing emails and social engineering\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.crowdstrike.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "H.R.872 - 119th Congress (2025-2026): Federal Contractor ...",
+      "description": "Mar 4, 2025 ... Summary of H.R.872 - 119th Congress (2025-2026): Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.congress.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CISA and Partners Release Cybersecurity Advisory on Medusa ...",
+      "description": "Mar 12, 2025 ... CISA and Partners Release Cybersecurity Advisory on Medusa Ransomware ... Medusa actors use common techniques like phishing campaigns and exploiting\u00a0...",
+      "published_date": "2025-03-12T00:00:00",
+      "source": "www.cisa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How are you handling phishing? : r/cybersecurity",
+      "description": "Mar 24, 2025 ... If you look at the impact of ransomware, which is the biggest threat in my ... Are employees falling for phishing more these days? r/cybersecurity icon.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "NIST Small Business Cybersecurity Webinar: Protecting Your Small ...",
+      "description": "Mar 5, 2025 ... NIST Small Business Cybersecurity Webinar: Protecting Your Small Business from Phishing Risks ... Vulnerability Disclosure \u00b7 No Fear Act Policy \u00b7 FOIA\u00a0...",
+      "published_date": "2025-03-05T11:17:00",
+      "source": "www.nist.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Management (As.) or Security Analyst : r/cybersecurity",
+      "description": "Mar 17, 2025 ... TVM, or Threat and Vulnerability Management, is a great job that lets you work fairly normal hours compared to the other cyber roles.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CISA warns new malware targeting Ivanti zero-day vulnerability ...",
+      "description": "Mar 31, 2025 ... Latest in Vulnerability. Ransomware Data Breach Protection Cyber Security Email Phishing Encrypted Technology, Digital Information Protected Secured.",
+      "published_date": "2025-03-31T00:00:00",
+      "source": "www.cybersecuritydive.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Federal Contractor Cybersecurity Vulnerability Reduction Act ...",
+      "description": "Mar 6, 2025 ... Federal Contractor Cybersecurity Vulnerability Reduction Act Passes in U.S. House ... IBM, Ponemon Report Credits AI for Drop in Data Breach Costs. Most Popular.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.secureworld.io",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Medusa ransomware slams critical infrastructure organizations ...",
+      "description": "Mar 13, 2025 ... The ransomware-as-a-service gang tallied more than 300 victims in ... Vulnerability \u00b7 Cyberattacks \u00b7 Threats \u00b7 Leadership & Careers \u00b7 Policy & Regulation.",
+      "published_date": "2025-03-13T00:00:00",
+      "source": "www.cybersecuritydive.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "ACET and Other Assessment Tools | NCUA",
+      "description": "Mar 19, 2025 ... The Toolbox also houses the Cybersecurity and Infrastructure Security Agency (CISA) Ransomware Readiness Assessment (RRA) ... Vulnerability Disclosure\u00a0...",
+      "published_date": "2025-03-19T00:00:00",
+      "source": "ncua.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Advisory \u2013 Mail Scam Targeting Executives Claims ...",
+      "description": "Mar 6, 2025 ... Cybersecurity Advisory \u2013 Mail Scam Targeting Executives Claims Ties to Ransomware. Impact: All Member Firms. FINRA members should review this information with\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.finra.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber Security (Ransomware Payment Reporting) Rules 2025 ...",
+      "description": "Mar 3, 2025 ... Cyber Security (Ransomware Payment Reporting) Rules 2025. In force. Administered by. Department of Home Affairs. This item is authorised by the following title\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.legislation.gov.au",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Alert - Ongoing Phishing Campaign Impersonating ...",
+      "description": "Mar 13, 2025 ... Member firms should be aware of an ongoing phishing campaign involving fraudulent emails targeting executives and purporting to be from FINRA employees,\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.finra.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "House passes bill requiring federal contractors to have vulnerability ...",
+      "description": "Mar 4, 2025 ... The passage of the Federal Contractor Cybersecurity Vulnerability Reduction Act in the House came a month after Reps. ... data breach reporting rules on\u00a0...",
+      "published_date": "2025-03-04T16:19:35",
+      "source": "cyberscoop.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Alert \u2013 Microsoft SharePoint Critical Vulnerability ...",
+      "description": "Mar 8, 2025 ... FINRA member firms that use Microsoft SharePoint should be aware of a critical vulnerability that affects certain versions of the web-based platform.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.finra.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Risk Management | Vulnerability Management ...",
+      "description": "Mar 21, 2025 ... Ransomware. Stop novel threats first time \u00b7 Phishing. Stop attacks 13 days ... Beyond generic vulnerability scanning. Shows your most immediate\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.darktrace.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "House Votes to Approve Fed Contractor Cybersecurity Act \u2013 MeriTalk",
+      "description": "Mar 4, 2025 ... The Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025 requires OMB and DoD to require all Federal contractors to implement vulnerability\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.meritalk.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Why Prevention-First Security Is the Only Solution to Ransomware",
+      "description": "Mar 17, 2025 ... Prevention-first security is the future of cybersecurity. Learn how Morphisec stops ransomware attacks with its Anti-Ransomware Assurance Suite.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.morphisec.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness Month: Phishing | UC Santa Barbara ...",
+      "description": "Mar 5, 2025 ... Cybersecurity Awareness Month: Phishing. UCSB is participating in Cyber Security Awareness Month (CSAM) during October. The goal of CSAM is\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "it.ucsb.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Advisory warns of Medusa ransomware activity | AHA News",
+      "description": "Mar 14, 2025 ... Advisory warns of Medusa ransomware activity ... A joint advisory released March 12 by the FBI, Cybersecurity and Infrastructure Security Agency, and the Multi-\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.aha.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Understanding the 23andMe Data Breach & Ensuring Cybersecurity",
+      "description": "Mar 26, 2025 ... However, with innovation comes notoriety and vulnerability, as highlighted by the recent data breach at 23andMe. ... Stay vigilant against phishing attempts:.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.risk-strategies.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Most Ransomware Victims Who Pay Up Don't Get Their Data Back",
+      "description": "Mar 25, 2025 ... Cybersecurity Ventures predicts that ransomware costs in damage and ransoms will exceed $265 billion by 2031. According to a Ponemon Institute report, 58\u00a0...",
+      "published_date": "2025-03-25T12:36:05",
+      "source": "cybersecurityventures.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The rural hospital cybersecurity landscape",
+      "description": "Mar 3, 2025 ... phishing campaigns and ransomware, with most activity represented by email ... 33 Vulcan citing IBM's \u201cCost of a Data Breach Report,\u201d August 2023.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "cdn-dynmedia-1.microsoft.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity officials warn against potentially costly Medusa ...",
+      "description": "Mar 15, 2025 ... Medusa uses phishing campaigns as its main method for stealing victims' credentials, according to CISA. To protect against the ransomware, officials recommended\u00a0...",
+      "published_date": "2025-03-15T18:04:07",
+      "source": "apnews.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "RESOURCES | Food and Ag-ISAC",
+      "description": "Mar 13, 2025 ... ... cybersecurity, the role of ISACs, and real-world threats like ransomware and phishing. \u200b. Originally aired on October 28, 2024. image.png. Alliance in Action\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.foodandag-isac.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity In Construction: How To Effectively Mitigate Cyber Risk",
+      "description": "Mar 10, 2025 ... One analyst found that cyber attacks on construction companies doubled from 2023 to 2024.[1] Between 2023 and 2024, phishing and ransomware attacks on\u00a0...",
+      "published_date": "2025-03-10T20:07:02",
+      "source": "www.constructionseyt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "February 2025: Major Cyber Attacks, Ransomware Attacks & Data ...",
+      "description": "Mar 3, 2025 ... US drug testing firm DISA admits that a data breach impacted 3.3 million people. The most worrying part? All these statistics of cyber crime are just from\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.cm-alliance.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Resources for Cybersecurity Training and Attestation | IT@Cornell",
+      "description": "Mar 7, 2025 ... Learn how to spot phishing messages. Cybersecurity Policies. The policies listed here include information about your responsibilities as a Cornell University\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "it.cornell.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CrowdStrike Accelerates Cybersecurity Consolidation with AI ...",
+      "description": "Mar 24, 2025 ... The general availability of the Network Vulnerability Assessment capability enables security teams to identify and remediate high-risk vulnerabilities in\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "ir.crowdstrike.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness - Education and Resources | Microsoft ...",
+      "description": "Mar 24, 2025 ... ... Vulnerability Management \u00b7 Microsoft ... Understand concepts such as cybersecurity, Zero Trust, and ransomware through beginner-level learning modules.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.microsoft.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "US exposes Medusa ransomware threat, as over 300 organizations ...",
+      "description": "Mar 13, 2025 ... Malware, Phishing & Ransomware \u00b7 News. US exposes Medusa ransomware threat, as ... vulnerability and Fortinet EMS SQL injection vulnerability. The\u00a0...",
+      "published_date": "2025-03-13T08:55:44",
+      "source": "industrialcyber.co",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "FBI alerts Gmail users over Medusa Ransomware - Cybersecurity ...",
+      "description": "Mar 13, 2025 ... AllCyber AttackData BreachIdentity FraudInsider ThreatMalwarePhishingQuantumRansomwareSocial EngineeringSupply Chain SecurityVulnerability \u00b7 Ransomware\u00a0...",
+      "published_date": "2025-03-14T05:45:50",
+      "source": "www.cybersecurity-insiders.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing | Cyber.gov.au",
+      "description": "Mar 19, 2025 ... Report a cybercrime, cyber security incident or vulnerability. Report. Show ... Ransomware \u00b7 Scams \u00b7 Social engineering. <notitle>. Malicious insiders \u00b7 Malware\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.cyber.gov.au",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "House Passes Cybersecurity Legislation Led by Congresswoman ...",
+      "description": "Mar 7, 2025 ... The House passed HR 872, the Federal Contractor Cybersecurity Vulnerability Reduction Act, bipartisan legislation co-led by Congresswoman Shontel Brown.",
+      "published_date": "2025-03-07T09:32:40",
+      "source": "shontelbrown.house.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity & Fraud Prevention",
+      "description": "Mar 31, 2025 ... There are many things we can do to identify phishing, scam, and other fraud attempts and protect ourselves and the institution.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.dartmouth.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "NIST Vulnerability Management: Defintion and Implementaion",
+      "description": "Mar 4, 2025 ... Learn how to implement an effective vulnerability management program using NIST standards. Explore best practices, processes, and tools to strengthen\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "cynomi.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New Study Reveals Gaps in Common Types of Cybersecurity Training",
+      "description": "Mar 24, 2025 ... Conducted in collaboration with UC San Diego Health, the research scrutinizes how well these training sessions prepare employees to defend against phishing\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "cs.uchicago.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Dangerous liaisons in cybersecurity: Attackers improve their ...",
+      "description": "Mar 5, 2025 ... Dangerous liaisons in cybersecurity: Attackers improve their phishing methods ... Data Breach Report 2024 conducted by Ponemon Institute. Ponemon's\u00a0...",
+      "published_date": "2025-03-05T00:00:00",
+      "source": "www.eset.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Automate cybersecurity at scale with Microsoft Security Copilot agents",
+      "description": "Mar 24, 2025 ... Phishing Triage Agent \u00b7 Alert Triage Agents for Data Loss Prevention and Insider Risk Management \u00b7 Conditional Access Optimization Agent \u00b7 Vulnerability\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "techcommunity.microsoft.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "BIT - Bureau of Information and Technology - Cybersecurity ...",
+      "description": "Mar 16, 2025 ... According to the 2024 Verizon Data Breach Investigations Report (DBIR), phishing is a significant cybersecurity threat, with the following key statistics.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.sd.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CSG Consultants Sends Data Breach Letters Following Recent ...",
+      "description": "Mar 28, 2025 ... On March 20, 2025, CSG Consultants (\u201cCSG\u201d) filed a notice of data breach ... CSG Consultants Sends Data Breach Letters Following Recent Cybersecurity Incident.",
+      "published_date": "2025-03-28T00:00:00",
+      "source": "www.jdsupra.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Our Federal Contractor Cybersecurity Vulnerability Reduction Act ...",
+      "description": "Mar 4, 2025 ... Our Federal Contractor Cybersecurity Vulnerability Reduction Act passed the House yesterday! Another major win to protect critical infrastructure and...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.facebook.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "NTT DATA Enhances Global Cybersecurity Strategy with Rubrik ...",
+      "description": "Mar 24, 2025 ... \u2013 March 24, 2025 \u2013 As ransomware attacks continue to impact organizations across all industries, there is a clear need for cyber resilience to ensure critical\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.rubrik.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Policies - NASA",
+      "description": "Mar 21, 2025 ... If you wish to report a vulnerability, please see the NASA Vulnerability Policy.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.nasa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The 2023 Rhysida Ransomware Attack on the British Library ...",
+      "description": "Mar 17, 2025 ... \u201c#StopRansomware: Rhysida Ransomware,\u201d CyberSecurity & Infrastructure ... vulnerability/CVE-2020-1472. \u201cPhishing,\u201d MITRE ATT&CK, accessed January 15\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "ital.corejournals.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "SMB Payroll Cybersecurity: Best Practices to Protect Your Business",
+      "description": "Mar 27, 2025 ... While AI advances create new threats, phishing and ransomware remain persistent challenges. ... Schedule regular vulnerability scans using tools like\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "lifthcm.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "NIST's vulnerability database logjam is still growing despite attempts ...",
+      "description": "Mar 19, 2025 ... Vulnerability submissions increased 32% in 2024, NIST said. The agency is considering machine learning to automate certain vulnerability analysis tasks.",
+      "published_date": "2025-03-19T18:28:00",
+      "source": "www.nextgov.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "House Passes Bill Requiring Federal Contractors to Implement ...",
+      "description": "Mar 6, 2025 ... The Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025 ... Telecom Firm Colt Confirms Data Breach as Ransomware Group Auctions Files\u00a0...",
+      "published_date": "2025-03-06T13:50:48",
+      "source": "www.securityweek.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Fraud and Ransomware Dominate Malaysia's Q4 2024 ...",
+      "description": "Mar 3, 2025 ... Cybersecurity Trends in Q4 2024 \u00b7 Fraud (71%) remains the most reported category, with phishing being the dominant attack method. \u00b7 Data breaches (10%) continue\u00a0...",
+      "published_date": "2025-03-03T08:04:23",
+      "source": "cyble.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Rep. Mace's Bill PASSED to Bolster Cybersecurity in Federal ...",
+      "description": "Mar 3, 2025 ... The House of Representatives today passed HR 872, the Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025, bipartisan legislation.",
+      "published_date": "2025-03-03T14:02:59",
+      "source": "mace.house.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber attacks & data breaches in March 2025",
+      "description": "Mar 28, 2025 ... ... vulnerability. More than 140,000 tenants were impacted with the ... Tags: cyber attack cyber security ransomware DDoS. Comments. You must Login or\u00a0...",
+      "published_date": "2025-03-28T00:00:00",
+      "source": "www.cshub.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Annual Cybersecurity Awareness Training Program | Information ...",
+      "description": "Mar 27, 2025 ... This training will cover key cybersecurity topics, including phishing, malware and identity theft. Why the Change? With the increasing frequency and\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "its.fsu.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Insights: Lessons from a Real-World Ransomware ...",
+      "description": "Mar 17, 2025 ... Learn crucial ransomware incident response strategies for MSPs and businesses. Discover the latest threats, challenges, and proactive solutions.",
+      "published_date": "2025-03-17T03:17:52",
+      "source": "rightofboom.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity vulnerabilities and their financial impact | CEPR",
+      "description": "Mar 19, 2025 ... This column uses a novel and direct approach to measure a firm's cyber risk based on the network vulnerability scans. It shows that companies with greater\u00a0...",
+      "published_date": "2025-03-19T00:00:00",
+      "source": "cepr.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Emergence of Medusa Ransomware | Alston & Bird Privacy, Cyber ...",
+      "description": "Mar 14, 2025 ... ... cybersecurity advisory on the growing threat of Medusa ransomware. First ... vulnerability) and CVE-2023-48788 (Fortinet EMS SQL injection\u00a0...",
+      "published_date": "2025-03-14T20:13:35",
+      "source": "www.alstonprivacy.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Travelers Publishes Cyber Threat ... - Travelers Investor Relations",
+      "description": "Mar 6, 2025 ... level of ransomware activity. The report, based on data collected from ransomware ... Travelers works with policyholders by customizing a cybersecurity\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "investor.travelers.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New Morphing Meerkat Phishing Kit Mimics 114 Brands Using ...",
+      "description": "Mar 27, 2025 ... Cybersecurity researchers have shed light on a new phishing-as-a-service (PhaaS) platform that leverages the Domain Name System (DNS) mail exchange (MX)\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "thehackernews.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Real Cost of a Data Breach",
+      "description": "Mar 12, 2025 ... How to Reduce Data Breach Costs \u00b7 Run regular penetration tests to learn more about how hackers perceive your cybersecurity \u00b7 Invest in vulnerability scanning and\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.vikingcloud.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "K-12 Cybersecurity Trend Alert: The MFA and Phishing Playbook for ...",
+      "description": "Mar 5, 2025 ... Whether it's a request for a staff gift card, a more serious push for financial gain, or even a ransomware attack, fallout from phishing can be huge.",
+      "published_date": "2025-03-05T17:41:23",
+      "source": "managedmethods.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber leaders weigh in on proposed vulnerability disclosure policy ...",
+      "description": "Mar 11, 2025 ... Cybersecurity leaders discuss the Federal Contractor Cybersecurity Vulnerability Reduction Act of 2025 ... Security Leaders Share Thoughts on DaVita Data Breach.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.securitymagazine.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Delayed Vulnerability Analysis Puts America at a Cybersecurity ...",
+      "description": "Mar 21, 2025 ... The National Institute of Standards and Technology (NIST) is struggling. It faces a growing backlog to process data in its vulnerability repository,\u00a0...",
+      "published_date": "2025-03-21T18:04:55",
+      "source": "www.fdd.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "FBI issues alert on notorious ransomware group that targeted ...",
+      "description": "Mar 20, 2025 ... Medusa is a ransomware-as-a-service variant used to conduct these attacks. It's hackers employ common techniques such as phishing campaigns and exploiting\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "radiologybusiness.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How Can Generative AI Be Used in Cybersecurity Training? - Hoxhunt",
+      "description": "Mar 14, 2025 ... How generative AI is revolutionizing cybersecurity training with adaptive phishing simulations, personalized learning experiences, and real-time threat\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "hoxhunt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "UD Cybersecurity Club",
+      "description": "Mar 3, 2025 ... Register Now! Ruchi Sheth Cybersecurity Vulnerability Management Leader, Southwest Airlines ... Strategies to Address Ransomware. John Ansbach\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "udallas.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Why human vulnerability is cybersecurity's most significant and ...",
+      "description": "Mar 18, 2025 ... Rather than embedding ransomware or other nefarious code or executing DDoS ... Phishing involves sending fraudulent emails that utilize AI to make them\u00a0...",
+      "published_date": "2025-03-18T00:00:00",
+      "source": "www.securityinfowatch.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Steven Stransky, privacy & cybersecurity lawyer, litigator",
+      "description": "Mar 3, 2025 ... Steve is also a Data Breach Coach and frequently assists clients in responding to ransomware ... cybersecurity threat assessments and data breach response\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.thompsonhine.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity & Data Breach Attorneys | Horn Wright, LLP",
+      "description": "Mar 1, 2025 ... Cybersecurity & Data Breach Attorneys. Cyberattacks and data breaches have ... Ransomware Attacks on New York Businesses \u00b7 Is Your Business Ready for New\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.hornwright.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness",
+      "description": "Mar 12, 2025 ... Cybersecurity Awareness. Cybersecurity is our shared responsibility to protect ... The two most common types of cybercrime are phishing scams and malware.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.k-state.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "A Logical Development of Phishing Attack Detection Methodology ...",
+      "description": "Mar 23, 2025 ... A Logical Development of Phishing Attack Detection Methodology by Using Cybersecurity Principles with Elevated Deep Learning Technology. Abstract\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "ieeexplore.ieee.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Arms Cyber and Solid Border Partner to Strengthen Cybersecurity ...",
+      "description": "Mar 18, 2025 ... Our approach dynamically disrupts ransomware attack vectors\u2014detecting and neutralizing threats before they can impact business operations. This integration not\u00a0...",
+      "published_date": "2025-03-18T13:10:23",
+      "source": "www.armscyber.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Alert - Vulnerability impacting Apache Tomcat (CVE-2025-24813)",
+      "description": "Mar 19, 2025 ... Canadian Centre for Cyber Security \u00b7 Alerts and advisories. Alert - Vulnerability impacting Apache Tomcat (CVE-2025-24813). Number: AL25-002. Date: March 19\u00a0...",
+      "published_date": "2025-03-19T00:00:00",
+      "source": "www.cyber.gc.ca",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Officials Warn Against Potentially Costly Medusa ...",
+      "description": "Mar 17, 2025 ... Medusa uses phishing campaigns as its main method for stealing victims' credentials, according to CISA. To protect against the ransomware, officials recommended\u00a0...",
+      "published_date": "2025-03-17T06:16:13",
+      "source": "www.insurancejournal.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "OIT Spotlight: Georgia Tech Cybersecurity | Office of Information ...",
+      "description": "Mar 6, 2025 ... ... phishing, ransomware, and DDoS attacks. In collaboration with business continuity efforts, they ensure rapid response to incidents and system disruptions\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.oit.gatech.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Why Law Firms Are Targeted by Cyber Attacks | Stay Secure",
+      "description": "Mar 15, 2025 ... Phishing cyber attacks remain one of the most prevalent cybersecurity threats against law firms. ... Ransomware cyber attacks involve cybercriminals\u00a0...",
+      "published_date": "2025-03-15T06:14:29",
+      "source": "www.cyberproof.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Code for All_ | // Stay sharp, stay safe! . . . #Cybersecurity #Phishing ...",
+      "description": "Mar 25, 2025 ... 28 likes, 0 comments - wearecodeforall on March 25, 2025: \" // Stay sharp, stay safe! . . . #Cybersecurity #Phishing #Tip\".",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.instagram.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ghost Ransomware: A Wake-Up Call for Cybersecurity",
+      "description": "Mar 18, 2025 ... \u200dEnforce phishing-resistant MFA: Require multi-factor authentication (MFA) ... With Concord's proactive risk management, vulnerability remediation, and\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.concordusa.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "tmylla/Awesome-LLM4Cybersecurity: An overview of LLMs ... - GitHub",
+      "description": "Mar 3, 2025 ... Boosting Cybersecurity Vulnerability Scanning based on LLM-supported Static ... Adapting to Cyber Threats: A Phishing Evolution Network (PEN) Framework for\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "github.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Cost of a Data Breach and How Cybersecurity Saves",
+      "description": "Mar 5, 2025 ... The Cost of a Data Breach: Why Investing in Cybersecurity Saves Money ... Data breaches are more than just IT issues, they have far-reaching financial,\u00a0...",
+      "published_date": "2025-03-05T11:04:54",
+      "source": "convergencenetworks.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Tennessee Data Breach & Cybersecurity Laws",
+      "description": "Mar 28, 2025 ... View all data breach laws, insurance data security and cybersecurity regulations for SMBs operating within the State of Tennessee here.",
+      "published_date": "2025-03-28T19:41:22",
+      "source": "tekrisq.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The MOVEit Data Breach: Understanding the Risks and Mitigation ...",
+      "description": "Mar 14, 2025 ... ... data breach, exposing sensitive information from thousands of ... #StopRansomware: CL0P Ransomware Gang Exploits CVE-2023-34362 MOVEit Vulnerability.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "westoahu.hawaii.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Database",
+      "description": "Mar 23, 2025 ... EU Vulnerability Database (EUVD) - the official EU repository for timely, curated cybersecurity vulnerability intelligence and remediation guidance.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "euvd.enisa.europa.eu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware 2025: Lessons from the Past Year and What Lies Ahead",
+      "description": "Mar 2, 2025 ... Southern Water (U.K.): In February 2024, Southern Water reported a data breach that exposed personal and operational data. ... Tags: RansomwareCybersecurity \u00b7 Dan\u00a0...",
+      "published_date": "2025-03-02T10:00:00",
+      "source": "www.govtech.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "7 Cybersecurity Frameworks to Reduce Cyber Risk in 2025",
+      "description": "Mar 6, 2025 ... ... vulnerability assessments, and more. Read more about effective strategies ... data breach notification requirements (companies must notify their\u00a0...",
+      "published_date": "2025-03-06T00:00:00",
+      "source": "www.bitsight.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "WoW Hit by Massive Breach as Arkana Ransomware Exposes Weak ...",
+      "description": "Mar 27, 2025 ... Home \u00bb Cybersecurity \u00bb WoW Hit by Massive Breach as Arkana Ransomware Exposes Weak Security ... Massive Data Breach Hits WideOpenWest, Hackers Claim\u00a0...",
+      "published_date": "2025-03-27T00:00:00",
+      "source": "brilliancesecuritymagazine.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Medusa ransomware cyberattacks pose a significant threat to security",
+      "description": "Mar 16, 2025 ... Federal cybersecurity agencies and the FBI have warned the public against a dangerous ransomware scheme that has affected hundreds of people.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.usatoday.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Impact of Cryptocurrency on Cybersecurity | Management Science",
+      "description": "Mar 27, 2025 ... Ransomware attacks and conventional attacks often exploit a vulnerability to gain access to a system and activate a backdoor. For example, a recent report by\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "pubsonline.informs.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CVE 101: Navigating the Path from Vulnerability Discovery to ...",
+      "description": "Mar 21, 2025 ... ... vulnerability tracking, why it matters, and how you can strengthen cybersecurity ... Data Breach Readiness \u00b7 Tabletop & Simulated Exercises \u00b7 Incident\u00a0...",
+      "published_date": "2025-03-21T17:54:25",
+      "source": "www.assurit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Lyn Brown | Cybersecurity | National Security | Ransomware ...",
+      "description": "Mar 25, 2025 ... ... ransomware attacks, incident response, and cybersecurity information sharing. ... Prepares or reviews cyber incident response plans, vulnerability assessments,\u00a0...",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "www.wiley.law",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Gaza war pushes Israel-UAE ransomware cooperation back behind ...",
+      "description": "Mar 13, 2025 ... In mid-February, the head of the UAE Cyber Security Council implausibly claimed that all ransomware attempts in the state in 2024 were 'successfully thwarted'\u00a0...",
+      "published_date": "2025-03-13T07:26:02",
+      "source": "bindinghook.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware in Healthcare: Threats, Impacts, and Mitigation ...",
+      "description": "Mar 28, 2025 ... phishing attempts, thereby establishing a well-informed front line of defence. ... professionals/security/guidance/cybersecurity/ransomware-fact-sheet/index.html.",
+      "published_date": "2025-03-01T00:00:00",
+      "source": "mds.marshall.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity officials warn of ransomware targeting users of email ...",
+      "description": "Mar 15, 2025 ... ... Analysis Center are warning of a new phishing campaign by Medusa ransomware operators targeting email users to gain network access.",
+      "published_date": "2025-03-15T19:27:33.518000",
+      "source": "www.cleveland.com",
+      "category": null,
+      "is_cyber_event": null
+    }
+  ],
+  "count": 91
+}

@@ -1,0 +1,711 @@
+{
+  "month": "2024-09",
+  "cache_date": "2025-08-28T16:25:42.269713",
+  "articles": [
+    {
+      "title": "Risk and Vulnerability Assessments | CISA",
+      "description": "Sep 13, 2024 ... Risk and Vulnerability Assessments. Revision Date. September 13, 2024. Related topics: Cybersecurity Best Practices, Cyber\u00a0...",
+      "published_date": "2024-09-13T00:00:00",
+      "source": "www.cisa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Boosting Cybersecurity Vulnerability Scanning based on LLM ...",
+      "description": "Sep 24, 2024 ... Abstract page for arXiv paper 2409.15735: Boosting Cybersecurity Vulnerability Scanning based on LLM-supported Static Application Security Testing.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "arxiv.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top 10 Vulnerability Scanning Tools | Balbix",
+      "description": "Sep 19, 2024 ... The Best Vulnerability Scanner Tools \u00b7 Vulnerability scanning is a key component of any effective cybersecurity strategy. \u00b7 Nessus, developed by Tenable, is one\u00a0...",
+      "published_date": "2024-09-19T09:05:38",
+      "source": "www.balbix.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What is Vulnerability Scanning? Types, Benefits & Challenges | Balbix",
+      "description": "Sep 17, 2024 ... Vulnerability scanning is a crucial process within any comprehensive cybersecurity program. It involves the automated detection of security weaknesses in\u00a0...",
+      "published_date": "2024-09-17T18:58:36",
+      "source": "www.balbix.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "ENISA Threat Landscape 2024 identifies availability, ransomware ...",
+      "description": "Sep 20, 2024 ... Malware, Phishing & Ransomware \u00b7 News \u00b7 Reports \u00b7 Threat Landscape. ENISA Threat ... The document aims to align existing cybersecurity and vulnerability\u00a0...",
+      "published_date": "2024-09-20T14:44:53",
+      "source": "industrialcyber.co",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Recommend phishing tool to test users : r/cybersecurity",
+      "description": "Sep 23, 2024 ... I have been tasked with finding a phishing tool to test our users. We want to keep cost low, preferably free with the goal to identify those who are most\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Vulnerability Management Analyst - Careers at ADT",
+      "description": "Sep 4, 2024 ... Cybersecurity Vulnerability Management Analyst (Job 3015547). Boca Raton, FL. Additional Locations: Blue Bell, PA | Irving, TX |. Category:\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "jobs.adt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Management future career options : r/cybersecurity",
+      "description": "Sep 5, 2024 ... I just wanted to ask, what are potential future paths in cybersecurity after the vulnerability management role? Desirable fields for me are Cloud Security or\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Division of IT to conduct controlled phishing tests for cybersecurity ...",
+      "description": "Sep 13, 2024 ... What is phishing? Phishing is a form of cyber-attack where malicious actors attempt to trick individuals into providing sensitive information, such as usernames\u00a0...",
+      "published_date": "2024-09-13T19:25:38",
+      "source": "source.colostate.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Vulnerabilities - A Complete Guide for 2025",
+      "description": "Sep 9, 2024 ... ... phishing attacks, social engineering tactics, and other cybersecurity vulnerabilities. ... Burp Suite is a web vulnerability scanner and penetration\u00a0...",
+      "published_date": "2024-09-09T11:32:00",
+      "source": "sprinto.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Schools, colleges faced record-breaking year of ransomware attacks ...",
+      "description": "Sep 3, 2024 ... Vulnerability ... Comparitech compiled its data on ransomware attacks by looking through specialist IT news, data breach reports and state reporting tools.",
+      "published_date": "2024-09-03T00:00:00",
+      "source": "www.cybersecuritydive.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity news: US authorities issue ransomware warning ...",
+      "description": "Sep 16, 2024 ... Require phishing-resistant multi-factor authentification (ie, non-SMS text ... To end the data breach epidemic, do we need to rethink data sharing? Jon\u00a0...",
+      "published_date": "2024-09-16T00:00:00",
+      "source": "www.weforum.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What is Phishing in Cybersecurity - A Complete Explanation",
+      "description": "Sep 10, 2024 ... Regular vulnerability assessmentcan help in identifying weaknesses that might be exploited by phishing schemes. ... ransomware that locks the user out of\u00a0...",
+      "published_date": "2024-09-10T13:21:43",
+      "source": "amatas.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What Is Ransomware-as-a-Service (RaaS)? | IBM",
+      "description": "Sep 5, 2024 ... ... Data Breach report, the average ransomware ... Show employees how to recognize and avoid common ransomware vectors including phishing, social engineering and\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.ibm.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "August 2024: Biggest Cyber Attacks, Data Breaches, Ransomware ...",
+      "description": "Sep 2, 2024 ... Patelco Credit Union warned customers it suffered a data breach after personal data was stolen in a RansomHub ransomware attack earlier this year. Patelco\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.cm-alliance.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How can UCLA protect against phishing, ransomware and other ...",
+      "description": "Sep 30, 2024 ... How can UCLA protect against phishing, ransomware and other threats? UCLA's 'top IT cop' Drake Chang discusses the crucial importance of cybersecurity awareness.",
+      "published_date": "2024-09-30T00:00:00",
+      "source": "newsroom.ucla.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing Simulation: How It Works & 5 Tools to Get You Started",
+      "description": "Sep 3, 2024 ... A phishing simulation is a cybersecurity ... Gophish is an open-source phishing framework that helps assess an organization's vulnerability to phishing attacks.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.cynet.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber security expert calls ransomware attack on UMC a 'national ...",
+      "description": "Sep 27, 2024 ... The University Medical Center Health System remains under attack Friday evening. On Thursday, the hospital confirmed a ransomware attack led to an IT outage.",
+      "published_date": "2024-09-28T00:32:26.651000",
+      "source": "www.kcbd.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Scanner Basics part 2 - IT and Cybersecurity ...",
+      "description": "Sep 20, 2024 ... Vulnerability Scanner Basics part 2 \u00b7 Career Paths IT and Cybersecurity Foundations \u00b7 omobaoye September 20, 2024, 4:54am 1. Good day everyone, Please I need\u00a0...",
+      "published_date": "2024-09-20T04:54:56",
+      "source": "forums.cybrary.it",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Enterprise Cybersecurity Solutions, Services & Training | Proofpoint ...",
+      "description": "Sep 22, 2024 ... Learn about this growing threat and stop attacks by securing ransomware's top vector: email. ... 2. See how we examine URL phishing threats that rely on URLs to\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.proofpoint.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity in the Age of Industry 4.0 - Part 1 | Foley & Lardner LLP",
+      "description": "Sep 12, 2024 ... The continued focus and rise of malware attacks, such as ransomware, on the manufacturing industry is due to several unique factors that make the manufacturing\u00a0...",
+      "published_date": "2024-09-12T20:15:39",
+      "source": "www.foley.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "UC Berkeley Student Research Team Discovers Cybersecurity ...",
+      "description": "Sep 27, 2024 ... UC Berkeley Student Research Team Discovers Cybersecurity Vulnerability in National Competition. From left to right: Marlon Fu, Francisco Laplace, and\u00a0...",
+      "published_date": "2024-09-27T22:53:48",
+      "source": "cltc.berkeley.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Why Law Firm Data Breaches Are Skyrocketing in 2024 | ProcessBolt",
+      "description": "Sep 27, 2024 ... ... data breach. The legal sector's vulnerability to cyber attacks stems from a ... phishing scams, social engineering attacks, and other tactics\u00a0...",
+      "published_date": "2024-09-27T21:15:43",
+      "source": "processbolt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness Month 2024 | CSA",
+      "description": "Sep 9, 2024 ... Blog: 5 Reasons Phishing is Your Biggest Cybersecurity Problem \u00b7 Blog: QR ... Blog: Safeguarding the Healthcare Industry: Effective Measures to Prevent Ransomware\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "e.cloudsecurityalliance.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Healthcare cybersecurity | Solutions to prevent cyber attacks",
+      "description": "Sep 17, 2024 ... Healthcare providers need cybersecurity solutions including data protection and data encryption to protect this data against ransomware, malware, data\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.sygnia.co",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "5 Cybersecurity Predictions for 2025 - Morefield",
+      "description": "Sep 24, 2024 ... First on our cybersecurity 2025 forecast is the increasing frequency of ransomware attacks. ... phishing email or scale their attacks to affect more targets.",
+      "published_date": "2024-09-24T18:25:47",
+      "source": "morefield.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber Security Simulation Training: How it Works + Best Practices ...",
+      "description": "Sep 6, 2024 ... Cybersecurity simulation training simulates real-world incidents like ransomware and phishing attacks. ... Assess your vulnerability to common phishing\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "hoxhunt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What Does a Cybersecurity Specialist Do? | Academic and Career ...",
+      "description": "Sep 4, 2024 ... What Is Cybersecurity? Viruses, Trojans, and Other Malware; Ransomware; Social Engineering; Phishing Emails and Texts; Denial of Service Attacks. Why Is\u00a0...",
+      "published_date": "2024-09-04T21:52:33",
+      "source": "programs.austincc.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Reporting Program",
+      "description": "Sep 25, 2024 ... As a result, we have initiated this Vulnerability Reporting Program for security researchers to report new vulnerabilities that they discover in our products\u00a0...",
+      "published_date": "2024-09-25T12:00:00",
+      "source": "www.jnj.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware Incidents | Dell APEX AIOps Infrastructure ...",
+      "description": "Sep 9, 2024 ... Ransomware Incidents enables users to monitor for cybersecurity ransomware incidents in near real time. At the time of publication, ransomware incidents is\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "infohub.delltechnologies.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Surge in Phishing Attacks: A Rising Threat for Enterprises ...",
+      "description": "Sep 10, 2024 ... Selecting the right cybersecurity products to mitigate phishing risks is a crucial task for any enterprise. ... vulnerability to phishing attacks and protect\u00a0...",
+      "published_date": "2024-09-10T16:56:54",
+      "source": "www.portnox.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Hub | NTC National Test Institute for Cybersecurity",
+      "description": "Sep 18, 2024 ... Discover the National Test Institute for Cybersecurity's Vulnerability Hub, showcasing vulnerabilities in digital products and network infrastructures.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "hub.ntc.swiss",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Webinar: Learn to Boost Cybersecurity with AI-Powered ...",
+      "description": "Sep 2, 2024 ... Discover how AI is transforming vulnerability management, helping security teams identify, prioritize, and remediate risks effectively.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "thehackernews.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Advisory \u2013 Increasing Cybersecurity Risks at Third ...",
+      "description": "Sep 9, 2024 ... ... ransomware group. The unpatched vulnerability resulted in data breaches that led to extortion and ransomware events at firms or third-party providers, the\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.finra.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How is Ohio tackling cybersecurity amid ransomware attacks on cities?",
+      "description": "Sep 22, 2024 ... Recent ransomware attacks have crippled cities including Columbus and ... The average cost of a data breach in 2024 was $4.88 million, according to IBM.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.dispatch.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Fortra Cybersecurity Experts",
+      "description": "Sep 24, 2024 ... Vulnerability Management; Penetration Testing; Phishing; Cloud Security. Image \u00b7 Bob Erdman. Associate VP, Development. Cybersecurity; Phishing\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.fortra.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Detection of Phishing URLs Based on Machine Learning and ...",
+      "description": "Sep 10, 2024 ... Detection of Phishing URLs Based on Machine Learning and Cybersecurity. Abstract: Phishing attacks represent a significant threat in the digital landscape\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "ieeexplore.ieee.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Manufacturing Industry Faces Surge in Ransomware Attacks in 2024 ...",
+      "description": "Sep 6, 2024 ... ... Cybersecurity, Ransomware|. Contents. 1. MKS Instruments (February 2023) ... The attack highlighted the vulnerability of manufacturing companies to ransomware\u00a0...",
+      "published_date": "2024-09-06T13:49:57",
+      "source": "www.blackfog.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Despite increasing cybersecurity attacks, people still believe ...",
+      "description": "Sep 24, 2024 ... Cybersecurity breaches and phishing schemes aren't solely a worry for ... phishing \u2013 exploiting human vulnerability in 68% of breaches. It's no longer\u00a0...",
+      "published_date": "2024-09-24T00:00:00",
+      "source": "www.yubico.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness Month | University of Colorado",
+      "description": "Sep 27, 2024 ... Cybersecurity Roundtable: Phishing, AI, and Protecting Your Data. CU's ... Surviving Ransomware. Charlie Marmon, Colorado Cybersecurity State Coordinator\u00a0...",
+      "published_date": "2024-09-04T10:21:58",
+      "source": "www.cu.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Pennsylvania's amendments to data breach notification law take ...",
+      "description": "Sep 30, 2024 ... Contact us at breachresponse@constangy.com or by phone at 877-DTA-BRCH. Tags: CyberMonday, Cybersecurity, Data Breach, Data Security, Personal Data \u00b7 Facebook\u00a0...",
+      "published_date": "2024-09-30T00:00:00",
+      "source": "www.constangy.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "'They're attractive targets': Cybersecurity attacks on schools are ...",
+      "description": "Sep 9, 2024 ... The organization identified at least 325 ransomware attacks on U.S. school districts between April 2016 and November 2022, but the situation has only worsened,\u00a0...",
+      "published_date": "2024-09-09T20:08:41",
+      "source": "www.geekwire.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Tips for New and Returning Buckeyes | Office of ...",
+      "description": "Sep 6, 2024 ... This article provides strategies on avoiding phishing scams, enhancing your account security with BuckeyePass, and responsibly using AI tools to help you stay\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "it.osu.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness Month 2024 | Information Security",
+      "description": "Sep 24, 2024 ... ... Vulnerability ManagementProtected Network ... Duke has a simulated phishing program designed to educate our users on recognizing and reporting suspected phishing\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "security.duke.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Accenture Federal Services Wins $90 Million Cybersecurity and ...",
+      "description": "Sep 25, 2024 ... 25, 2024 \u2013 Accenture Federal Services has won a $90 million prime contract to provide data analytics and vulnerability ... ransomware payments, enabling\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "newsroom.accenture.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Dell's Triple Breach, a Critical Wake-Up Call for Cybersecurity ...",
+      "description": "Sep 27, 2024 ... In response, Dell warned its customers of the data breach through data breach ... Watch for signs of phishing attempts including unsolicited texts and\u00a0...",
+      "published_date": "2024-09-27T17:59:47",
+      "source": "cybersecurityasia.net",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The International Counter Ransomware Initiative: From Forming and ...",
+      "description": "Sep 24, 2024 ... By leveraging the full strengths and capabilities of the private sector, the CRI can enhance its ability to disrupt ransomware operations, improve cybersecurity\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.centerforcybersecuritypolicy.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Security Blue Team: Defensive Cybersecurity Certifications",
+      "description": "Sep 27, 2024 ... Our Junior Security Operations training and certification covers Phishing Analysis, Digital Forensics, Threat Intelligence, SIEM, and Incident Response. 8\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.securityblue.team",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "DragonForce Ransomware Group | Group-IB Blog",
+      "description": "Sep 25, 2024 ... Patch it up: The longer a vulnerability remains unpatched, the greater the ... phishing emails). Control vulnerabilities: Do not turn a blind eye to\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.group-ib.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware attacks escalate as critical sectors struggle to keep up ...",
+      "description": "Sep 4, 2024 ... ransomware cybersecurity threat. Most ransomware attacks occur between 1 ... ransomware incidents attributable to a remote access vulnerability. The\u00a0...",
+      "published_date": "2024-09-04T03:00:48",
+      "source": "www.helpnetsecurity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "RansomHub Ransomware Targets Critical Infrastructure: A Detailed ...",
+      "description": "Sep 10, 2024 ... Educate Employees: Train your staff on cybersecurity best practices, including phishing awareness and secure password management. ... ransomware attacks\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "mixmode.ai",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Resources | Jackson County, MI",
+      "description": "Sep 5, 2024 ... Phishing Attack Prevention: How to Identify & Avoid Phishing Scams (External Link) ... data breach - other services and products on this site may carry a fee)\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.mijackson.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Legal implications for clinicians in cybersecurity incidents: A review ...",
+      "description": "Sep 27, 2024 ... Another significant threat in the healthcare cybersecurity landscape is the vulnerability of medical devices. ... ransomware attacks, and phishing schemes. The\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "pmc.ncbi.nlm.nih.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top Five Cyber-Attacks Impacting the UK Public Sector in 2024",
+      "description": "Sep 16, 2024 ... A ransomware attack on pathology supplier Synnovis on June 3 has significantly impacted patient care. ... The phishing site was subsequently removed. It is\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.infosecurityeurope.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Recognizing and Reporting Phishing | Ohio University",
+      "description": "Sep 19, 2024 ... StationX, a top cyber security training and development platform, reports that 3.4 billion phishing emails are sent every day, accounting for 1.2% of all email\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.ohio.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Effects of visual risk indicators on phishing detection behavior: An ...",
+      "description": "Sep 15, 2024 ... Cybersecurity vulnerability ranks among the foremost global business risks. Phishing attempts, in particular through email, persistently challenge\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.sciencedirect.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "LA County Superior Court ransomware attack: Security failure? Or ...",
+      "description": "Sep 11, 2024 ... ... ransomware crooks. Indeed, that's something we've covered in this space ... Cybersecurity Threat Advisory: Microsoft SharePoint zero-day vulnerability\u00a0...",
+      "published_date": "2024-09-11T12:05:00",
+      "source": "blog.barracuda.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "National Cybersecurity Awareness Month: Protect Our House ...",
+      "description": "Sep 12, 2024 ... Rising cyber threats: As technology advances, so do cyber threats. Phishing scams, malware attacks, and ransomware are becoming more sophisticated and frequent.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "tech.rochester.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "14 recent cyber attacks on the transport & logistics sector",
+      "description": "Sep 29, 2024 ... Privately owned international cargo freight forwarder, JAS Worldwide, experienced a ransomware attack on 27 August 2024, causing technical disruptions and\u00a0...",
+      "published_date": "2024-09-29T10:17:57",
+      "source": "wisdiam.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CECOM 'Secures Our World' during Cybersecurity Awareness ...",
+      "description": "Sep 26, 2024 ... Phishing remains a major vulnerability, especially for our military. Awareness and skepticism are your best defenses (Verizon DBIR). Update software\u00a0...",
+      "published_date": "2024-09-26T14:56:01",
+      "source": "www.army.mil",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Pennsylvania's Updated Data Breach Notification Law | Buchanan ...",
+      "description": "Sep 18, 2024 ... This change acknowledges the pervasive threat of ransomware attacks and other cybersecurity threats: data can be compromised without being exfiltrated and\u00a0...",
+      "published_date": "2024-09-18T11:04:00",
+      "source": "www.bipc.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Best Practices and Resources",
+      "description": "Sep 6, 2024 ... Failure to recognize a phishing attempt could result in identity theft, credit card fraud, ransomware attacks and huge financial losses for your county. That's\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.county.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "E-commerce and Cybersecurity: What You Need to Know ...",
+      "description": "Sep 16, 2024 ... ... data breach for e-commerce websites is 280 days. \u2013 GITNUX REPORT 2024. E-commerce Phishing Attack Cybersecurity. What\u00a0...",
+      "published_date": "2024-09-16T15:15:55",
+      "source": "enterprisedefence.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What is Phishing Dwell Time and Quickest Response Time? - Keepnet",
+      "description": "Sep 19, 2024 ... ... phishing attempts, organizations can significantly reduce their vulnerability to ... cybersecurity awareness training is helping staff recognize phishing threats.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "keepnetlabs.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "9 Core Responsibilities of an IT Security Manager",
+      "description": "Sep 26, 2024 ... Vulnerability Intelligence \u00b7 Attack Surface Intelligence \u00b7 Ransomware Intelligence ... cybersecurity compliance framework. The IT security manager is the living\u00a0...",
+      "published_date": "2024-09-26T00:00:00",
+      "source": "www.bitsight.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity: CVE-2021-44228 aka. Log4Shell",
+      "description": "Sep 16, 2024 ... This article presents information on the Log4Shell vulnerability in the Apache Log4j component. It provides guidance on steps to strengthen your cybersecurity.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.universal-robots.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Security Awareness and Phishing - BOSSIT Cyber Security",
+      "description": "Sep 26, 2024 ... ... vulnerability to phishing. The Phished Report Button engages users and helps stop threats before they cause harm. Pricing for User Awareness Training and\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.bossit.be",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "59% of Asia/Pacific Enterprises Targeted by Ransomware in ... - IDC",
+      "description": "Sep 2, 2024 ... A staggering 59.6% of enterprises in the region experienced ransomware attacks in 2023. The report highlights the urgent need for enhanced cybersecurity\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "my.idc.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top 7 cybersecurity vulnerabilities | PDQ",
+      "description": "Sep 24, 2024 ... A security threat marks the moment a hacker acts on a vulnerability, exploiting it for nefarious purposes. ... Phishing is one of the most popular cybersecurity\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.pdq.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "IDEM Voluntary Cyber Security Vulnerability Assessment - Alliance ...",
+      "description": "Sep 1, 2024 ... IDEM Voluntary Cyber Security Vulnerability Assessment. Date postedJune 20, 2024. in. Click Here \u00b7 Diamond Associate Member Spotlight: National Water\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.inh2o.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Industry Letter - September 27, 2024: Cybersecurity Threat Alert ...",
+      "description": "Sep 27, 2024 ... ... phishing attacks: Avoiding Social Engineering and Phishing Attacks | CISA. Who We Supervise. Institutions That We Supervise. The Department of Financial\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.dfs.ny.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New information security annual training & simulated phishing ...",
+      "description": "Sep 30, 2024 ... We are now offering annual, online training for all faculty and staff. We will also be conducting simulated phishing assessments throughout the year.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "oit.princeton.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "WannaCry Ransomware: The Cybersecurity Nightmare That Still ...",
+      "description": "Sep 18, 2024 ... This code, called \u201cEternalBlue,\u201d targeted a vulnerability in Microsoft's Server Message Block (SMB) protocol, allowing the ransomware to spread rapidly across\u00a0...",
+      "published_date": "2024-09-18T14:12:22",
+      "source": "www.provendata.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Integration of Ransomware.live with OpenCTI | Filigran Blog",
+      "description": "Sep 23, 2024 ... In today's cybersecurity landscape, staying ahead of evolving threats requires real-time intelligence and collaborative efforts. Ransomware.live, created by\u00a0...",
+      "published_date": "2024-09-23T13:18:35",
+      "source": "filigran.io",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "U.S. Maritime Trade and Port Cybersecurity",
+      "description": "Sep 17, 2024 ... Phishing, like all social engineering tactics, requires just one person to unwittingly fall prey to an attack. Unlike other cyber threats, ransomware makes\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.dhs.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "K-12 Cybersecurity | U.S. Department of Education",
+      "description": "Sep 17, 2024 ... Cyber incidents in K-12 range from electronic-based data breaches of student, teacher or other school community members and ransomware attacks to online class\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.ed.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Practical Approaches to Effective Remedial Training for ...",
+      "description": "Sep 23, 2024 ... Cybersecurity remedial training programs are large-scale efforts that should ... Phishing simulation platform to test employees on their phishing knowledge.",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.terranovasecurity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Enterprise Cybersecurity Training - Jericho Security",
+      "description": "Sep 27, 2024 ... From phishing simulations to real-time reporting, our platform helps ... cybersecurity-phishing. What your enterprise gains from cybersecurity\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.jerichosecurity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top Cyber Attacks on Government Agencies | Arctic Wolf",
+      "description": "Sep 19, 2024 ... The vulnerability became known only during and after the Cl0p ransomware ... By investing in a security training solution that offers phishing simulations,\u00a0...",
+      "published_date": "2024-09-19T14:13:52",
+      "source": "arcticwolf.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "AI-driven vulnerability scanning for cybersecurity",
+      "description": "Sep 12, 2024 ... Learn how Artificial Intelligence is enhancing vulnerability scanning and changing the cybersecurity game with next-gen AI and ML integration in DevOps\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.opcito.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Rising Threat of Ransomware in Manufacturing",
+      "description": "Sep 3, 2024 ... This alarming statistic highlights the vulnerability of this sector to such attacks. ... IBM's recently released \"Cost of a Data Breach 2024 Report\u00a0...",
+      "published_date": "2024-09-03T07:16:00",
+      "source": "www.threatintelligence.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Rubrik Leads the Way in Cyber Resilience: Ranked Highest for ...",
+      "description": "Sep 19, 2024 ... We are thrilled to announce that Rubrik has been ranked highest for the ransomware protection, detection, and recovery use case in the 2024 Gartner Critical\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.rubrik.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ethical Hacking vs. Vulnerability Assessment | JUMPSEC",
+      "description": "Sep 5, 2024 ... Both Ethical Hacking and Vulnerability Assessment are integral to a comprehensive cybersecurity strategy. ... Newest Blog PostUK Ransomware Payment Ban\u00a0...",
+      "published_date": "2024-09-05T11:15:16",
+      "source": "www.jumpsec.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What is a CVE?",
+      "description": "Sep 4, 2024 ... Once made public, a CVE entry includes the CVE ID (in the format \"CVE-2019-1234567\"), a brief description of the security vulnerability or exposure, and\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.redhat.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber Attacks: Your Beginner's Guide to Understanding the Threat ...",
+      "description": "Sep 17, 2024 ... Malware Attacks \u00b7 WannaCry ransomware attack in 2017 ; Phishing Scams \u00b7 a phishing attack ; Social Engineering Attacks \u00b7 2013 Target data breach ; Denial-of-Service (\u00a0...",
+      "published_date": "2024-09-17T16:31:52",
+      "source": "thrivedx.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Healthcare Technology Security | HHS.gov",
+      "description": "Sep 19, 2024 ... Zero-day vulnerability: A vulnerability that is unknown to the vendor, which implies that no ... Ransomware Mitigations and Defense, cont. \u2022 Implement the\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.hhs.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Dealing With the Cybersecurity Risks of Third-Party Vendors | Stout",
+      "description": "Sep 10, 2024 ... Change Healthcare Ransomware Attack (2024): In February 2024, a ... How Third Parties Increase Cybersecurity Vulnerability. Recent high-profile\u00a0...",
+      "published_date": "2024-09-01T00:00:00",
+      "source": "www.stout.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top Data Breaches in 2024 [Month-wise] - Strobes",
+      "description": "Sep 10, 2024 ... A data breach affecting roughly 6,600 individuals connected to the Government Accountability Office (GAO) stemmed from a vulnerability in the popular\u00a0...",
+      "published_date": "2024-09-10T13:04:52",
+      "source": "strobes.co",
+      "category": null,
+      "is_cyber_event": null
+    }
+  ],
+  "count": 88
+}

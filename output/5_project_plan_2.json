@@ -1,33 +1,33 @@
 {
-  "title": "Robust Security and Disaster Recovery Plans for Public Transport",
-  "objective": "To implement enhanced security protocols and comprehensive disaster recovery strategies in public transport systems to minimize operational disruptions and ensure passenger safety.",
+  "title": "Accelerated Patch Management and Automated Vulnerability Scanning Integration",
+  "objective": "To streamline the patch management process and implement automated vulnerability scanning tools to enhance the organization's security posture against ransomware threats.",
   "stakeholders": [
-    "Head of Risk Management",
-    "Security Department",
-    "Operations Department",
-    "IT Department",
-    "Local Government Authorities",
-    "Emergency Response Teams"
+    "IT Security Team",
+    "Network Operations Center",
+    "Compliance Department",
+    "Vendor Management Team",
+    "IT Support Team"
   ],
   "timeline_phases": [
-    "Phase 1: Risk Assessment and Needs Analysis",
-    "Phase 2: Development of Security Protocols",
-    "Phase 3: Disaster Recovery Planning",
-    "Phase 4: Implementation",
-    "Phase 5: Testing and Validation",
-    "Phase 6: Training and Roll-out",
-    "Phase 7: Ongoing Monitoring and Review"
+    "Phase 1: Assessment and Planning",
+    "Phase 2: Tool Selection and Procurement",
+    "Phase 3: System Integration and Configuration",
+    "Phase 4: Testing and Validation",
+    "Phase 5: Deployment and Training",
+    "Phase 6: Monitoring and Continuous Improvement"
   ],
   "kpis": [
-    "Reduction in operational disruptions",
-    "Improvement in emergency response times",
-    "Increased passenger perceptions of safety",
-    "Compliance with local and federal safety regulations"
+    "Reduction in time to apply patches",
+    "Percentage of systems scanned for vulnerabilities",
+    "Incidence rate of ransomware attacks",
+    "Compliance rate with security policies",
+    "User training completion rate"
   ],
   "risks": [
-    "Resistance to procedural changes",
-    "Technical failures during implementation",
-    "Budget constraints",
-    "Data privacy and security concerns"
+    "Resistance to change from IT staff",
+    "Integration challenges with existing systems",
+    "Potential downtime during implementation",
+    "Underestimation of required resources",
+    "Inadequate training for staff and users"
   ]
 }

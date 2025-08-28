@@ -1,0 +1,751 @@
+{
+  "month": "2025-01",
+  "cache_date": "2025-08-28T16:14:45.284450",
+  "articles": [
+    {
+      "title": "IR 8374 Rev. 1, Ransomware Risk Management: A Cybersecurity ...",
+      "description": "Jan 13, 2025 ... Ransomware Risk Management: A Cybersecurity Framework 2.0 Community Profile ... Vulnerability Disclosure \u00b7 No Fear Act Policy \u00b7 FOIA \u00b7 Environmental Policy\u00a0...",
+      "published_date": "2025-01-13T00:00:00",
+      "source": "csrc.nist.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cyber Security Vulnerabilities: Prevention & Mitigation",
+      "description": "Jan 20, 2025 ... Cyber security vulnerability can involve various risks, including IT ... The seven types of cyber security threats are: malware, ransomware, phishing\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.sentinelone.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top 10 Biggest Cyber Attacks of 2024 & 25 Other Attacks to Know ...",
+      "description": "Jan 20, 2025 ... 1. Change Healthcare Ransomware Attack \u00b7 2. Snowflake Ransomware Attack \u00b7 3. UK MoD Data Breach \u00b7 4. Ascension Ransomware Attack \u00b7 5. MediSecure Data Breach \u00b7 6.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.cm-alliance.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Significant Cyber Incidents | Strategic Technologies Program | CSIS",
+      "description": "Jan 15, 2025 ... September 2023: Cybercriminals targeted Kuwait's Ministry of Finance with a phishing ransomware attack. ... North Korean hackers targeted U.S.-based cybersecurity\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.csis.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "SonicWall warns hackers targeting critical vulnerability in SMA 1000 ...",
+      "description": "Jan 27, 2025 ... ... vulnerability, listed at ... Ransomware Data Breach Protection Cyber Security Email Phishing Encrypted Technology, Digital Information Protected Secured.",
+      "published_date": "2025-01-27T00:00:00",
+      "source": "www.cybersecuritydive.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CYBERSECURITY MEMORANDUM: POWERSCHOOL DATA ...",
+      "description": "Jan 9, 2025 ... CYBERSECURITY MEMORANDUM: POWERSCHOOL DATA BREACH. Posted January 9, 2025. RPS ... Be cautious of phishing: Be vigilant about unexpected emails or calls\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.randolph.k12.ma.us",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "From Vulnerability to Defense: The Role of Large Language Models ...",
+      "description": "Jan 29, 2025 ... ... ransomware incidents, and zero-day ... cybersecurity challenges, such as vulnerability recognition, phishing prevention, and policy enhancement.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.mdpi.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "phishing security awareness platforms : r/AskNetsec",
+      "description": "Jan 26, 2025 ... Phishing resistant MFA is really the answer here. We are not paying Bob from HR and Alice from housekeeping to be cybersecurity experts, so we should give them\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Global Cybersecurity Outlook 2025 World Economic Forum",
+      "description": "Jan 10, 2025 ... Which organizational cyber risk concerns you the most? Ransomware attack. 45%. Cyber-enabled fraud. (including phishing, other.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "reports.weforum.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What initiates a ransomware attack : r/cybersecurity",
+      "description": "Jan 16, 2025 ... This or sending phishing attacks to users to click on the payload. Ransomware executables also skip over critical system files because the attackers want\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware Risk Management: A Cybersecurity Framework 2.0 ...",
+      "description": "Jan 26, 2025 ... Ransomware attacks differ from other cybersecurity events where ... Because is a commonly exploited vulnerability, this outcome is designated. Priority 1.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "nvlpubs.nist.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware gang uses SSH tunnels for stealthy VMware ESXi ...",
+      "description": "Jan 26, 2025 ... r/cybersecurity - Ransomware gang uses SSH tunnels for stealthy ... r/cybersecurity - Ransomware goes cloud native to target your backup infrastructure.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "PowerSchool Cybersecurity Data Breach \u2013 Indianapolis Public ...",
+      "description": "Jan 9, 2025 ... We have been notified that our student data software vendor PowerSchool has experienced a widespread cybersecurity data breach.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "myips.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "HKCERT Unveils \"Hong Kong Cyber Security Outlook 2025 ...",
+      "description": "Jan 20, 2025 ... HKCERT Unveils \"Hong Kong Cyber Security Outlook 2025\" Phishing Hits Five-year High Vulnerabilities in Supply Chain and AI Content Hijacking Emerge as Key Risks\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.hkcert.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Defend Against Ransomware Attacks Cyber Range Training (IR209 ...",
+      "description": "Jan 7, 2025 ... The Cybersecurity and Infrastructure Security Agency (CISA) is proud to offer Incident Response Training event, Defend Against Ransomware Attacks Cyber\u00a0...",
+      "published_date": "2025-01-07T00:00:00",
+      "source": "www.cisa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "120+ Latest Healthcare Cybersecurity Statistics for 2025",
+      "description": "Jan 27, 2025 ... Phishing, Ransomware, and Cyberattack Trends. 92% of healthcare organizations were targeted by cyberattacks in the past 12 months, an increase from 88% in\u00a0...",
+      "published_date": "2025-01-27T19:31:32.879000",
+      "source": "www.dialoghealth.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "PowerSchool Widespread Cybersecurity Data Breach - News and ...",
+      "description": "Jan 16, 2025 ... PowerSchool has experienced a widespread Cybersecurity data breach. Unfortunately, some of district students and employee data was compromised as part of this\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.district70.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "PowerSchool Data Breach and Cybersecurity - Knox Law Firm",
+      "description": "Jan 9, 2025 ... PowerSchool Data Breach and Cybersecurity. Posted on January 09, 2025. On December 28, 2024, PowerSchool, a\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.kmgslaw.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity books on ransomware you shouldn't miss - Help Net ...",
+      "description": "Jan 22, 2025 ... This list of ransomware cybersecurity books is tailored for professionals ... Download: Edgescan 2025 Vulnerability Statistics Report. Don't miss. China\u00a0...",
+      "published_date": "2025-01-22T04:00:35",
+      "source": "www.helpnetsecurity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Most Common AI-Powered Cyberattacks | CrowdStrike",
+      "description": "Jan 16, 2025 ... AI-driven social engineering attacks \u00b7 AI-driven phishing attacks \u00b7 Deepfakes \u00b7 Adversarial AI/ML \u00b7 Malicious GPTs \u00b7 Ransomware attacks.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.crowdstrike.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Information about Powerschool Cyber Security Data Breach ...",
+      "description": "Jan 9, 2025 ... Information about Powerschool Cyber Security Data Breach - Waterbury School District.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.waterbury.k12.ct.us",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New York Adopts Amendment to the State Data Breach Notification ...",
+      "description": "Jan 7, 2025 ... Tags: breach notification, Cybersecurity, Data Breach, Data Security ... ransomware, and destructive attacks. Additionally, Ashden assists clients from\u00a0...",
+      "published_date": "2025-01-07T06:56:30",
+      "source": "www.insideprivacy.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Effective Ransomware Mitigation Strategies for Organizations | SBS",
+      "description": "Jan 16, 2025 ... ... phishing emails. After residing in your network and collecting data for a while, cybercriminals will usually drop ransomware on their way out of a system.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "sbscyber.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability and Risk Management Policy | Mass.gov",
+      "description": "Jan 1, 2025 ... The Vulnerability and Risk Management Policy reinforces the Commonwealth's commitment to an effective vulnerability ... Cybersecurity and Enterprise Risk\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.mass.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Threat Advisory: Apple iOS zero-day vulnerability ...",
+      "description": "Jan 30, 2025 ... Cybersecurity Threat Advisory: Apple iOS zero-day vulnerability. Topics ... 13 Email Threat Types Ransomware Protection Microsoft 365 Email Protection\u00a0...",
+      "published_date": "2025-01-30T12:29:00",
+      "source": "blog.barracuda.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "SimpleHelp Remote Access Software Vulnerable to Ransomware ...",
+      "description": "Jan 29, 2025 ... Conduct regular security audits and vulnerability assessments to identify and mitigate risks. ... Cybersecurity Advisory on Phishing Emails Targeting Health Care.",
+      "published_date": "2025-01-29T15:06:50",
+      "source": "www.aha.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How to Prevent Ransomware: Research & Complete Guide",
+      "description": "Jan 6, 2025 ... ... phishing emails, use of compromised credentials, and other means. Employee cybersecurity awareness training can help to protect against ransomware attacks\u00a0...",
+      "published_date": "2025-01-06T00:00:00",
+      "source": "www.bitsight.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Close to a 'Worst-Case Scenario': Cybersecurity Expert Discusses ...",
+      "description": "Jan 14, 2025 ... Close to a 'Worst-Case Scenario': Cybersecurity Expert Discusses PowerSchool's Data Breach ... Privacy & Security AI Fuels Increase in Ransomware Attacks\u00a0...",
+      "published_date": "2025-01-14T20:56:54.606000",
+      "source": "www.edweek.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware attacks on education declined in 2024, report shows ...",
+      "description": "Jan 9, 2025 ... ... cybersecurity at K-12 schools. The Comparitech report shows that RansomHub ... Ransomware groups claimed responsibility for 5,461 successful ransomware\u00a0...",
+      "published_date": "2025-01-09T14:00:00",
+      "source": "statescoop.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity | U.S. GAO",
+      "description": "Jan 22, 2025 ... Cybersecurity An overview of cyber challenges facing the nation, and ... Critical Infrastructure and the Risk of Ransomware. Tuesday, January 30, 2024.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.gao.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Token Ring Wins TMCnet Cybersecurity Excellence Award ...",
+      "description": "Jan 8, 2025 ... \u201cOur team is thrilled that the solution we've built, which combats the destructive threats of ransomware, data breaches, phishing, and social engineering ploys,\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.tokenring.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "HIPAA Security Rule To Strengthen the ... - Federal Register",
+      "description": "Jan 6, 2025 ... ... phishing scams) and malicious software attacks including new ransomware variants. ... vulnerability management. If not, please explain. v. Whether the\u00a0...",
+      "published_date": "2025-01-06T00:00:00",
+      "source": "www.federalregister.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Beyond the Horizon - What Lies Ahead in 2025 for Cybersecurity?",
+      "description": "Jan 30, 2025 ... Ransomware, phishing attacks, APTs, misconfigurations, and supply-chain ... As businesses move more of their workloads to the cloud, the risk of a data breach is\u00a0...",
+      "published_date": "2025-01-30T16:45:00",
+      "source": "www.threatintelligence.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Threat vs Vulnerability vs Risk: What are Differences? | Pathlock",
+      "description": "Jan 30, 2025 ... Intentional threats are deliberate actions meant to exploit a vulnerability. This can include malware or ransomware as well as a phishing attempt or theft of a\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "pathlock.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing Articles & Insights from J.P. Morgan",
+      "description": "Jan 17, 2025 ... ... Cybersecurity. Three cybersecurity trends to watch out for in 2023. March 15, 2023. Sophisticated phishing, vishing and ransomware campaigns could be aimed at\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.jpmorgan.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Global Cost of Ransomware Study: What the Numbers Tell Us ...",
+      "description": "Jan 28, 2025 ... The World Economic Forum's Global Cybersecurity Outlook from both 2024 and 2025 highlight this shift. ... Ransomware ContainmentVulnerability Risk Reduction.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.illumio.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "35 Alarming Small Business Cybersecurity Statistics for 2025 ...",
+      "description": "Jan 2, 2025 ... At 18%, malware is the most common type of cyberattack aimed at small businesses. 4. 82% of ransomware attacks in 2021 were against companies with fewer than\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.strongdm.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "2024 Cyber Security Incident FAQ's",
+      "description": "Jan 7, 2025 ... Initiated development of phishing awareness training program. What we're ... We have been working with our cybersecurity insurance to provide data breach\u00a0...",
+      "published_date": "2025-01-07T18:47:41",
+      "source": "www.graniteschools.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The PowerSchool Cyber Attack, FERPA, and Data Breach Reporting ...",
+      "description": "Jan 13, 2025 ... Was this a ransomware attack on PowerSchool? Based on open-source information, this cybersecurity incident does not appear to be a ransomware attack.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.thompsonhine.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Coast Guard Maritime Industry Cybersecurity Resource Website",
+      "description": "Jan 17, 2025 ... Ransomware Vulnerability Warning Pilot (RVWP) \u00b7 CLICK HERE to view all of ... CISA Cyber Incident Reporting - CISA's reporting home page gives the resources to\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.uscg.mil",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "When ransomware kills: Attacks on healthcare facilities | IBM",
+      "description": "Jan 30, 2025 ... Ransomware impacts beyond healthcare. While the healthcare sector's vulnerability to ransomware is uniquely tragic, critical infrastructure sectors are also\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.ibm.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Predictions for 2025: Challenges and Opportunities ...",
+      "description": "Jan 7, 2025 ... Ransomware will escalate. Ransomware continues to evolve, targeting critical ... phishing attempts. Such changes can make security seamless and\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.staysafeonline.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity",
+      "description": "Jan 27, 2025 ... Reporting lessens statewide impact of these incidents by identifying phishing ... \u00b7 Vulnerability assessments and vulnerability assessment software. \u00b7 Training\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "homelandsecurity.ky.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity | Legrand Cybersecurity",
+      "description": "Jan 18, 2025 ... Our cloud environments undergo regular security audits and risk assessments to ensure optimal protection for our users. We also implement a robust vulnerability\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.legrand.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Confirmed ransomware incident response | Dell PowerMax ...",
+      "description": "Jan 15, 2025 ... Use immutability options like secure snaps to safeguard against ransomware affecting snapshots. Isolate Affected Systems: Disconnect affected storage groups to\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "infohub.delltechnologies.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Texas DOB issues warning of cybersecurity threats - Texas Bankers ...",
+      "description": "Jan 27, 2025 ... Ransomware attacks and geopolitical risks pose serious challenges, particularly from state-sponsored actors in countries such as China, Russia, Iran, and North\u00a0...",
+      "published_date": "2025-01-27T17:45:11",
+      "source": "www.texasbankers.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Exec Sounds Alarm About PayPal \u201cNo-Phish\u201d Phishing Scam",
+      "description": "Jan 9, 2025 ... ... vulnerability in the platform. Windsor reported that the payment ... Tags: Crypto PhishingCybersecurityFraudPayPalPhishing Attacks. Get the Latest\u00a0...",
+      "published_date": "2025-01-09T14:46:03",
+      "source": "www.paymentsjournal.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "PowerSchool Cybersecurity Incident | The Hub",
+      "description": "Jan 13, 2025 ... The Dallas Independent School District is sharing important information about a data breach that has affected Dallas ISD and many other districts.",
+      "published_date": "2025-01-13T15:00:41",
+      "source": "thehub.dallasisd.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Exploiting Human Trust in Cybersecurity: Which Trust Development ...",
+      "description": "Jan 22, 2025 ... Phishing Techniques in Cybersecurity. Phishing remains one of the most prevalent ... Testing individual differences in phishing vulnerability within an\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.acigjournal.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "AG Ferguson files lawsuit against T-Mobile for massive data breach ...",
+      "description": "Jan 6, 2025 ... \u201cThis significant data breach was entirely avoidable,\u201d Ferguson said. \u201cT-Mobile had years to fix key vulnerabilities in its cybersecurity systems \u2014 and it\u00a0...",
+      "published_date": "2025-01-06T00:00:00",
+      "source": "www.atg.wa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Default Credentials \u2013 BD Diagnostic Solutions Products | BD",
+      "description": "Jan 28, 2025 ... BD communicates with our customers about cybersecurity ... Vulnerability Scoring System (CVSS) to communicate vulnerability characteristics and severity.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.bd.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The 2024 Year in Review: Cybersecurity, AI, and Privacy ...",
+      "description": "Jan 9, 2025 ... ... data breach were phishing and the use of stolen or compromised credentials. ... Cybercriminals have used AI tools to automate large-scale ransomware and phishing\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.hinckleyallen.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity | Konica Minolta Healthcare Americas, Inc.",
+      "description": "Jan 13, 2025 ... ... cybersecurity deployed to safeguard your PHI data from breach or ransomware. ... KMHA is aware of the vulnerability CVE-2021-44228 that affects Apache Log4j*\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "healthcare.konicaminolta.us",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity & Ransomware Live!",
+      "description": "Jan 15, 2025 ... Cybersecurity and Ransomware Live360. May 13-15, 2025. Home; Sessions & Events. Sessions \u00b7 Speakers \u00b7 Tracks \u00b7 Agenda at a Glance \u00b7 Download the eBrochure\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "cyberlive360.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "A Systematic Analysis of the Capital One Data Breach: Critical ...",
+      "description": "Jan 31, 2025 ... ... vulnerability scanning that would have highlighted the vulnerability. ... Retrieved from https://www.cyberscoop.com/capital-one-cybersecurity-data-breach-what-\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "dl.acm.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "FACT SHEET: New Executive Order on Strengthening and ...",
+      "description": "Jan 15, 2025 ... The Executive Order improves the cybersecurity of U.S. Government systems through the following actions: Advances the use of modern phishing-resistant\u00a0...",
+      "published_date": "2025-01-15T10:30:00",
+      "source": "bidenwhitehouse.archives.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New York Adopts Comprehensive Hospital Cybersecurity ...",
+      "description": "Jan 6, 2025 ... ... ransomware within a material part of the hospital's information systems.[4] ... Conduct testing and vulnerability assessments, including automated vulnerability\u00a0...",
+      "published_date": "2025-01-06T18:24:40",
+      "source": "www.sheppardhealthlaw.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Cybersecurity Landscape of 2024: Key Insights from the Annual ...",
+      "description": "Jan 30, 2025 ... The 2024 Annual Vulnerability Report from SecPod reveals a staggering increase in global vulnerabilities, highlighting the ever-evolving nature of cyber\u00a0...",
+      "published_date": "2025-01-30T11:12:51",
+      "source": "www.secpod.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Connecticut Schools Hit By Widespread PowerSchool Cybersecurity ...",
+      "description": "Jan 10, 2025 ... Data Breach message shows up in orange over lines of light blue capital letters mixed in. Posted inCybersecurity. Connecticut Schools Hit By Widespread\u00a0...",
+      "published_date": "2025-01-10T15:00:00",
+      "source": "ctnewsjunkie.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity in Automotive: Fast Vulnerability Response | ETAS",
+      "description": "Jan 28, 2025 ... Best practice: Enhancing automotive cybersecurity with effective vulnerability management. Overview. Webinar highlights. Speaker. Illustration with laptop and\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.etas.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Elevating Federal Cybersecurity: New Executive Order Prioritizes ...",
+      "description": "Jan 16, 2025 ... Elevating Federal Cybersecurity: New Executive Order Prioritizes Phishing-Resistant Authentication for Federal Agencies ... Vulnerability Disclosure Policy.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.beyondidentity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Year in Focus: Key Cybersecurity and Privacy Developments in ...",
+      "description": "Jan 23, 2025 ... Size of Ransomware Payment: The size of the ransomware payment is only one ... vulnerability assessments and security plans for certain surface transportation\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.paulweiss.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Biggest Healthcare Cybersecurity Threats in 2025 | HealthTech",
+      "description": "Jan 24, 2025 ... ... ransomware to phishing and cloud vulnerabilities, which are often caused by weak controls. ... \u201cWhy bother when phishing and conventional vulnerability\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "healthtechmagazine.net",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Report a cyber incident - Canadian Centre for Cyber Security",
+      "description": "Jan 9, 2025 ... For information on how to protect yourself from common online threats, such as phishing, identity theft and cybercrime, visit Get Cyber Safe. Date modified\u00a0...",
+      "published_date": "2025-01-09T00:00:00",
+      "source": "www.cyber.gc.ca",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Event at Benefits Management Group Results in Data ...",
+      "description": "Jan 30, 2025 ... On January 24, 2025, Benefits Management Group, Inc. filed a notice of data breach with the US Department of Health and Human Services Office for Civil Rights.",
+      "published_date": "2025-01-30T00:00:00",
+      "source": "www.jdsupra.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Trustwave Unveils 2025 Cybersecurity Threat Report for Energy and ...",
+      "description": "Jan 22, 2025 ... 19% of ransomware attacks were conducted by Hunters International in H2 2024; 84% of attacks originated from phishing; 96% of attackers relied on remote\u00a0...",
+      "published_date": "2025-01-22T00:00:00",
+      "source": "www.trustwave.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Healthcare Sector Charts 2 More Ransomware Attacks",
+      "description": "Jan 30, 2025 ... Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. ... Gone Phishing: How to Defend\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.darkreading.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "\u2014 Drive Composer Path Traversal Vulnerability CVE ID: CVE-2024 ...",
+      "description": "Jan 21, 2025 ... cyber security. When a potential product vulnerability is identified or reported, ABB immediately initiates our vulnerabil- ity handling process. This\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "library.e.abb.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ohio Joins $20 Million Multistate Data Breach Settlement with ...",
+      "description": "Jan 8, 2025 ... ... data breach that impacted approximately 5.8 million customers, including 138906 Ohioans ... Actions like this also underscore the importance of cybersecurity\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "com.ohio.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What Are the Top Cybersecurity Threats of 2025? | CSA",
+      "description": "Jan 14, 2025 ... 1- The Rise of Sophisticated Ransomware Attacks. Ransomware continues to be one of the most prevalent and damaging forms of cyber-attacks. In 2025, we\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "cloudsecurityalliance.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New 'Sneaky 2FA' Phishing Kit Targets Microsoft 365 Accounts with ...",
+      "description": "Jan 17, 2025 ... Cybersecurity researchers have detailed a new adversary-in-the-middle (AitM) phishing kit that's capable of Microsoft 365 accounts with an aim to steal\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "thehackernews.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Top Ransomware Attacks in 2024",
+      "description": "Jan 19, 2025 ... ... phishing emails.\u201d ... Sangfor Technologies also provides versatile and integrated superior cybersecurity and cloud computing infrastructure that ensures\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.sangfor.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity of hospitals and healthcare providers | Shaping ...",
+      "description": "Jan 15, 2025 ... ... Ransomware Initiative and the G7 Cybersecurity Working Group. 100%. 0. Right ... Report an IT vulnerability \u00b7 Languages on our websites \u00b7 Cookies \u00b7 Privacy\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "digital-strategy.ec.europa.eu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Bashe Ransomware strikes ICICI Bank - Cybersecurity Insiders",
+      "description": "Jan 24, 2025 ... AllCyber AttackData BreachIdentity FraudInsider ThreatMalwarePhishingQuantumRansomwareSocial EngineeringSupply Chain SecurityVulnerability \u00b7 Illustration\u00a0...",
+      "published_date": "2025-01-23T10:21:28",
+      "source": "www.cybersecurity-insiders.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Understanding Anti-Phishing Solutions & 5 Anti-Phishing Tips",
+      "description": "Jan 17, 2025 ... Data Breach \u00b7 Insider Threat \u00b7 Malware ... This software detects and removes a range of threats, including viruses, trojans, ransomware, and spyware.",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.cynet.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity and Cyber-Enabled Fraud | FINRA.org",
+      "description": "Jan 28, 2025 ... Cybersecurity incidents, such as account takeovers, ransomware or network ... phishing attacks, social engineering). Identity Verification: For firms\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.finra.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Tip of the Week - Beware of Credential Phishing ...",
+      "description": "Jan 10, 2025 ... Credential phishing is a cyberattack where scammers trick you into revealing your login credentials, such as usernames (NetID) and passwords.",
+      "published_date": "2025-01-10T00:00:00",
+      "source": "news.uthsc.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "New Year, New Threats: Cybersecurity Strategy 2025- VIPRE",
+      "description": "Jan 28, 2025 ... Adjusting Your Cybersecurity Strategy to Combat AI-Enhanced Phishing Scams. To ... Add Vulnerability and Patch Management to Your Cybersecurity Strategy.",
+      "published_date": "2025-01-28T00:00:00",
+      "source": "vipre.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing for Trouble by ISMS.online - Cybersecurity Excellence ...",
+      "description": "Jan 30, 2025 ... ... ransomware attacks, compliance failures, and regulatory shifts. With a focus on practical takeaways, expert analysis, and a no-nonsense approach, Phishing\u00a0...",
+      "published_date": "2025-01-30T15:43:56",
+      "source": "cybersecurity-excellence-awards.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing, Impersonation and Cybersecurity Trends 2025",
+      "description": "Jan 10, 2025 ... As scam-prone enterprises know, innovations in digital technologies raise the specter of phishing-related brand impersonation scams as much as they help\u00a0...",
+      "published_date": "2025-01-10T13:29:34",
+      "source": "www.memcyco.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "PowerSchool data breach prompts North Carolina schools to ...",
+      "description": "Jan 15, 2025 ... PowerSchool data breach prompts North Carolina schools to enhance cybersecurity measures. by News 12 Staff. Wed, January 15th 2025 at 2:24 PM. Updated Wed,\u00a0...",
+      "published_date": "2025-01-15T14:24:54",
+      "source": "wcti12.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Locked Out: Ransomware Tightens its Grip on Canada",
+      "description": "Jan 29, 2025 ... Ransomware and cyberattacks instigated by bad actors are on the rise. IBM's \u201cCost of a Data Breach Report 2024\u201d reveals that the average cost of a data breach\u00a0...",
+      "published_date": "2025-01-29T00:00:00",
+      "source": "www.torkin.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What Is Vulnerability Management? | Tripwire",
+      "description": "Jan 13, 2025 ... What are the Common Types of Vulnerabilities in Cybersecurity? A cybersecurity vulnerability is a security weakness in an IT system that cybercriminals can\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.tripwire.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Rise in Phishing Scams - Cyber Defense Magazine",
+      "description": "Jan 27, 2025 ... ... Data Breach ... vulnerability. Organizations that want to better repel phishing attacks should also help employees to prioritize cybersecurity.",
+      "published_date": "2025-01-27T09:00:51",
+      "source": "www.cyberdefensemagazine.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "NIST seeks input on draft Ransomware Community Profile reflecting ...",
+      "description": "Jan 15, 2025 ... Malware, Phishing & Ransomware \u00b7 Transportation \u00b7 Management & Strategy \u00b7 Risk ... Cybersecurity Framework (CSF) from CSF 1.1 to CSF 2.0 which identifies\u00a0...",
+      "published_date": "2025-01-15T08:45:14",
+      "source": "industrialcyber.co",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Top 30 Cyber Security Memes of 2025 | CanIPhish",
+      "description": "Jan 7, 2025 ... #28 The Hunter Becomes The Hunted Meme. Falling for your own phishing test is humbling, hilarious, and painful all at once. Perhaps it's better if you quietly\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "caniphish.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How Ransomware Attacks Dismantled a 150-Year-Old Company ...",
+      "description": "Jan 7, 2025 ... Nvidia (2022): While primarily a data breach, the attackers used stolen data to threaten ransomware deployment. ... Conduct Regular Employee Training: Phishing\u00a0...",
+      "published_date": "2025-01-07T13:18:41",
+      "source": "constella.ai",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "35 cybersecurity statistics to lose sleep over in 2025",
+      "description": "Jan 10, 2025 ... ... ransomware, social engineering, phishing, credential theft and DDoS attacks. According to Verizon's \"2024 Data Breach Investigations Report,\" the human\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.techtarget.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Industry News 2025 Cybersecurity Trends to Watch in 2025",
+      "description": "Jan 6, 2025 ... ... phishing attacks, as these are still the primary vehicle for ransomware deployment. To this end, the most effective training involves providing phishing\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "www.isaca.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Jacob Savage Leak - AceNet Hub",
+      "description": "Jan 1, 2025 ... The Jacob Savage Leak refers to a significant data breach that exposed sensitive information related to cybersecurity vulnerabilities. The leak highlighted the\u00a0...",
+      "published_date": "2025-01-01T12:27:19",
+      "source": "www4.acenet.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "PayPal penalized $2 million over data breach involving 35K Social ...",
+      "description": "Jan 24, 2025 ... The vulnerability was sourced back to changes the platform had to make in ... Electronics manufacturer Data I/O reports ransomware attack to SECAugust 22nd, 2025\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "therecord.media",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "VicOne and Trend Micro Stage Pwn2Own Automotive Zero-Day ...",
+      "description": "Jan 24, 2025 ... ... Vulnerability Event to Boost Industry Cybersecurity as SDV Trend Reshapes Threats ... cybersecurity events moving forward, with an increase in ransomware\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "vicone.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "OutThink | Cybersecurity Human Risk Management Platform",
+      "description": "Jan 5, 2025 ... Increased user engagement with cybersecurity by over 45% in 6 months. Increased phishing reporting rate to 25% of all emails reported. Reduction in human risk\u00a0...",
+      "published_date": "2025-01-01T00:00:00",
+      "source": "outthink.io",
+      "category": null,
+      "is_cyber_event": null
+    }
+  ],
+  "count": 93
+}

@@ -3,15 +3,32 @@ import json
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any
-from data_models import CyberRiskAnalysis, BoardActionPlan, ProjectPlan, TimeSeriesAnalysis
+from data_models import (
+    CyberRiskAnalysis,
+    BoardActionPlan,
+    ProjectPlan,
+    TimeSeriesAnalysis,
+    ConsolidatedProjectPlan
+)
 from time_series_analyzer import create_time_series_chart_data
 
 class DashboardGenerator:
-    """Generates a visually appealing HTML dashboard from analysis results."""
-    
-    def __init__(self, output_dir: Path):
+    """Generates an HTML dashboard from analysis data."""
+
+    def __init__(self,
+                 analysis_data: CyberRiskAnalysis,
+                 board_action_plan: BoardActionPlan,
+                 project_plans: ConsolidatedProjectPlan,
+                 time_series_analysis: dict,
+                 time_series_commentary: str,
+                 output_dir: Path):
+        self.analysis_data = analysis_data
+        self.board_action_plan = board_action_plan
+        self.project_plans = project_plans
+        self.time_series_analysis = time_series_analysis
+        self.time_series_commentary = time_series_commentary
         self.output_dir = output_dir
-        
+
     def load_json_data(self, filename: str) -> Dict[str, Any]:
         """Load JSON data from a file."""
         file_path = self.output_dir / filename
@@ -19,15 +36,24 @@ class DashboardGenerator:
             with open(file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         return {}
-    
+
     def load_text_data(self, filename: str) -> str:
         """Load text data from a file."""
         file_path = self.output_dir / filename
         if file_path.exists():
-            with open(file_path, 'r', encoding='utf-8') as f:
-                return f.read()
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+            except UnicodeDecodeError:
+                # Try with different encoding if UTF-8 fails
+                try:
+                    with open(file_path, 'r', encoding='latin-1') as f:
+                        return f.read()
+                except Exception as e:
+                    print(f"Warning: Could not read {filename}: {e}")
+                    return ""
         return ""
-    
+
     def generate_risk_heatmap_data(self, risks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Convert risk data to heatmap format."""
         heatmap_data = []
@@ -40,16 +66,16 @@ class DashboardGenerator:
                 'description': risk['description']
             })
         return heatmap_data
-    
+
     def generate_html(self) -> str:
         """Generate the complete HTML dashboard."""
-        
+
         # Load all data
         risk_analysis = self.load_json_data("1_risk_analysis.json")
         time_series_analysis = self.load_json_data("2_time_series_analysis.json")
         time_series_commentary = self.load_text_data("3_time_series_commentary.txt")
         action_plan = self.load_json_data("4_board_action_plan.json")
-        
+
         # Load project plans
         project_plans = []
         i = 1
@@ -59,10 +85,10 @@ class DashboardGenerator:
                 break
             project_plans.append(plan_data)
             i += 1
-        
+
         # Generate heatmap data
         heatmap_data = self.generate_risk_heatmap_data(risk_analysis.get('emerging_risks', []))
-        
+
         # Generate time series chart data
         time_series_chart_data = None
         if time_series_analysis and time_series_analysis.get('monthly_trends'):
@@ -72,7 +98,7 @@ class DashboardGenerator:
             except Exception as e:
                 print(f"Warning: Could not create time series chart: {e}")
                 time_series_chart_data = None
-        
+
         html_content = f"""
 <!DOCTYPE html>
 <html lang="en">
@@ -88,44 +114,44 @@ class DashboardGenerator:
             padding: 0;
             box-sizing: border-box;
         }}
-        
+
         body {{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             color: #333;
         }}
-        
+
         .container {{
             max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
         }}
-        
+
         .header {{
             text-align: center;
             color: white;
             margin-bottom: 30px;
         }}
-        
+
         .header h1 {{
             font-size: 2.5rem;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }}
-        
+
         .header p {{
             font-size: 1.1rem;
             opacity: 0.9;
         }}
-        
+
         .dashboard-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 25px;
             margin-bottom: 30px;
         }}
-        
+
         .card {{
             background: white;
             border-radius: 15px;
@@ -133,12 +159,12 @@ class DashboardGenerator:
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }}
-        
+
         .card:hover {{
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0,0,0,0.15);
         }}
-        
+
         .card h2 {{
             color: #4a5568;
             margin-bottom: 20px;
@@ -146,7 +172,7 @@ class DashboardGenerator:
             border-bottom: 3px solid #667eea;
             padding-bottom: 10px;
         }}
-        
+
         .risk-item {{
             background: #f7fafc;
             border-left: 4px solid #667eea;
@@ -154,24 +180,24 @@ class DashboardGenerator:
             margin-bottom: 15px;
             border-radius: 0 8px 8px 0;
         }}
-        
+
         .risk-title {{
             font-weight: bold;
             color: #2d3748;
             margin-bottom: 8px;
         }}
-        
+
         .risk-description {{
             color: #4a5568;
             line-height: 1.6;
             margin-bottom: 10px;
         }}
-        
+
         .risk-scores {{
             display: flex;
             gap: 15px;
         }}
-        
+
         .score-item {{
             background: #667eea;
             color: white;
@@ -180,7 +206,7 @@ class DashboardGenerator:
             font-size: 0.9rem;
             font-weight: bold;
         }}
-        
+
         .action-item {{
             background: #f0fff4;
             border-left: 4px solid #48bb78;
@@ -188,7 +214,7 @@ class DashboardGenerator:
             margin-bottom: 15px;
             border-radius: 0 8px 8px 0;
         }}
-        
+
         .action-priority {{
             background: #48bb78;
             color: white;
@@ -199,14 +225,14 @@ class DashboardGenerator:
             display: inline-block;
             margin-bottom: 8px;
         }}
-        
+
         .action-owner {{
             color: #2f855a;
             font-weight: bold;
             font-size: 0.9rem;
             margin-top: 8px;
         }}
-        
+
         .project-item {{
             background: #fffaf0;
             border-left: 4px solid #ed8936;
@@ -214,35 +240,35 @@ class DashboardGenerator:
             margin-bottom: 15px;
             border-radius: 0 8px 8px 0;
         }}
-        
+
         .project-title {{
             font-weight: bold;
             color: #2d3748;
             margin-bottom: 8px;
         }}
-        
+
         .project-objective {{
             color: #4a5568;
             line-height: 1.6;
             margin-bottom: 10px;
             font-style: italic;
         }}
-        
+
         .list-section {{
             margin-top: 10px;
         }}
-        
+
         .list-section h4 {{
             color: #2d3748;
             margin-bottom: 5px;
             font-size: 0.9rem;
         }}
-        
+
         .list-section ul {{
             list-style: none;
             padding-left: 0;
         }}
-        
+
         .list-section li {{
             background: #f7fafc;
             padding: 5px 10px;
@@ -251,7 +277,7 @@ class DashboardGenerator:
             font-size: 0.85rem;
             color: #4a5568;
         }}
-        
+
         .board-summary {{
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -261,7 +287,7 @@ class DashboardGenerator:
             line-height: 1.8;
             font-size: 1.1rem;
         }}
-        
+
         .chart-container {{
             background: white;
             border-radius: 15px;
@@ -269,26 +295,26 @@ class DashboardGenerator:
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             margin-bottom: 30px;
         }}
-        
+
         .chart-container h2 {{
             color: #4a5568;
             margin-bottom: 20px;
             text-align: center;
             font-size: 1.5rem;
         }}
-        
+
         .chart-wrapper {{
             position: relative;
             height: 400px;
         }}
-        
+
         .footer {{
             text-align: center;
             color: white;
             margin-top: 40px;
             opacity: 0.8;
         }}
-        
+
         .time-series-commentary {{
             background: #f8f9fa;
             padding: 20px;
@@ -297,26 +323,26 @@ class DashboardGenerator:
             font-size: 1rem;
             color: #495057;
         }}
-        
+
         .time-series-commentary h3 {{
             color: #2d3748;
             margin-bottom: 15px;
             font-size: 1.2rem;
         }}
-        
+
         .time-series-commentary p {{
             margin-bottom: 15px;
         }}
-        
+
         @media (max-width: 768px) {{
             .dashboard-grid {{
                 grid-template-columns: 1fr;
             }}
-            
+
             .header h1 {{
                 font-size: 2rem;
             }}
-            
+
             .container {{
                 padding: 15px;
             }}
@@ -329,60 +355,60 @@ class DashboardGenerator:
             <h1>🚨 Cyber Emerging Risk Analysis Dashboard</h1>
             <p>Generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}</p>
         </div>
-        
+
         <div class="board-summary">
             <h3>📋 Board Summary</h3>
             <p>{risk_analysis.get('board_summary', 'No board summary available.')}</p>
         </div>
-        
+
         <div class="chart-container">
             <h2>🎯 Risk Impact vs Likelihood Matrix</h2>
             <div class="chart-wrapper">
                 <canvas id="riskMatrix"></canvas>
             </div>
         </div>
-        
+
         <div class="chart-container">
-            <h2>📈 12-Month Cyber Threat Time Series (10 Articles/Month)</h2>
+            <h2>📈 12-Month Cyber Threat Time Series (Up to 50 Articles/Month)</h2>
             <div class="chart-wrapper">
                 {f'<canvas id="timeSeriesChart"></canvas>' if time_series_chart_data else '<p style="text-align: center; color: #666; font-style: italic;">No time series data available</p>'}
             </div>
         </div>
-        
+
         <div class="card">
             <h2>📊 Time Series Analysis Commentary</h2>
             <div class="time-series-commentary">
                 {time_series_commentary.replace(chr(10), '<br>') if time_series_commentary else '<p>No time series commentary available.</p>'}
             </div>
         </div>
-        
+
         <div class="dashboard-grid">
             <div class="card">
                 <h2>⚠️ Emerging Risks</h2>
                 {self._generate_risks_html(risk_analysis.get('emerging_risks', []))}
             </div>
-            
+
             <div class="card">
                 <h2>🎯 Strategic Action Points</h2>
                 {self._generate_actions_html(action_plan.get('action_points', []))}
             </div>
         </div>
-        
+
         <div class="card">
-            <h2>📋 Project Plans</h2>
-            {self._generate_projects_html(project_plans)}
+            <h2>📑 Project Plans</h2>
+            {self._generate_project_plan_html()}
         </div>
-        
+
         <div class="footer">
             <p>Cyber Emerging Risk Detector • Powered by AI Analysis</p>
         </div>
     </div>
-    
+
     <script>
         // Risk Matrix Chart
         const ctx = document.getElementById('riskMatrix').getContext('2d');
         const heatmapData = {json.dumps(heatmap_data)};
-        
+
         new Chart(ctx, {{
             type: 'scatter',
             data: {{
@@ -449,13 +475,13 @@ class DashboardGenerator:
                 }}
             }}
         }});
-        
+
         // Time Series Chart
         {f"const timeSeriesData = {json.dumps(time_series_chart_data)};" if time_series_chart_data else "const timeSeriesData = null;"}
-        
+
         if (timeSeriesData) {{
             const timeSeriesCtx = document.getElementById('timeSeriesChart').getContext('2d');
-            
+
             new Chart(timeSeriesCtx, {{
                 type: 'line',
                 data: timeSeriesData,
@@ -479,7 +505,7 @@ class DashboardGenerator:
                                 text: 'Number of Articles'
                             }},
                             beginAtZero: true,
-                            max: 10
+                            max: 50
                         }}
                     }},
                     plugins: {{
@@ -506,12 +532,12 @@ class DashboardGenerator:
 </html>
 """
         return html_content
-    
+
     def _generate_risks_html(self, risks: List[Dict[str, Any]]) -> str:
         """Generate HTML for risks section."""
         if not risks:
             return "<p>No emerging risks identified.</p>"
-        
+
         html_parts = []
         for risk in risks:
             html_parts.append(f"""
@@ -526,12 +552,12 @@ class DashboardGenerator:
                 </div>
             """)
         return ''.join(html_parts)
-    
+
     def _generate_actions_html(self, actions: List[Dict[str, Any]]) -> str:
         """Generate HTML for action points section."""
         if not actions:
             return "<p>No action points generated.</p>"
-        
+
         html_parts = []
         for action in actions:
             html_parts.append(f"""
@@ -542,50 +568,44 @@ class DashboardGenerator:
                 </div>
             """)
         return ''.join(html_parts)
-    
-    def _generate_projects_html(self, projects: List[Dict[str, Any]]) -> str:
-        """Generate HTML for project plans section."""
-        if not projects:
-            return "<p>No project plans generated.</p>"
-        
-        html_parts = []
-        for i, project in enumerate(projects, 1):
-            html_parts.append(f"""
-                <div class="project-item">
-                    <div class="project-title">Project {i}: {project['title']}</div>
-                    <div class="project-objective">{project['objective']}</div>
-                    
-                    <div class="list-section">
-                        <h4>Stakeholders:</h4>
-                        <ul>
-                            {''.join(f'<li>{stakeholder}</li>' for stakeholder in project.get('stakeholders', []))}
-                        </ul>
+
+    def _generate_project_plan_html(self) -> str:
+        """Generates HTML for the project plan section."""
+        if not self.project_plans or not self.project_plans.projects:
+            return "<p>No project plan data available.</p>"
+
+        html = "<h2>📑 Project Plans</h2>"
+        for i, plan in enumerate(self.project_plans.projects):
+            html += f"""
+            <div class="project-plan-card">
+                <h4>{i+1}. {self._escape_html(plan.title)}</h4>
+                <p><strong>Objective:</strong> {self._escape_html(plan.objective)}</p>
+                <div class="project-details">
+                    <div>
+                        <p><strong>Stakeholders:</strong></p>
+                        <ul>{''.join(f'<li>{self._escape_html(s)}</li>' for s in plan.stakeholders)}</ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Timeline Phases:</h4>
-                        <ul>
-                            {''.join(f'<li>{phase}</li>' for phase in project.get('timeline_phases', []))}
-                        </ul>
+                    <div>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>{''.join(f'<li>{self._escape_html(s)}</li>' for s in plan.timeline_phases)}</ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Key Performance Indicators:</h4>
-                        <ul>
-                            {''.join(f'<li>{kpi}</li>' for kpi in project.get('kpis', []))}
-                        </ul>
+                    <div>
+                        <p><strong>KPIs:</strong></p>
+                        <ul>{''.join(f'<li>{self._escape_html(s)}</li>' for s in plan.kpis)}</ul>
                     </div>
-                    
-                    <div class="list-section">
-                        <h4>Potential Risks:</h4>
-                        <ul>
-                            {''.join(f'<li>{risk}</li>' for risk in project.get('risks', []))}
-                        </ul>
+                    <div>
+                        <p><strong>Risks:</strong></p>
+                        <ul>{''.join(f'<li>{self._escape_html(s)}</li>' for s in plan.risks)}</ul>
                     </div>
                 </div>
-            """)
-        return ''.join(html_parts)
-    
+            </div>
+            """
+        return html
+
+    def _escape_html(self, text: str) -> str:
+        """Helper to escape HTML characters in text."""
+        return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&#39;')
+
     def save_dashboard(self, filename: str = "dashboard.html") -> Path:
         """Generate and save the HTML dashboard."""
         html_content = self.generate_html()

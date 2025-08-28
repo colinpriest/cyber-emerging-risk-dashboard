@@ -1,0 +1,743 @@
+{
+  "month": "2024-12",
+  "cache_date": "2025-08-28T16:17:33.242301",
+  "articles": [
+    {
+      "title": "Vulnerability management procedures : r/cybersecurity",
+      "description": "Dec 16, 2024 ... 22 votes, 21 comments. Trying to understand what people do in a vulnerability management platform on a day to day basis. Like configuring scans and\u2026",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "202501161200_December 2024 Vulnerability Bulletin_TLPCLEAR",
+      "description": "Dec 1, 2024 ... ... Cybersecurity Coordination Center (HC3). HC3: Monthly Cybersecurity Vulnerability Bulletin. January 16, 2025 TLP:CLEAR Report: 202501161200. Contact Information.",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.hhs.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "ChatNVD: Advancing Cybersecurity Vulnerability Assessment with ...",
+      "description": "Dec 6, 2024 ... In this paper, we introduce ChatNVD, a support tool powered by Large Language Models (LLMs) that leverages the National Vulnerability Database (NVD)",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "arxiv.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing awareness training - yay or nay? : r/cybersecurity",
+      "description": "Dec 7, 2024 ... ... vulnerability in an organization's security posture. Setting academic papers ... Best phishing simulation tool? r/cybersecurity icon. r/cybersecurity.",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.reddit.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity and data breach | European Data Protection Board",
+      "description": "Dec 17, 2024 ... Our Work & Tools \u00b7 Our documents; Cybersecurity and data breach. Cybersecurity and data breach\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.edpb.europa.eu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CISA's pre-ransomware alerts nearly doubled in 2024 ...",
+      "description": "Dec 17, 2024 ... Dive Brief: The Cybersecurity and Infrastructure Security Agency said it issued 2,131 pre-ransomware notifications this year, as of November,\u00a0...",
+      "published_date": "2024-12-17T00:00:00",
+      "source": "www.cybersecuritydive.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Lumu Technologies | Prevent Ransomware and Get Better ...",
+      "description": "Dec 5, 2024 ... Since we don't have a full time cybersecurity person on staff, Lumu has become our virtual cybersecurity analyst.\u201d ... Ransomware Playbook \u00b7 State & Local\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "lumu.io",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "HealthAlliance Pays $550,000 for Failing to Address a Known ...",
+      "description": "Dec 10, 2024 ... ... Data Breach Statistics \u00b7 Healthcare Cybersecurity Statistics ... HealthAlliance Pays $550,000 for Failing to Address a Known Cybersecurity Vulnerability.",
+      "published_date": "2024-12-10T11:58:26",
+      "source": "www.hipaajournal.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "MITRE Posts Latest Findings of ATT&CK Evaluations for ...",
+      "description": "Dec 11, 2024 ... MITRE Posts Latest Findings of ATT&CK Evaluations for Cybersecurity Solutions Against Ransomware. Dec 11, 2024. Cybersecurity. McLean, Va., and Bedford, Mass\u00a0...",
+      "published_date": "2024-12-11T07:00:00",
+      "source": "www.mitre.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top Cybersecurity Vulnerability Predictions for 2025 | Action1",
+      "description": "Dec 17, 2024 ... What to Expect: Top Cyber Vulnerability Predictions for 2025 \u00b7 Zero-Day Exploits in Popular Software \u00b7 Supply Chain Attacks \u00b7 IoT and IIoT Devices \u00b7 Ransomware\u00a0...",
+      "published_date": "2024-12-17T18:45:30",
+      "source": "www.action1.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Governor McKee Issues Update on Cybersecurity Breach of ...",
+      "description": "Dec 14, 2024 ... State police and federal law enforcement are involved in an advisory capacity and no further leads have been provided. Details about the Data Breach. To the\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "governor.ri.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Internet-Exposed HMIs Pose Cybersecurity Risks to Water and ...",
+      "description": "Dec 13, 2024 ... Sign up for CISA's free cybersecurity vulnerability scanning service to identify software vulnerabilities and confirm that patching is up to date and done\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.epa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Kansas Cybersecurity Update \u2013 KLRD",
+      "description": "Dec 18, 2024 ... ... or network, rendering them inaccessible until a ransom is paid to the attacker. Ransomware typically infiltrates a system through phishing emails\u2026",
+      "published_date": "2024-12-18T22:11:52",
+      "source": "klrd.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Explanatory Document Cyber Security (Ransomware Reporting) Rules",
+      "description": "Dec 16, 2024 ... Cyber Security Legislative Reforms \u2013. Explanatory Document. Cyber Security (Ransomware Reporting). Rules. Australian Government. Department of Home Affairs\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.cisc.gov.au",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness: Phishing Attacks Online Class | LinkedIn ...",
+      "description": "Dec 12, 2024 ... Education on the most common attacks is one of the best defenses against phishing attacks. In this course, information security engineer Stephanie Ihezukwu\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.linkedin.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware Trends 2024: Insights for Global Cybersecurity ...",
+      "description": "Dec 31, 2024 ... People often unintentionally open the door to ransomware. By training your team to spot phishing emails, social engineering tricks, and other scams, you\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.cyberpeace.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Artificial Intelligence in Cybersecurity to Detect Phishing",
+      "description": "Dec 25, 2024 ... Phishing attacks [3] have increased exponentially, affecting individuals and organisations alike, according to reports and studies on cyber security published\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.scirp.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The 2024 Vulnerability Crisis - Managing Cybersecurity Threats ...",
+      "description": "Dec 16, 2024 ... ... Cybersecurity, Online Safety, Ransomware|. Contents. Vulnerability Crisis; Why Are Vulnerabilities Increasing? 5 Different Vulnerability Types. 1. SQL Injection\u00a0...",
+      "published_date": "2024-12-16T07:00:06",
+      "source": "www.blackfog.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Enhancing Cybersecurity Through Effective Vulnerability ...",
+      "description": "Dec 24, 2024 ... Discover how vulnerability management and asset discovery enhance cybersecurity. Learn best practices, overcome challenges, and leverage automated tools.",
+      "published_date": "2024-12-24T00:00:00",
+      "source": "madsecurity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top Cybersecurity Statistics for 2025",
+      "description": "Dec 23, 2024 ... Top cybersecurity statistics for 2025 reveal rising cybercrime costs, increasing ransomware and phishing ... Data breach severity continues to increase\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.cobalt.io",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Retail Cybersecurity 101: Threats, Stats, and Solutions",
+      "description": "Dec 6, 2024 ... Types of Retail Cybersecurity Threats \u00b7 PHISHING SCAMS \u00b7 RANSOMWARE \u00b7 DATA BREACHES \u00b7 ATTACKS ON IOT DEVICES, PAYMENT SYSTEMS AND MACHINE LEARNING SYSTEMS \u00b7 ADVANCED\u00a0...",
+      "published_date": "2024-12-06T07:24:00",
+      "source": "www.threatintelligence.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "CSRF Vulnerability Assessments | NCNG",
+      "description": "Dec 5, 2024 ... North Carolina National Guard performs cybersecurity vulnerability assessments to identify potential security configuration, or network design deficiencies\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "ng.nc.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Vulnerability Assessments - CyberBenchmark",
+      "description": "Dec 19, 2024 ... Cybersecurity Vulnerability Assessment & Prioritization. Enhance your security readiness and minimize the risk of a breach by gaining a clear understanding of\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "seculore.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "US sanctions Chinese firm over potentially deadly ransomware ...",
+      "description": "Dec 10, 2024 ... US sanctions Chinese firm over potentially deadly ransomware attack ... WASHINGTON, Dec 10 (Reuters) - The United States sanctioned a Chinese cybersecurity\u00a0...",
+      "published_date": "2024-12-10T18:15:05",
+      "source": "www.reuters.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "HHS Cyber Gateway",
+      "description": "Dec 17, 2024 ... STOP RANSOMWARE. This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders detailing\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "hhscyber.hhs.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Data Breach Damages & Causality Assessment | Cybersecurity | CRA",
+      "description": "Dec 11, 2024 ... CRA's data breach damages and causality assessment professionals are well-positioned to assess mitigation efforts and costs along with other forms of\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.crai.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Monthly Cybersecurity Newsletter How Attackers Use Google and ...",
+      "description": "Dec 4, 2024 ... This malware primarily spreads through phishing emails, malicious software updates and infected USB drives. ... \"Ransomware is one of the most pervasive threats\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "it.nc.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Top Cybersecurity Threats in the Manufacturing Industry 2025 ...",
+      "description": "Dec 20, 2024 ... Manufacturing businesses face escalating risks, from ransomware and phishing to supply chain breaches. This blog unpacks the most pressing threats.",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "hoxhunt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Risk-Based Vulnerability Management for OT Systems | Dragos",
+      "description": "Dec 30, 2024 ... Ready to transform your approach to OT cybersecurity? Download our comprehensive guide to \"Risk-Based Vulnerability Management for Operational Technology\u201d to\u00a0...",
+      "published_date": "2024-12-03T18:51:02",
+      "source": "www.dragos.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "AI-Driven Phishing Email Detection: Leveraging Big Data Analytics ...",
+      "description": "Dec 4, 2024 ... Keywords: AI-driven, Phishing email detection, Big data analytics, Cybersecurity, Machine learning, Email security, Threat detection, Advanced analytics\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "papers.ssrn.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Data Breach Notifications | Health & Human Services",
+      "description": "Dec 28, 2024 ... Notice: PowerSchool Breach. Data Breach Notice. On December 28, 2024, PowerSchool became aware of a cybersecurity incident involving unauthorized access and\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "hhs.iowa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Audit Guide: Strengthening Security and Compliance.",
+      "description": "Dec 9, 2024 ... Phishing and ransomware attacks are rising fast. According to the FBI's 2024 Internet Crime Report, phishing/spoofing was the most reported cybercrime...",
+      "published_date": "2024-12-09T00:00:00",
+      "source": "guardiandigital.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "US sanctions Chinese cybersecurity company for firewall ...",
+      "description": "Dec 10, 2024 ... US sanctions Chinese cybersecurity company for firewall compromise, ransomware attacks ... vulnerability and exploit forums, including under his moniker GbigMao.",
+      "published_date": "2024-12-10T20:34:06",
+      "source": "www.helpnetsecurity.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware attack on Rhode Island health services exposed ...",
+      "description": "Dec 16, 2024 ... Subscribe to our daily newsletter. Subscribe. Close. Cybersecurity. Ransomware attack on Rhode Island health services exposed personal data of\u00a0...",
+      "published_date": "2024-12-16T17:48:49",
+      "source": "statescoop.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "5 Cybersecurity Best Practices for Your Nonprofit | Nonprofit Tech for ...",
+      "description": "Dec 28, 2024 ... 27% of nonprofits worldwide have experienced a cyberattack (email phishing, website hacking, ransomware). This post features five simple best practices for\u00a0...",
+      "published_date": "2024-12-28T01:35:41",
+      "source": "www.nptechforgood.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Scanning Procedure (RA-5)",
+      "description": "Dec 2, 2024 ... 3. High: Severe compromise of cybersecurity. 4.9. The default OIT vulnerability remediation schedule is as follows: 4.9.1. For new information\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.maine.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Division of Consumer Services Information Security Resources",
+      "description": "Dec 3, 2024 ... Voluntary ransomware self-assessment tool to assess Licensees' efforts to ... WAC 208-660-480 - Notice to consumers of data breach \u00b7 WAC 208-660-490\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "dfi.wa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Week",
+      "description": "Dec 20, 2024 ... Learn how to identify common phishing scams, protect your personal and professional data, and safeguard against ransomware threats with practical tips and\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.unthsc.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Notice of Data Breach For Individuals in the United States ...",
+      "description": "Dec 28, 2024 ... Notice of Data Breach For Individuals in the United States. In compliance with State laws, the purpose of this notice is to share some important information\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.powerschool.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ivanti Research Finds Phishing Tops List of Growing Cyber Threats ...",
+      "description": "Dec 3, 2024 ... Although 57% say they use anti-phishing training to protect their organization, only 32% believe that such training is \u201cvery effective ... Vulnerability\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.ivanti.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity: Vulnerability Assessment & Pen Testing (VAPT ...",
+      "description": "Dec 13, 2024 ... Cybersecurity: Vulnerability Assessment & Pen Testing (VAPT) \u00b7 Start Career in CyberSecurity - The Ultimate Guide \u00b7 Identify and Prevent Phishing Attacks: Before\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.udemy.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Gen AI and Cybersecurity Risk and Reward Research Report | Ivanti",
+      "description": "Dec 2, 2024 ... Vulnerability Intelligence. Remediation. Proactive Self-Healing \u00b7 Risk-Based Patch ... Phishing Software vulnerabilities Ransomware attacks API-related\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.ivanti.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Data Breach Alert: AlphaSense Faces Potential Cybersecurity ...",
+      "description": "Dec 18, 2024 ... This incident underscores the growing threat of ransomware attacks targeting organizations with valuable intellectual property and sensitive client data. The\u00a0...",
+      "published_date": "2024-12-18T06:15:21",
+      "source": "cyberpress.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "(PDF) Efficacy of Cybersecurity Awareness Training in Reducing ...",
+      "description": "Dec 22, 2024 ... ... phishing vulnerability and training success. ... The investigation scrutinizes prevalent and emerging threats such as phishing attacks, ransomware, data breaches,\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.researchgate.net",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Operations | Network Vulnerability & Compliance ...",
+      "description": "Dec 28, 2024 ... ... phishing attacks, and how to avoid common cybersecurity risks. Explore Our ... Ransomware Response and Recovery. Ransomware Recovery-as-a-Service (RRaaS)\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "tec-refresh.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Enhancing Phishing Detection: A Multi-Layer Ensemble Approach ...",
+      "description": "Dec 24, 2024 ... Cybersecurity is a critical concern in our increasingly digital world, with phishing attacks posing one of the most insidious threats to individual and\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "ieeexplore.ieee.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Should You Pay a Ransom After a Cyberattack? Key Considerations ...",
+      "description": "Dec 9, 2024 ... Instituting cybersecurity training; Regularly updating ... Data Breach, Data Privacy, Data Security, OFAC Sanctions, Ransomware, ransomware payments.",
+      "published_date": "2024-12-09T00:00:00",
+      "source": "www.constangy.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The State of Cybersecurity in the Healthcare Sector",
+      "description": "Dec 17, 2024 ... Data Breach and Ransomware Patterns in the Healthcare Sector. Since 2011 ... Top root causes were vulnerability exploitation (34%) and compromised credentials (34\u00a0...",
+      "published_date": "2024-12-17T10:35:37",
+      "source": "cyrisma.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Equifax Data Breach Case Study: Causes and Aftermath.",
+      "description": "Dec 8, 2024 ... Here are our top takeaways from the data breach: Focus on the basics: The breach was successful due to an unpatched vulnerability and an expired security\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.breachsense.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "US Sanctions Chinese Cybersecurity Firm for Ransomware Attack",
+      "description": "Dec 11, 2024 ... ... cybersecurity firm involved in ransomware attacks in 2020 ... Chinese cybersecurity firm Sichuan Silence has been sanctioned for exploiting a vulnerability in\u00a0...",
+      "published_date": "2024-12-11T18:23:44",
+      "source": "www.techrepublic.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Marquardt Selects PlaxidityX as a Trusted Partner for Vulnerability ...",
+      "description": "Dec 3, 2024 ... Marquardt Selects PlaxidityX as a Trusted Partner for Vulnerability Management and Cybersecurity Compliance. News provided by. PlaxidityX. 03 Dec, 2024, 14:00\u00a0...",
+      "published_date": "2024-12-03T14:00:00",
+      "source": "www.prnewswire.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Countering Ransomware with Jen Ellis | 03 | Cyber Leaders Podcast ...",
+      "description": "Dec 20, 2024 ... In this episode, Ciaran and James meet Jen Ellis, founder of NextJenSecurity, to discuss the pervasive threat of ransomware, the power of cyber security\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.sans.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Ransomware: a threat to cybersecurity | Fabrick",
+      "description": "Dec 18, 2024 ... Ransomware is one of the most widespread and destructive forms of online fraud. It involves locking data or computer systems, typically through phishing or\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.fabrick.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity is priority in Wood County 2025 budget after ending ...",
+      "description": "Dec 26, 2024 ... (A story on next year's appropriations will be posted Friday in BG Independent News.) It's unlikely that county citizens will learn how the ransomware\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "bgindependentmedia.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Statistics 2024: Key Insights and Numbers",
+      "description": "Dec 9, 2024 ... One reason for this is the National Public Data breach\u2014 the second largest in history. ... Phishing attacks remain one of the major cybersecurity risks. Employees\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "nordlayer.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "State and Local Cybersecurity Grant Program | NC DPS",
+      "description": "Dec 4, 2024 ... ... cybersecurity risks and cybersecurity threats. Implement a process of continuous cybersecurity vulnerability assessments and threat mitigation practices\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.ncdps.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Brad C. Moody, JD, CIPP/US, CIPP/C - Nelson Mullins",
+      "description": "Dec 18, 2024 ... ... ransomware attacks, network intrusions, business email compromises, and ... Cybersecurity & Data Breach Response \u00b7 Cybersecurity & Data Breach Litigation\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.nelsonmullins.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "2025 to be a Year of Reckoning for AI in Cybersecurity - Infosecurity ...",
+      "description": "Dec 30, 2024 ... ... cybersecurity vulnerability identification and attack prevention. In fact ... At the same time, for threat actors, AI can streamline phishing attacks, automate\u00a0...",
+      "published_date": "2024-12-30T14:00:00",
+      "source": "www.infosecurity-magazine.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Phishing Attacks Surge Over 600% in the Buildup to Black Friday",
+      "description": "Dec 4, 2024 ... ... ransomware attacks in November and December compared to January and February. ... Vulnerability Disclosure Policy. Copyright 2025 Darktrace Holdings Limited\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.darktrace.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors ...",
+      "description": "Dec 18, 2024 ... Support multifactor authentication, including via phishing-resistant methods. ... Recent Cyber Attacks on US Infrastructure Underscore Vulnerability of Critical\u00a0...",
+      "published_date": "2024-12-18T00:00:00",
+      "source": "www.cisa.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Colonial Pipeline Cyberattack Drives Urgent Reforms in ...",
+      "description": "Dec 5, 2024 ... These measures included conducting a cybersecurity vulnerability ... phishing attempts and other social engineering tactics commonly used in ransomware attacks.",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.sciencepublishinggroup.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Assessing the effect of cybersecurity training on End-users: A Meta ...",
+      "description": "Dec 1, 2024 ... From large-scale attacks to minor phishing scams, companies are often faced with the responsibility of preparing their employees for such attacks (National\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.sciencedirect.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cleo File Transfer Vulnerability Under Exploitation \u2013 Patch Pending ...",
+      "description": "Dec 10, 2024 ... Cleocybersecuritydata breachPatch Managementransomwareremote code executionThreat AnalysisVulnerability. Get Latest News in Your Inbox. Get the latest news\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "thehackernews.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Online Cybersecurity Analyst Graduate Certificate | University of ...",
+      "description": "Dec 11, 2024 ... Focus on the technical and strategic aspects of cybersecurity which cover topics such as vulnerability assessment, threat analysis and human factors in cyber\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "und.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Navigating the Future of Artificial Intelligence and Cybersecurity",
+      "description": "Dec 5, 2024 ... Phishing ... AI offers a solution by automating repetitive tasks like threat detection, log analysis, and vulnerability scanning, allowing cybersecurity teams to\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.mmmlaw.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Analysis - Institute for Security and Technology",
+      "description": "Dec 19, 2024 ... cybersecurity, Ransomware, Public-private partnerships, cyber insurance, operational collaboration, disruption, information sharing, public-private\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "securityandtechnology.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Red Cell Security LLC | Strengthen Your Cybersecurity with Expert ...",
+      "description": "Dec 20, 2024 ... Protect your business from cyber threats with our tailored cybersecurity vulnerability assessments Our expert team identifies and addresses security\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.redcellsecurity.org",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Risks in Healthcare: Addressing Africa's Digital Health ...",
+      "description": "Dec 3, 2024 ... According to INTERPOL, African countries, including Nigeria, have seen an upsurge in ransomware and data breach incidents in recent years. ... Phishing Attacks:\u00a0...",
+      "published_date": "2024-12-03T15:20:59",
+      "source": "ng.andersen.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The top 3 cybersecurity threats business face in 2025 The top 3 ...",
+      "description": "Dec 6, 2024 ... Looking ahead to 2025 \u00b7 Weak passwords \u00b7 Phishing \u00b7 Ransomware.",
+      "published_date": "2024-12-06T12:03:02",
+      "source": "proton.me",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Tuskira Launches Out of Stealth with AI-Powered Vulnerability ...",
+      "description": "Dec 4, 2024 ... ... Vulnerability Management to Revolutionize Cybersecurity ... Eventually, we started ideating with Piyush on cybersecurity startup ideas in the vulnerability\u00a0...",
+      "published_date": "2024-12-04T16:02:33",
+      "source": "www.sorensoncapital.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Intersection of Data Science and Cybersecurity",
+      "description": "Dec 23, 2024 ... Cyber Security vs. Data Analytics: How They Differ, How They Overlap \u00b7 Vulnerability assessments: Data scientists can identify potential weaknesses in network\u00a0...",
+      "published_date": "2024-12-23T08:43:56",
+      "source": "msbc-online.utk.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "The Top 20 Biggest Cyber Attacks in History",
+      "description": "Dec 17, 2024 ... Methodology \u2014 The ransomware spread through phishing emails or direct exploitation of the EternalBlue vulnerability in unpatched systems. It used a worm\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "blog.netwrix.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How to Build a Proactive Vulnerability Management Strategy",
+      "description": "Dec 5, 2024 ... Phishing Awareness Training \u00b7 AI Blue Team Service ... A woman cybersecurity engineer wearing a \"Vulnerability Management\" tshirt and focusing on her work.",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.nri-secure.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "FDA Artifact Deep-Dive #4: SBOM & Vulnerability Management",
+      "description": "Dec 17, 2024 ... Effective cybersecurity measures during device use, such as vulnerability identification and assessment, along with regular software updates, are essential\u00a0...",
+      "published_date": "2024-12-17T13:07:09.698000",
+      "source": "www.securitypattern.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Awareness | Information Security Office",
+      "description": "Dec 2, 2024 ... PHISHING EXAMPLE: Fraudulent 'Broken Lab Equipment' Scam. January 30, 2024 ... The data likely came from a recent data breach, possibly the National Public Data (\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "security.berkeley.edu",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Training to Prevent Ransomware:",
+      "description": "Dec 3, 2024 ... Vulnerability Management as a Service. Reduce or prevent the threats of ... Effective ransomware prevention training should cover how to recognize phishing\u00a0...",
+      "published_date": "2024-12-03T18:00:52",
+      "source": "www.alvaka.net",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "IR 8498, Cybersecurity for Smart Inverters: Guidelines for ...",
+      "description": "Dec 20, 2024 ... ... Vulnerability Database (NVD), a... See full abstract. This report provides practical cybersecurity guidance for small-scale solar inverter implementations\u00a0...",
+      "published_date": "2024-12-20T00:00:00",
+      "source": "csrc.nist.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Latest round of MITRE ATT&CK evaluations put cybersecurity ...",
+      "description": "Dec 11, 2024 ... Latest round of MITRE ATT&CK evaluations put cybersecurity products through rigors of ransomware ... vulnerability. Policy. House lawmakers take aim at\u00a0...",
+      "published_date": "2024-12-11T15:00:00",
+      "source": "cyberscoop.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "\"We Don't Negotiate with Terrorists\": Ransomware Strategy in ...",
+      "description": "Dec 11, 2024 ... What is a Java Deserialization Vulnerability? How to Measure the ROI of Your ... \u201cWe Don't Negotiate with Terrorists\u201d: Ransomware Strategy in Cybersecurity\u00a0...",
+      "published_date": "2024-12-11T00:00:00",
+      "source": "waratek.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "2024 roundup: Top data breach stories and industry trends | IBM",
+      "description": "Dec 19, 2024 ... It was confirmed that out of the 264 individual breaches linked to third-party compromises, the MOVEit vulnerability was one of the major reasons for the issues\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.ibm.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Enhancing Cybersecurity in PACS & Medical Imaging: Key Features",
+      "description": "Dec 19, 2024 ... Common Cybersecurity Threats to PACS \u00b7 Ransomware Attacks \u00b7 Phishing Scams \u00b7 Malware Infections \u00b7 Insider Threats \u00b7 DICOM-Specific Risks.",
+      "published_date": "2024-12-19T13:54:40",
+      "source": "radsource.us",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "How Huawei Helps Joki ICT Improve its Vulnerability Management ...",
+      "description": "Dec 31, 2024 ... Such threats \u2014 which can cause major losses \u2014 include cyber ransomware and supply chain security incidents. Vulnerability exploitation remains one of the main\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "e.huawei.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Privacy, Technology, & Cybersecurity | DiCello Levitt",
+      "description": "Dec 17, 2024 ... ... data breach section and a privacy section. In addition to being named ... Lawsuit Alleges Bradford Health Services Concealed Ransomware Attack that\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "dicellolevitt.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "City of Hoboken opens call center regarding ransomware incident",
+      "description": "Dec 9, 2024 ... Since the City of Hoboken was the victim of a ransomware incident on November 27, 2024, it has been working with cybersecurity specialists and federal law\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.hobokennj.gov",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Two Breaches, One Bank: Lessons from The ICBC Cyber Crisis ...",
+      "description": "Dec 19, 2024 ... Equifax Data Breach: This was one of the largest data breaches in history ... Ransomware ContainmentVulnerability Risk Reduction. Industries. Banking\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.illumio.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Fortress Blog | Fortress Information Security",
+      "description": "Dec 16, 2024 ... From Ransomware to Retaliation: Q2's Cyber Threats Are Escalating. ... Cybersecurity, Vulnerability Management, Third Party Risk Management \u00b7 Learn\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.fortressinfosec.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Holiday-Themed Cybersecurity Kit | KnowBe4 Knowledge Base",
+      "description": "Dec 2, 2024 ... We're providing two downloadable Security Hints and Tips newsletters as well as 10 new holiday-themed phishing templates.",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "support.knowbe4.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Alert Fatigue in Cybersecurity",
+      "description": "Dec 30, 2024 ... For instance, a vulnerability scanner might alert the SOC to a newly discovered application security risk, and a network monitoring tool might create an alert\u00a0...",
+      "published_date": "2024-12-30T13:43:50",
+      "source": "www.aquasec.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "LockBit in Focus: Ransomware, Cyber Attacks, and Takedowns",
+      "description": "Dec 6, 2024 ... Using social engineering tactics, such as phishing, or forcing Remote ... Data Breach Prevention \u00b7 Credential Intelligence \u00b7 Dark Web Monitoring \u00b7 Brand\u00a0...",
+      "published_date": "2024-12-06T16:54:09",
+      "source": "cybelangel.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Vulnerability Assessment | CSI",
+      "description": "Dec 19, 2024 ... Our Vulnerability Scanning Tools. The routine monitoring of your network for vulnerabilities is a critical component of cybersecurity preparedness and Gramm-\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.csiweb.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "What Is Anti-Ransomware? | Akamai",
+      "description": "Dec 23, 2024 ... ... cybersecurity solutions designed to detect, prevent, and respond to ransomware ... Hackers may use phishing attacks to trick users into downloading ransomware\u00a0...",
+      "published_date": "2024-12-01T00:00:00",
+      "source": "www.akamai.com",
+      "category": null,
+      "is_cyber_event": null
+    },
+    {
+      "title": "Cybersecurity Trends and Impacts on Small and Medium-Sized ...",
+      "description": "Dec 2, 2024 ... ... phishing attacks, and ransomware. Increased Ransomware Threat: The frequency of ransomware attacks continues to rise, with many SMBs facing exorbitant demands.",
+      "published_date": "2024-12-02T00:00:00",
+      "source": "www.techguard.com",
+      "category": null,
+      "is_cyber_event": null
+    }
+  ],
+  "count": 92
+}
